@@ -1,0 +1,51 @@
+name: Weekly show data update
+
+# Runs every Monday at 06:00 UTC. Adjust the cron schedule to taste —
+# https://crontab.guru is handy for that.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {} # lets you trigger it manually from the GitHub Actions tab
+
+jobs:
+  update-shows:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run weekly research + update
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "Read RUBRIC.md for the scoring rules. Read public/data/shows.json to see \
+          the existing shows. Research 10 new, real children's shows not already in the file — \
+          vary the platform, age range, and genre. Score each one following RUBRIC.md exactly. \
+          Append the new entries to public/data/shows.json, keeping it valid JSON with no \
+          duplicate names. Do not modify any existing entries." \
+          --allowedTools "Read,Edit,WebSearch" \
+          --permission-mode acceptEdits \
+          --max-turns 40 \
+          --max-budget-usd 3.00
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "show-pulse-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet public/data/shows.json; then
+            git add public/data/shows.json
+            git commit -m "Add new shows (weekly automated update)"
+            git push
+          else
+            echo "No changes to commit."
+          fi

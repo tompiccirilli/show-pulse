@@ -1,0 +1,8119 @@
+[
+  {
+    "name": "Bluey",
+    "recommended": true,
+    "platforms": [
+      "Disney+",
+      "ABC Kids"
+    ],
+    "genre": "Slice-of-life / Family",
+    "ageMin": 2,
+    "ageMax": 8,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 1,
+    "confidence": "High",
+    "notes": "Long scene holds (7–12s), pastel palette, acoustic soundtrack. Consistently cited as a calm, gentle benchmark show."
+  },
+  {
+    "name": "Daniel Tiger's Neighborhood",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Social-Emotional Learning",
+    "ageMin": 2,
+    "ageMax": 4,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 1,
+    "sensory": 1,
+    "confidence": "High",
+    "notes": "Slow-paced (8–15s scenes), gentle songs, built to teach emotional regulation rather than entertain at speed."
+  },
+  {
+    "name": "Caillou",
+    "platforms": [
+      "PBS Kids",
+      "YouTube"
+    ],
+    "genre": "Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 1,
+    "sensory": 1,
+    "confidence": "High",
+    "notes": "Used as the slow-paced comparison show in the original fast-pacing / executive-function research."
+  },
+  {
+    "name": "Peppa Pig",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+",
+      "Disney+"
+    ],
+    "genre": "Slice-of-life / Comedy",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "High (creator-confirmed)",
+    "notes": "Medium pacing (7–10s scenes), simple line-art animation — but background colour, movement, and sibling conflict push it past a calm-tier show. Adjusted to Moderate per creator review."
+  },
+  {
+    "name": "Sesame Street",
+    "platforms": [
+      "HBO Max",
+      "PBS Kids"
+    ],
+    "genre": "Educational Variety",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Segment-based format keeps engagement up without rapid pacing; research suggests it doesn't erode attention span."
+  },
+  {
+    "name": "Ms. Rachel (Songs for Littles)",
+    "platforms": [
+      "YouTube",
+      "Netflix"
+    ],
+    "genre": "Educational / Toddler Learning",
+    "ageMin": 0,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Rated slower-paced than most peers, but several parent reports describe strong fixation. Worth a personal spot-check."
+  },
+  {
+    "name": "Gabby's Dollhouse",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Preschool / Live-action Hybrid",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Independently scored in the 'stimulating' middle tier — busier than calm shows, well short of high-stim territory."
+  },
+  {
+    "name": "Paw Patrol",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Action / Rescue",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Rapid cuts and constant sound effects; every problem resolved inside ~11 minutes. Energetic rather than chaotic."
+  },
+  {
+    "name": "Blippi",
+    "platforms": [
+      "YouTube",
+      "Amazon",
+      "Moonbug"
+    ],
+    "genre": "Educational / Live-action",
+    "ageMin": 1,
+    "ageMax": 5,
+    "speed": 5,
+    "emotional": 2,
+    "pacing": 5,
+    "novelty": 3,
+    "sensory": 5,
+    "confidence": "High (creator-confirmed)",
+    "notes": "Loud, high-energy, constant motion and exaggerated reactions throughout. Adjusted to High per creator review."
+  },
+  {
+    "name": "SpongeBob SquarePants",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "The show used in the original fast-pacing Pediatrics study. Slapstick, loud sound cues, frequent scene changes."
+  },
+  {
+    "name": "Cocomelon",
+    "platforms": [
+      "Netflix",
+      "YouTube"
+    ],
+    "genre": "Educational Songs",
+    "ageMin": 0,
+    "ageMax": 4,
+    "speed": 5,
+    "emotional": 3,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "High",
+    "notes": "Scene cuts every 1–3 seconds. The most frequently cited example of overstimulating toddler content in reviews."
+  },
+  {
+    "name": "Skibidi Toilet",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Absurdist / Action (short-form)",
+    "ageMin": 6,
+    "ageMax": 12,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 5,
+    "sensory": 5,
+    "confidence": "High",
+    "notes": "Not made as kids' content but widely watched by that age group. Fast cuts, fantasy violence, endless autoplay."
+  },
+  {
+    "name": "Octonauts",
+    "platforms": [
+      "CBeebies",
+      "Disney Junior",
+      "Netflix"
+    ],
+    "genre": "Educational Adventure",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Gentle rescue-adventure format; danger is consistently softened with music and encouragement."
+  },
+  {
+    "name": "Numberblocks",
+    "platforms": [
+      "CBeebies",
+      "Netflix"
+    ],
+    "genre": "Educational / Math",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 1,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 1,
+    "confidence": "Medium",
+    "notes": "Short, simple episodes with minimal music and block-based visuals. General reputation, not independently verified."
+  },
+  {
+    "name": "Alphablocks",
+    "platforms": [
+      "CBeebies"
+    ],
+    "genre": "Educational / Literacy",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 1,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 1,
+    "confidence": "Medium",
+    "notes": "Same production style and pacing as Numberblocks. General reputation, not independently verified."
+  },
+  {
+    "name": "Word Party",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Educational / Toddler",
+    "ageMin": 1,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "High-pitched, exaggerated 'help me' vocal style flagged by reviewers, though visual pacing itself is not fast."
+  },
+  {
+    "name": "Trash Truck",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 1,
+    "sensory": 1,
+    "confidence": "High",
+    "notes": "Relaxed pace, simple friendship stories; grouped with the gentlest tier of toddler shows."
+  },
+  {
+    "name": "Little Bear",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+",
+      "YouTube"
+    ],
+    "genre": "Slice-of-life / Storybook",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 1,
+    "pacing": 1,
+    "novelty": 1,
+    "sensory": 1,
+    "confidence": "High",
+    "notes": "Animated like a storybook coming to life; gentle watercolor visuals and calm voices."
+  },
+  {
+    "name": "Mister Rogers' Neighborhood",
+    "platforms": [
+      "PBS",
+      "Amazon Prime"
+    ],
+    "genre": "Educational / Social-Emotional",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 1,
+    "emotional": 1,
+    "pacing": 1,
+    "novelty": 1,
+    "sensory": 1,
+    "confidence": "High",
+    "notes": "Unhurried, direct-address pace with no flashy graphics. The gold-standard calm format."
+  },
+  {
+    "name": "Bear in the Big Blue House",
+    "platforms": [
+      "Disney Junior",
+      "YouTube"
+    ],
+    "genre": "Preschool / Puppet Show",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 1,
+    "sensory": 1,
+    "confidence": "Medium",
+    "notes": "Classic Muppet-style preschool format cited alongside other calm-tier benchmarks."
+  },
+  {
+    "name": "Sid the Science Kid",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Educational / Science",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Standard PBS Kids pacing and format. General reputation, not independently verified."
+  },
+  {
+    "name": "Curious George",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Adventure / Educational",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Standard PBS Kids pacing and format. General reputation, not independently verified."
+  },
+  {
+    "name": "Arthur",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Slice-of-life / School",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Standard PBS Kids pacing and format. General reputation, not independently verified."
+  },
+  {
+    "name": "Franklin",
+    "platforms": [
+      "Treehouse",
+      "Nick Jr",
+      "YouTube"
+    ],
+    "genre": "Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 1,
+    "sensory": 1,
+    "confidence": "Medium",
+    "notes": "Gentle, storybook-style pacing typical of the franchise. General reputation, not independently verified."
+  },
+  {
+    "name": "Max & Ruby",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+"
+    ],
+    "genre": "Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 1,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Simple sibling stories, limited dialogue, steady pacing. General reputation, not independently verified."
+  },
+  {
+    "name": "Dora the Explorer",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Interactive Adventure / Educational",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Interactive call-and-response builds in pauses, but bright visuals and constant energy add up."
+  },
+  {
+    "name": "Go, Diego, Go!",
+    "platforms": [
+      "Nickelodeon"
+    ],
+    "genre": "Interactive Adventure",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Same interactive format and energy level as sister series Dora the Explorer."
+  },
+  {
+    "name": "Team Umizoomi",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+"
+    ],
+    "genre": "Educational / Math",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Energetic musical math format. General reputation, not independently verified."
+  },
+  {
+    "name": "Bubble Guppies",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+"
+    ],
+    "genre": "Educational / Musical",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Bright, musical, high-energy educational format. General reputation, not independently verified."
+  },
+  {
+    "name": "The Backyardigans",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+"
+    ],
+    "genre": "Musical Adventure",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Imaginative-play, musical-theater style; gentler pacing than same-network peers like Bubble Guppies."
+  },
+  {
+    "name": "Blue's Clues & You",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Interactive Educational",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Built on a slow, think-time interactive format designed to let kids process and respond."
+  },
+  {
+    "name": "Chip and Potato",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 1,
+    "sensory": 1,
+    "confidence": "Medium",
+    "notes": "Gentle friendship stories with soft visuals. General reputation, not independently verified."
+  },
+  {
+    "name": "Miraculous: Tales of Ladybug & Cat Noir",
+    "platforms": [
+      "Disney Channel",
+      "Netflix"
+    ],
+    "genre": "Superhero Action",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Action-driven superhero format for older kids. General reputation, not independently verified."
+  },
+  {
+    "name": "My Little Pony: Friendship is Magic",
+    "platforms": [
+      "Discovery Family",
+      "Netflix"
+    ],
+    "genre": "Fantasy / Slice-of-life",
+    "ageMin": 4,
+    "ageMax": 9,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Character-driven storytelling with more emotional than visual intensity."
+  },
+  {
+    "name": "PJ Masks",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Superhero Action",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Action-heavy, fast-paced conflict every episode. Reviewers note the constant battle structure can feel overstimulating for younger toddlers."
+  },
+  {
+    "name": "Vampirina",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Slice-of-life / Fantasy",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Standard Disney Junior preschool pacing. General reputation, not independently verified."
+  },
+  {
+    "name": "Mickey Mouse Clubhouse / Funhouse",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Educational / Musical",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Interactive musical format with steady energy. General reputation, not independently verified."
+  },
+  {
+    "name": "Puppy Dog Pals",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Adventure / Comedy",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Standard Disney Junior adventure pacing. General reputation, not independently verified."
+  },
+  {
+    "name": "Doc McStuffins",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Slice-of-life / Educational",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Standard Disney Junior preschool pacing. General reputation, not independently verified."
+  },
+  {
+    "name": "Sofia the First",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Fantasy / Slice-of-life",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Standard Disney Junior preschool pacing. General reputation, not independently verified."
+  },
+  {
+    "name": "Tayo the Little Bus",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Slice-of-life / Vehicles",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Gentle vehicle-based storytelling. General reputation, not independently verified."
+  },
+  {
+    "name": "Super Wings",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Adventure / Vehicles",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Standard fast-cut vehicle-adventure format. General reputation, not independently verified."
+  },
+  {
+    "name": "Masha and the Bear",
+    "platforms": [
+      "Netflix",
+      "YouTube"
+    ],
+    "genre": "Comedy",
+    "ageMin": 2,
+    "ageMax": 7,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Reviewers describe 'high-energy antics centered around chaos and mischief', explicitly compared to Cocomelon-level overstimulation."
+  },
+  {
+    "name": "The Amazing World of Gumball",
+    "platforms": [
+      "Cartoon Network",
+      "Max"
+    ],
+    "genre": "Surreal Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 5,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Absurdist, surreal, mixed-media humor described by reviewers as constantly chaotic; fast joke density."
+  },
+  {
+    "name": "Teen Titans Go!",
+    "platforms": [
+      "Cartoon Network",
+      "Max"
+    ],
+    "genre": "Action Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 5,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Repetitive gag-driven format; more slapstick and rapid-fire jokes than narrative peer shows."
+  },
+  {
+    "name": "Adventure Time",
+    "platforms": [
+      "Cartoon Network",
+      "Max"
+    ],
+    "genre": "Fantasy Adventure",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "More surreal/artistic pacing with slower narrative arcs than same-network peers."
+  },
+  {
+    "name": "Steven Universe",
+    "platforms": [
+      "Cartoon Network",
+      "Max"
+    ],
+    "genre": "Fantasy / Musical",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Slower, emotionally rich, music-driven storytelling relative to typical action cartoons."
+  },
+  {
+    "name": "Phineas and Ferb",
+    "platforms": [
+      "Disney Channel",
+      "Disney+"
+    ],
+    "genre": "Comedy / Adventure",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Fast-plotting comedy with a frequent scheme-of-the-day structure. General reputation, not independently verified."
+  },
+  {
+    "name": "Ryan's World",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Toy Unboxing / Educational",
+    "ageMin": 2,
+    "ageMax": 7,
+    "speed": 4,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Algorithm-optimized format similar in structure to other high-frequency-cut children's content. Worth a personal spot-check."
+  },
+  {
+    "name": "LazyTown",
+    "platforms": [
+      "Nick Jr",
+      "Netflix"
+    ],
+    "genre": "Live-action / Physical Comedy",
+    "ageMin": 3,
+    "ageMax": 8,
+    "speed": 5,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "High-energy live-action physical stunts, loud music, fast pacing throughout. General reputation."
+  },
+  {
+    "name": "Lankybox",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "Medium (user-supplied)",
+    "notes": "YouTube gaming/reaction content with extreme stimulation. Constant screaming, rapid cuts, and intense visuals. High algorithmic risk - can lead to increasingly inappropriate content. Not recommended without supervision."
+  },
+  {
+    "name": "Storybots",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Educational, Music, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Answers kids' questions about how the world works. Engaging songs and colorful animation. Educational content balanced with entertainment. Closed platform means no algorithm concerns."
+  },
+  {
+    "name": "Hey Bear Sensory",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle sensory videos for infants with slow-moving shapes and soft music. Good for calming or distraction during diaper changes. Official channel with consistent content reduces algorithmic risk. Not educational but safe."
+  },
+  {
+    "name": "Elsagate-style Content",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "WARNING: Inappropriate content disguised as kids' videos featuring familiar characters in disturbing scenarios. Extremely high algorithmic risk. Always supervise YouTube viewing and use YouTube Kids with restricted mode."
+  },
+  {
+    "name": "Tumble Leaf",
+    "platforms": [
+      "Amazon Prime"
+    ],
+    "genre": "Animation, Educational, Problem Solving, Science",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Beautiful stop-motion animation teaching science and discovery. Perfect bedtime show with calming nature sounds and gentle pacing. Encourages curiosity without overstimulation."
+  },
+  {
+    "name": "Poppy Playtime Videos",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Horror game-based content that appears child-friendly but contains scary themes. Very high algorithmic risk leading to increasingly disturbing content. Not appropriate for young children despite animated appearance."
+  },
+  {
+    "name": "Elinor Wonders Why",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational, Problem Solving, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches scientific inquiry and observation skills. Encourages kids to ask questions and explore nature. Gentle pacing makes it suitable for winding down. PBS platform ensures safe, quality content."
+  },
+  {
+    "name": "Ms Rachel",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Educational, Interactive, Live Action, Music",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Excellent for toddler language development. Engaging, interactive content with clear speech. YouTube platform requires supervision."
+  },
+  {
+    "name": "Wild Kratts",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational, Science",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches zoology and biology through adventure. Engaging and educational."
+  },
+  {
+    "name": "Puffin Rock",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Science",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Beautifully animated Irish show. Very calming with Chris O'Dowd narration. Perfect for bedtime."
+  },
+  {
+    "name": "Hey Duggee",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Charming British show. Teaches life skills through badge-earning activities. Funny for adults too."
+  },
+  {
+    "name": "Ask the StoryBots",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Educational, Music, Science",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Question-based learning with great music. Teaches science and how things work."
+  },
+  {
+    "name": "Stinky and Dirty",
+    "platforms": [
+      "Amazon Prime"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches problem-solving and perseverance. Based on books by Jim McMullan."
+  },
+  {
+    "name": "Mickey Mouse Clubhouse",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Interactive, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Interactive show teaching problem-solving and early math. Can be repetitive."
+  },
+  {
+    "name": "Alma's Way",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Problem Solving, Social Skills",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches critical thinking and decision-making. Features Latinx culture and family values."
+  },
+  {
+    "name": "Super Why!",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches reading and literacy skills. Interactive and engaging."
+  },
+  {
+    "name": "Clifford the Big Red Dog",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic show teaching kindness and friendship. Gentle and heartwarming."
+  },
+  {
+    "name": "Molly of Denali",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Problem Solving, Science",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Features Alaska Native culture. Teaches research skills and problem-solving."
+  },
+  {
+    "name": "Xavier Riddle and the Secret Museum",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational, Social Skills",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches history and character traits through time travel adventures."
+  },
+  {
+    "name": "Spidey and His Amazing Friends",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Preschool-friendly superhero content. Teaches teamwork and problem-solving."
+  },
+  {
+    "name": "Dinosaur Train",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches paleontology and scientific inquiry. Great for dinosaur-loving kids."
+  },
+  {
+    "name": "The Magic School Bus",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Educational, Science",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic science education show. Makes complex topics fun and accessible."
+  },
+  {
+    "name": "Ridley Jones",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Museum adventures teaching teamwork and problem-solving."
+  },
+  {
+    "name": "Llama Llama",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Based on beloved books. Teaches social-emotional skills. Gentle and calming."
+  },
+  {
+    "name": "Beat Bugs",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Music, Social Skills",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Features Beatles songs. Teaches friendship and problem-solving through music."
+  },
+  {
+    "name": "Waffles + Mochi",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Educational, Interactive, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Michelle Obama's show teaching about food and cooking. Diverse and educational."
+  },
+  {
+    "name": "Ada Twist, Scientist",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Problem Solving, Science",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches scientific method and curiosity. Based on popular children's books."
+  },
+  {
+    "name": "The Magic School Bus Rides Again",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Educational, Science",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Reboot of the classic. Modern animation with same great science education."
+  },
+  {
+    "name": "True and the Rainbow Kingdom",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Problem Solving, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches empathy and problem-solving. Colorful and positive."
+  },
+  {
+    "name": "Top Wing",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Bird cadets on rescue missions. Teaches teamwork but limited educational value."
+  },
+  {
+    "name": "Ryan's Mystery Playdate",
+    "platforms": [
+      "Nick Jr"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Based on YouTube star Ryan. Very stimulating with limited educational value. Can lead to toy demands."
+  },
+  {
+    "name": "Blaze and the Monster Machines",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation, Educational, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches STEM concepts through racing. Fast-paced and stimulating."
+  },
+  {
+    "name": "Santiago of the Seas",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Pirate adventure teaching teamwork. Features Latino culture and Spanish phrases."
+  },
+  {
+    "name": "Rusty Rivets",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches engineering and problem-solving. Decent educational content."
+  },
+  {
+    "name": "Shimmer and Shine",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Genie-themed show. More entertainment-focused with some problem-solving elements."
+  },
+  {
+    "name": "Diana and Roma",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Kid influencer content. Essentially toy commercials. Very overstimulating. Not recommended."
+  },
+  {
+    "name": "Baby Einstein",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Educational, Music",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classical music and simple visuals for babies. Keep sessions very short. YouTube requires supervision."
+  },
+  {
+    "name": "Like Nastya",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Kid influencer content. Materialistic themes. Very overstimulating. High algorithmic risk. Not recommended."
+  },
+  {
+    "name": "Baby Shark",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Viral sensation. Extremely catchy and overstimulating. Use sparingly. High algorithmic risk on YouTube."
+  },
+  {
+    "name": "Dave and Ava",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Nursery rhymes. Very stimulating with bright animations. Can lead to extended viewing sessions."
+  },
+  {
+    "name": "Little Baby Bum",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Nursery rhymes with very bright colors. Can be addictive. Limit viewing and supervise YouTube use."
+  },
+  {
+    "name": "Morphle",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Shape-shifting pet adventures. Entertaining but limited educational value. YouTube requires supervision."
+  },
+  {
+    "name": "Pinkfong",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Famous for Baby Shark. Very overstimulating. Catchy songs that get stuck in heads. Limit use."
+  },
+  {
+    "name": "Super Simple Songs",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Educational, Music",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Simple songs for language learning. Better than similar YouTube content but still requires supervision."
+  },
+  {
+    "name": "Vlad and Niki",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Kid influencer content. Fast-paced toy commercials. Very little educational value. High algorithmic risk."
+  },
+  {
+    "name": "Muppet Babies",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Muppets as babies using imagination. Teaches creativity and problem-solving."
+  },
+  {
+    "name": "Fancy Nancy",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Based on popular books. Teaches vocabulary and creativity."
+  },
+  {
+    "name": "T.O.T.S.",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Birds delivering baby animals. Teaches caring and responsibility."
+  },
+  {
+    "name": "Encanto: The Series",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Music, Social Skills",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Based on popular film. Features Colombian culture and family themes."
+  },
+  {
+    "name": "The Lion Guard",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Lion King spinoff. Teaches teamwork and African wildlife."
+  },
+  {
+    "name": "Elena of Avalor",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Latina princess learning to lead. Teaches leadership and cultural values."
+  },
+  {
+    "name": "The Owl House",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Fantasy adventure for older kids. Some scary elements but good storytelling."
+  },
+  {
+    "name": "Mickey Mouse Funhouse",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Latest Mickey show. Teaches problem-solving and friendship."
+  },
+  {
+    "name": "Gravity Falls",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Mystery adventures for older kids. Clever writing and problem-solving. Some scary moments."
+  },
+  {
+    "name": "Amphibia",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Girl transported to frog world. For older kids. Good character development."
+  },
+  {
+    "name": "Winnie the Pooh",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic gentle stories. Perfect for young children. Very calming and sweet."
+  },
+  {
+    "name": "The Ghost and Molly McGee",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Optimistic girl and grumpy ghost. Teaches positivity and friendship."
+  },
+  {
+    "name": "Pocoyo",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Simple animation for toddlers. Gentle pacing with narrator. Good for young children."
+  },
+  {
+    "name": "Big City Greens",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Farm family in the city. Funny and teaches family values."
+  },
+  {
+    "name": "Firebuds",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "First responder vehicles. Teaches teamwork and helping others."
+  },
+  {
+    "name": "DuckTales",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Reboot of classic. Adventure and problem-solving. For older kids."
+  },
+  {
+    "name": "Odd Squad",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches math through spy adventures. Clever and engaging for school-age kids."
+  },
+  {
+    "name": "Cyberchase",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational, Problem Solving",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches math concepts through digital adventures. For older elementary kids."
+  },
+  {
+    "name": "Donkey Hodie",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Problem Solving, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "From Fred Rogers Productions. Teaches perseverance and resilience. High quality."
+  },
+  {
+    "name": "Work It Out Wombats!",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches computational thinking and problem-solving. From PBS Kids."
+  },
+  {
+    "name": "WordWorld",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches spelling and word building. Characters made of letters. Innovative and educational."
+  },
+  {
+    "name": "The Cat in the Hat Knows a Lot About That",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Dr. Seuss character teaching science. Educational and fun."
+  },
+  {
+    "name": "Pinkalicious & Peterrific",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Arts & Crafts, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Based on popular books. Teaches creativity and arts. Very colorful."
+  },
+  {
+    "name": "Let's Go Luna",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches world cultures and geography. Educational and diverse."
+  },
+  {
+    "name": "Maisy",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Simple mouse adventures. Perfect for toddlers. Very calming and gentle."
+  },
+  {
+    "name": "Oswald",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Octopus and his dog. Very gentle and kind. Teaches friendship."
+  },
+  {
+    "name": "Shaun the Sheep",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Aardman claymation. No dialogue but very clever. Teaches problem-solving through visuals."
+  },
+  {
+    "name": "Tee and Mo",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Monkey toddler and mum. Teaches toddler emotions and development. Very gentle."
+  },
+  {
+    "name": "Ben & Holly's Little Kingdom",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "From creators of Peppa Pig. Gentle fairy and elf adventures."
+  },
+  {
+    "name": "64 Zoo Lane",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Girl hears bedtime stories from zoo animals. Perfect for bedtime."
+  },
+  {
+    "name": "Sarah & Duck",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "British show. Extremely gentle and calming. Perfect for bedtime. YouTube requires supervision."
+  },
+  {
+    "name": "Kipper",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "British show about a dog. Extremely gentle and calming. Perfect for bedtime."
+  },
+  {
+    "name": "Pingu",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Claymation penguin. Speaks in penguin language. Universal and charming. YouTube requires supervision."
+  },
+  {
+    "name": "Timmy Time",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Shaun the Sheep spinoff for toddlers. No dialogue. Teaches preschool skills. Very gentle."
+  },
+  {
+    "name": "Handy Manny",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Handyman solving problems. Teaches tools and fixing things. Some Spanish."
+  },
+  {
+    "name": "Chuggington",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Train characters learning responsibilities. Teaches teamwork."
+  },
+  {
+    "name": "Nina's World",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Latina girl exploring her community. Teaches cultural appreciation."
+  },
+  {
+    "name": "Chuggington: Tales from the Rails",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Continuation of Chuggington. Trains learning and growing."
+  },
+  {
+    "name": "Jungle Junction",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Animal vehicles solving problems. Gentle and positive."
+  },
+  {
+    "name": "Little Einsteins",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Educational, Music",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Teaches classical music and art. Interactive format encourages participation."
+  },
+  {
+    "name": "Thomas & Friends",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic train show. Some episodes outdated but generally teaches cooperation."
+  },
+  {
+    "name": "Special Agent Oso",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Educational, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Bear teaching life skills through spy missions. Educational and fun."
+  },
+  {
+    "name": "Cleo & Cuquin",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Spanish show about siblings solving problems. Bilingual learning opportunity."
+  },
+  {
+    "name": "Thomas & Friends: All Engines Go",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Modern reboot of Thomas. Faster paced than original."
+  },
+  {
+    "name": "Maddie's Do You Know?",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Maddie explores how everyday things are made and work."
+  },
+  {
+    "name": "Andy's Dinosaur Adventures",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Andy travels back in time to meet dinosaurs."
+  },
+  {
+    "name": "Deadly 60",
+    "recommended": true,
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC wildlife series. Steve Backshall explores dangerous animals. Highly educational and engaging."
+  },
+  {
+    "name": "Newsround",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC news programme for children. Age-appropriate current events coverage."
+  },
+  {
+    "name": "Andy's Aquatic Adventures",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Andy explores marine life and water habitats."
+  },
+  {
+    "name": "Andy's Wild Adventures",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies wildlife show. Andy Day explores animals in their natural habitats."
+  },
+  {
+    "name": "Blue Peter",
+    "recommended": true,
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Arts & Crafts, Educational, Live Action",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Iconic BBC children's magazine show. Crafts, challenges, and educational segments."
+  },
+  {
+    "name": "Something Special",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Mr Tumble uses Makaton sign language. Inclusive and gentle."
+  },
+  {
+    "name": "Andy's Safari Adventures",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Andy travels on safari to film wild animals."
+  },
+  {
+    "name": "Andy's Prehistoric Adventures",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Andy explores prehistoric creatures and ice age animals."
+  },
+  {
+    "name": "The Dumping Ground",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action, Social Skills",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBBC drama about children in care. Tackles social issues sensitively."
+  },
+  {
+    "name": "My Petsaurus",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Boy with a pet dinosaur. Short, gentle episodes."
+  },
+  {
+    "name": "Go Jetters",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Geography adventures around the world. Fun and educational."
+  },
+  {
+    "name": "JoJo & Gran Gran",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Black British family. Gentle intergenerational stories."
+  },
+  {
+    "name": "Horrible Histories",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Entertainment, Live Action",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBBC. Comedy sketch show teaching history. Award-winning and highly engaging."
+  },
+  {
+    "name": "Bitz & Bob",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Engineering and problem-solving through play and imagination."
+  },
+  {
+    "name": "Topsy and Tim",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Live Action, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Twins navigate everyday experiences. Very gentle and relatable."
+  },
+  {
+    "name": "Operation Ouch!",
+    "recommended": true,
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBBC. Two doctors explore the human body. Educational and entertaining."
+  },
+  {
+    "name": "Numberblocks Presents",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Extended Numberblocks adventures. Teaches maths concepts brilliantly."
+  },
+  {
+    "name": "Waffle the Wonder Dog",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Family comedy about a dog. Gentle and wholesome."
+  },
+  {
+    "name": "Yakka Dee!",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Word-building show. Great for language development."
+  },
+  {
+    "name": "Twirlywoos",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Four bird-like creatures explore concepts. Gentle and curious."
+  },
+  {
+    "name": "Justin's House",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Justin Fletcher's comedy show. Slapstick and fun."
+  },
+  {
+    "name": "Raa Raa the Noisy Lion",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Lion cub learns about sounds and communication."
+  },
+  {
+    "name": "Swashbuckle",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Pirate-themed game show. Active and fun."
+  },
+  {
+    "name": "Teletubbies",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Iconic show for very young children. Repetitive and soothing."
+  },
+  {
+    "name": "Bing",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Bing bunny navigates toddler challenges. Emotionally intelligent."
+  },
+  {
+    "name": "Nina and the Neurons",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Science show exploring how things work through the five senses."
+  },
+  {
+    "name": "Let's Play",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Children explore different professions through imaginative play."
+  },
+  {
+    "name": "Gigglebiz",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Justin Fletcher plays various characters. Comedy sketches."
+  },
+  {
+    "name": "Nelly & Nora",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Science",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 1,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Two sisters explore nature. Calm and observational."
+  },
+  {
+    "name": "Clangers",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 1,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Pink mouse-like creatures on a planet. Gentle and calming."
+  },
+  {
+    "name": "Small Potatoes",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Musical potato characters. Catchy songs in various styles."
+  },
+  {
+    "name": "Love Monster",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Monster learns about emotions and relationships. Sweet and kind."
+  },
+  {
+    "name": "Colourblocks",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. From creators of Alphablocks. Teaches colours brilliantly."
+  },
+  {
+    "name": "In the Night Garden",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Magical garden with gentle characters. Designed for bedtime."
+  },
+  {
+    "name": "Supertato",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Superhero potato protects supermarket. Fun and silly."
+  },
+  {
+    "name": "Pablo",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Autistic boy navigates world through art. Inclusive and sensitive."
+  },
+  {
+    "name": "Moon and Me",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Toys come alive at night. Gentle and imaginative."
+  },
+  {
+    "name": "My World Kitchen",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Children cook recipes from their heritage. Diverse and educational."
+  },
+  {
+    "name": "Spot Bots",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Robot characters solve problems. Simple and fun."
+  },
+  {
+    "name": "Our Family",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Real families across UK. Documentary-style. Diverse and real."
+  },
+  {
+    "name": "Grandpa in My Pocket",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Grandpa shrinks and has adventures. Gentle comedy."
+  },
+  {
+    "name": "Charlie and Lola",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Brother-sister relationship. Based on Lauren Child books."
+  },
+  {
+    "name": "Everything's Rosie",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Girl and her toy friends. Gentle friendship stories."
+  },
+  {
+    "name": "Rastamouse",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Mouse solves problems with 'easy crew'. Reggae music."
+  },
+  {
+    "name": "Molly and Mack",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Live Action, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Kids in a seaside town. Community and friendship themes."
+  },
+  {
+    "name": "Fifi and the Flowertots",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Flower characters in a garden. Gentle problem-solving."
+  },
+  {
+    "name": "Tree Fu Tom",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Boy with magical powers. Movement and adventure."
+  },
+  {
+    "name": "My Pet and Me",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Children and their pets. Teaches animal care."
+  },
+  {
+    "name": "Teacup Travels",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Children travel through history. Great storytelling."
+  },
+  {
+    "name": "Messy Goes to OKIDO",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Monster explores science questions. Engaging and educational."
+  },
+  {
+    "name": "Biggleton",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Live Action, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Town where everyone helps. Community values."
+  },
+  {
+    "name": "Mike the Knight",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Young knight learns responsibility. Medieval adventures."
+  },
+  {
+    "name": "Old Jack's Boat",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Fisherman tells stories. Magical and calming."
+  },
+  {
+    "name": "Magic Hands",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Stories told through British Sign Language. Inclusive."
+  },
+  {
+    "name": "Down on the Farm",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Real farm life and animals. Educational and gentle."
+  },
+  {
+    "name": "The Baby Club",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Songs, rhymes for babies and parents. Very gentle."
+  },
+  {
+    "name": "Danger Mouse (2015)",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBBC reboot. Fast-paced spy comedy. Clever but stimulating."
+  },
+  {
+    "name": "Katie Morag",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Scottish island life. Beautiful and gentle."
+  },
+  {
+    "name": "Wallace & Gromit",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Aardman. British classic. Clever, funny, high quality."
+  },
+  {
+    "name": "Ferne and Rory's Vet Tales",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Real vet visits. Teaches animal care and empathy."
+  },
+  {
+    "name": "Tiny Happy People",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Language development activities. For babies and parents."
+  },
+  {
+    "name": "Bitz & Bob's Brilliant Builds",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Live-action engineering challenges. Inspiring."
+  },
+  {
+    "name": "Grace's Amazing Machines",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Explores different vehicles and machines. Engaging."
+  },
+  {
+    "name": "Planet Earth (Kids)",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC nature documentary. Stunning visuals. May need parent guidance for some scenes."
+  },
+  {
+    "name": "Seven Worlds One Planet",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC. Explores wildlife on each continent. Attenborough narration."
+  },
+  {
+    "name": "Life (BBC)",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC wildlife documentary. Fascinating animal behaviors."
+  },
+  {
+    "name": "Springwatch",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC. Live UK nature watch. Seasonal wildlife coverage."
+  },
+  {
+    "name": "Chris Packham's Animal Einsteins",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC. Animal intelligence. Engaging and educational."
+  },
+  {
+    "name": "Big Cats",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC. Follows lion, tiger, cheetah families. Some predation scenes."
+  },
+  {
+    "name": "Wild Isles",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC. UK wildlife. Recent Attenborough series."
+  },
+  {
+    "name": "Frozen Planet",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC polar regions documentary. Stunning nature footage."
+  },
+  {
+    "name": "Blue Planet",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC ocean documentary. Beautiful and educational."
+  },
+  {
+    "name": "Autumnwatch",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC. UK wildlife in autumn. Educational and calming."
+  },
+  {
+    "name": "Wild & Weird",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBBC. Unusual animals and behaviors. Fun and educational."
+  },
+  {
+    "name": "Maddie the Home and You",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. How household items work. Practical learning."
+  },
+  {
+    "name": "Maddie the Zoo and You",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Zoo animals and habitats. Educational."
+  },
+  {
+    "name": "The Really Wild Show",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBBC classic. Wildlife adventures and animal facts."
+  },
+  {
+    "name": "Bitesize Daily",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBBC/CBeebies. Educational content aligned to UK curriculum."
+  },
+  {
+    "name": "Winterwatch",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "BBC. UK wildlife in winter. Seasonal nature watch."
+  },
+  {
+    "name": "Junk Rescue",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Arts & Crafts, Educational, Live Action",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Recycling and upcycling crafts. Environmental focus."
+  },
+  {
+    "name": "Hey You What If?",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational, Science",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Answers children's science questions. Engaging."
+  },
+  {
+    "name": "Maddie's Space Adventure",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action, Science",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Space exploration. Exciting and educational."
+  },
+  {
+    "name": "Art Ninja",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Arts & Crafts, Educational, Live Action",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBBC. Art and craft projects. Creative and inspiring."
+  },
+  {
+    "name": "Show Me Show Me",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Explores objects and ideas. Gentle and curious."
+  },
+  {
+    "name": "Bob the Builder (Original)",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies classic. Construction team solves problems. Teamwork focus."
+  },
+  {
+    "name": "Postman Pat: Special Delivery Service",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Postman delivers special items. Classic British show."
+  },
+  {
+    "name": "Mister Maker",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Arts & Crafts, Educational, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Art and craft activities. Energetic but creative."
+  },
+  {
+    "name": "I Can Cook",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Simple cooking with Katy Ashworth. Encourages healthy eating."
+  },
+  {
+    "name": "Waybuloo",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Gentle creatures practice yoga. Very calming."
+  },
+  {
+    "name": "Fireman Sam (UK)",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Fire rescue adventures. Safety lessons."
+  },
+  {
+    "name": "Numtums",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Maths adventures. Fun number learning."
+  },
+  {
+    "name": "Count Duckula",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic British cartoon. Vegetarian vampire duck. Retro comedy."
+  },
+  {
+    "name": "Dennis & Gnasher: Unleashed!",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBBC. Beano comic character. Fast-paced comedy."
+  },
+  {
+    "name": "Duggee's Outdoor Adventures",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Nature and outdoor learning. Encourages outdoor play."
+  },
+  {
+    "name": "Peter Rabbit (CBeebies)",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Based on Beatrix Potter. Countryside adventures."
+  },
+  {
+    "name": "The Adventures of Paddington",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "CBeebies. Paddington Bear in Windsor Gardens. Kind and gentle."
+  },
+  {
+    "name": "Kiri and Lou",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle friendship themes."
+  },
+  {
+    "name": "Guess How Much I Love You",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Comforting stories and routines."
+  },
+  {
+    "name": "Miffy",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Simple visuals and calm narration."
+  },
+  {
+    "name": "Frog and Toad",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle pacing; good wind-down option."
+  },
+  {
+    "name": "Stillwater",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle pacing; good wind-down option."
+  },
+  {
+    "name": "Octonauts: Above & Beyond",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Miffy and Friends",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Spot the Dog",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Forky Asks a Question",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Bluey Minisodes",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle pacing; good wind-down option."
+  },
+  {
+    "name": "Star Wars Resistance",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Fast action; consider breaks and clear stopping points."
+  },
+  {
+    "name": "Pixar Popcorn",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "The Wonderful World of Mickey Mouse",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Dug Days",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "The Simpsons (Family Picks)",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Marvel Rising",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Fast action; consider breaks and clear stopping points."
+  },
+  {
+    "name": "Star Wars Rebels",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Fast action; consider breaks and clear stopping points."
+  },
+  {
+    "name": "X-Men: The Animated Series",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Spider-Man (1994)",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "National Geographic Kids (Picks)",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Storyline Online",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Cosmic Kids Zen Den",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Art for Kids Hub",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "SciShow Kids",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "High learning value; best in short, intentional sessions."
+  },
+  {
+    "name": "TED-Ed",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "How It's Made (Clips)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Kids Learning Tube",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Scratch Garden",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Kurzgesagt",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Sesame Street: Elmo's World",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "High learning value; best in short, intentional sessions."
+  },
+  {
+    "name": "Summer Camp Island",
+    "platforms": [
+      "Hulu"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Regular Show",
+    "platforms": [
+      "Hulu"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Craig of the Creek",
+    "platforms": [
+      "Hulu"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "The Great British Bake Off",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Sesame Street: Mecha Builders",
+    "platforms": [
+      "Hulu"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "High learning value; best in short, intentional sessions."
+  },
+  {
+    "name": "Animaniacs",
+    "platforms": [
+      "Hulu"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Platform/availability varies by region."
+  },
+  {
+    "name": "Out of the Box",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Arts & Crafts, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Craft-focused, predictable structure, generally calm pacing."
+  },
+  {
+    "name": "The Berenstain Bears",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Family life lessons and consequences; generally steady pacing."
+  },
+  {
+    "name": "Pajanimals",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Sleep-themed stories; good for wind-down routines."
+  },
+  {
+    "name": "Blue's Clues (Classic)",
+    "platforms": [
+      "Nick Jr"
+    ],
+    "genre": "Interactive, Problem Solving",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Highly structured call-and-response problem solving; paced."
+  },
+  {
+    "name": "Octonauts: The Ring of Fire",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Science",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Feature-length special; consider a break halfway."
+  },
+  {
+    "name": "Avatar: The Last Airbender",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Adventure with strong themes (friendship, responsibility). Some action."
+  },
+  {
+    "name": "If You Give a Mouse a Cookie",
+    "platforms": [
+      "Amazon Prime"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Chain-of-events stories; can be a bit bouncy but not extreme."
+  },
+  {
+    "name": "The Legend of Korra",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "More intense action and themes than Avatar; best for older kids."
+  },
+  {
+    "name": "Reading Rainbow",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic book-focused show; very calm, great for literacy."
+  },
+  {
+    "name": "The Wiggles",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Live Action, Music",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Music-driven. Curate to avoid autoplay."
+  },
+  {
+    "name": "Disney Junior (Official Channel)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Entertainment",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Use curated playlists; avoid autoplay."
+  },
+  {
+    "name": "Superbook",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Animated moral stories; moderate pace."
+  },
+  {
+    "name": "Paisley's Corner",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Calm host-led learning. Good wind-down."
+  },
+  {
+    "name": "Little Bill",
+    "platforms": [
+      "Nick Jr"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Everyday kid situations; gentle pacing."
+  },
+  {
+    "name": "Tangled: The Series",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Adventure arcs; moderate pace."
+  },
+  {
+    "name": "Hailey's On It!",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "High-energy comedy; not a calm pick."
+  },
+  {
+    "name": "GoNoodle",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Interactive, Music",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Movement breaks. High energy but purposeful."
+  },
+  {
+    "name": "Bounce Patrol",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Live Action, Music",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "High energy music videos. Tight limits."
+  },
+  {
+    "name": "Chip 'n' Dale Rescue Rangers",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic adventure. Generally steady pacing."
+  },
+  {
+    "name": "Mother Goose Club",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Live Action, Music",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Nursery rhyme loops. Very stimulating."
+  },
+  {
+    "name": "Big Hero 6: The Series",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Science",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Action + STEM-ish themes; can be revving."
+  },
+  {
+    "name": "Blue Planet II",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Nature doc. Calm pacing, occasional intense scenes."
+  },
+  {
+    "name": "Albert and Junior",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Slower paced educational stories; good for toddlers."
+  },
+  {
+    "name": "Holy Sprouts",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle shorts with simple lessons."
+  },
+  {
+    "name": "Milo Murphy's Law",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Fast-paced comedy chaos. Best not as wind-down."
+  },
+  {
+    "name": "Darkwing Duck",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Retro superhero parody. Moderate pace."
+  },
+  {
+    "name": "The Rescuers",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Older pacing; some peril but generally calmer."
+  },
+  {
+    "name": "Timon & Pumbaa",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Silly spin-off; moderate stimulation."
+  },
+  {
+    "name": "Atlantis: The Lost Empire",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Action-heavy; older kids."
+  },
+  {
+    "name": "Treasure Planet",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Adventure action; older kids."
+  },
+  {
+    "name": "Once Upon a Studio",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Short special; easy stopping point."
+  },
+  {
+    "name": "Lilo & Stitch",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Strong themes; some chaos."
+  },
+  {
+    "name": "The Muppet Christmas Carol",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Seasonal; some spooky bits."
+  },
+  {
+    "name": "The Rescuers Down Under",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "More action than the original."
+  },
+  {
+    "name": "Lilo & Stitch: The Series",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Monster-of-the-week; moderate stimulation."
+  },
+  {
+    "name": "The Muppet Show",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Variety show pacing; generally steady."
+  },
+  {
+    "name": "Earth to Ned",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Talk-show style; better for older kids."
+  },
+  {
+    "name": "Secrets of the Zoo",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Behind-the-scenes zoo doc; calm style."
+  },
+  {
+    "name": "Secrets of the Whales",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Beautiful doc; occasional intense scenes."
+  },
+  {
+    "name": "Cosmos: A Spacetime Odyssey",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Big topics; co-view recommended."
+  },
+  {
+    "name": "Brain Games",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Experiments and perception tricks; engaging but not frantic."
+  },
+  {
+    "name": "Cosmos: Possible Worlds",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Big topics; co-view recommended."
+  },
+  {
+    "name": "Bluey Book Reads",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Curate a playlist to avoid autoplay loops."
+  },
+  {
+    "name": "Nick Jr (Official Channel)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Entertainment",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Channel feed risk. Use playlists only."
+  },
+  {
+    "name": "PBS Kids (Official Channel)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Educational",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Avoid shorts/feed. Curate playlists."
+  },
+  {
+    "name": "Frozen II",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Music-heavy; plan a break if needed."
+  },
+  {
+    "name": "Coco",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Strong themes and music; co-view friendly."
+  },
+  {
+    "name": "Luca",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Warm, calmer Pixar pacing."
+  },
+  {
+    "name": "Planet Earth II",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "High quality nature doc; occasional predator scenes."
+  },
+  {
+    "name": "Soul",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Big themes; better for older kids."
+  },
+  {
+    "name": "A Bug's Life",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 4,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Some peril; generally steady."
+  },
+  {
+    "name": "The Emperor's New Groove",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Rapid-fire comedy; not a calm pick."
+  },
+  {
+    "name": "Zootopia",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Mystery-style plot; good discussion themes."
+  },
+  {
+    "name": "Hercules (Animated)",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Action + songs; moderate stimulation."
+  },
+  {
+    "name": "101 Dalmatians (Animated)",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Some tense moments; classic pacing."
+  },
+  {
+    "name": "The Many Adventures of Winnie the Pooh",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic calm storytelling; good for routine viewing."
+  },
+  {
+    "name": "Simple Songs With Caitie",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Educational, Music",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Calmer singing and gestures. Use curated playlists only."
+  },
+  {
+    "name": "Numberjacks",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Educational, Problem Solving",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Maths problem solving with clear structure; generally calm."
+  },
+  {
+    "name": "Postcards from Buster",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Travel and culture; calm documentary segments."
+  },
+  {
+    "name": "Peg + Cat",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Math problem solving with songs; a bit peppy."
+  },
+  {
+    "name": "Nature Cat",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation, Science",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Outdoor learning with some silliness."
+  },
+  {
+    "name": "Baby Bumblebee",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle singalong-style content; keep sessions short and curated."
+  },
+  {
+    "name": "Tiny Pop: Baby Songs (Curated Playlist)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Playlist only; avoid feed/autoplay."
+  },
+  {
+    "name": "Baby Jake",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Simple baby-focused stories and songs."
+  },
+  {
+    "name": "Old Bear Stories",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Soft, cozy storytelling; good wind-down."
+  },
+  {
+    "name": "Peppa Pig: Nursery Rhymes and Songs",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Songs format; use short sessions."
+  },
+  {
+    "name": "Twins and Me",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Slow, routine-friendly baby content."
+  },
+  {
+    "name": "Lullaby for Little Ones",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Music",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Lullaby-style visuals; best as occasional wind-down."
+  },
+  {
+    "name": "Waffle and Mochi's Restaurant",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Food curiosity; a bit peppy."
+  },
+  {
+    "name": "CBeebies: My First Nursery Rhymes",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Live Action, Music",
+    "ageMin": 0,
+    "ageMax": 1,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Nursery rhymes with calmer pacing; curate."
+  },
+  {
+    "name": "The Busy World of Richard Scarry",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Community and jobs; steady pacing."
+  },
+  {
+    "name": "Guess with Jess",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle questions and curiosity-led stories."
+  },
+  {
+    "name": "Little Princess",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Simple everyday stories with boundaries."
+  },
+  {
+    "name": "JoJo's Circus",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Circus stories; can be a bit lively."
+  },
+  {
+    "name": "Babar (Classic)",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Older pacing, gentle narration."
+  },
+  {
+    "name": "Pip and Posy",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Friendship and feelings; gentle pacing."
+  },
+  {
+    "name": "Charlie Brown and Snoopy Show",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic, calm pacing."
+  },
+  {
+    "name": "Pingu in the City",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 1,
+    "ageMax": 2,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle humour; minimal speech."
+  },
+  {
+    "name": "Molang (Shorts)",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Short gentle episodes."
+  },
+  {
+    "name": "CBeebies: Bedtime Stories (Selected)",
+    "platforms": [
+      "BBC iPlayer"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Great for bedtime wind-down."
+  },
+  {
+    "name": "Bluey: Mini Episodes (Curated Playlist)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Playlist-only to avoid autoplay/shorts feed."
+  },
+  {
+    "name": "Khan Academy Kids (Videos)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Educational, Interactive",
+    "ageMin": 2,
+    "ageMax": 3,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Use curated videos; avoid feed."
+  },
+  {
+    "name": "Blue's Clues & You! (Selected)",
+    "platforms": [
+      "Nick Jr"
+    ],
+    "genre": "Interactive, Problem Solving",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Structured engagement; paced."
+  },
+  {
+    "name": "Paddington (TV) (Selected)",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Social Skills",
+    "ageMin": 3,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Manners and gentle humour."
+  },
+  {
+    "name": "BrainPOP (Curated Clips)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Curate clips/playlists; avoid feed."
+  },
+  {
+    "name": "Liberty's Kids",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "History stories; co-view for context."
+  },
+  {
+    "name": "Scooby-Doo Where Are You!",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Mild scares; better for kids who tolerate suspense."
+  },
+  {
+    "name": "Time Warp Trio",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Animation, Educational",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Time-travel history; moderately peppy."
+  },
+  {
+    "name": "Horrible Science",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Live Action, Science",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Sketch science; a bit quick at times."
+  },
+  {
+    "name": "MythBusters (Family Picks)",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Explosions/experiments; engaging but stimulating."
+  },
+  {
+    "name": "Fetch! With Ruff Ruffman",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Educational, Live Action",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Challenge-based science and problem solving."
+  },
+  {
+    "name": "Bill Nye the Science Guy",
+    "platforms": [
+      "Other"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 5,
+    "ageMax": 6,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium (user-supplied)",
+    "notes": "High energy but educational; not a wind-down pick."
+  },
+  {
+    "name": "Carmen Sandiego",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Mystery + geography; brisk but manageable."
+  },
+  {
+    "name": "Wallace & Gromit: The Wrong Trousers",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Classic pacing; gentle humour."
+  },
+  {
+    "name": "The Worst Witch",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Light magic school drama; moderate pace."
+  },
+  {
+    "name": "Hilda",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Adventure fantasy with warmth."
+  },
+  {
+    "name": "We Bare Bears",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Gentle comedy; some fast moments."
+  },
+  {
+    "name": "Wallace & Gromit: A Close Shave",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Problem Solving",
+    "ageMin": 6,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Clever storytelling; co-view friendly."
+  },
+  {
+    "name": "The Baby-Sitters Club",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Live Action, Social Skills",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Friendship and empathy themes."
+  },
+  {
+    "name": "Klaus",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 8,
+    "ageMax": 10,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Cozy film; good co-view."
+  },
+  {
+    "name": "Our Planet (Selected)",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Educational, Science",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Nature doc; occasional intense scenes."
+  },
+  {
+    "name": "A Series of Unfortunate Events",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Entertainment, Live Action",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Dark themes; better for older kids."
+  },
+  {
+    "name": "The Dragon Prince",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Fantasy peril; older kids."
+  },
+  {
+    "name": "Kipo and the Age of Wonderbeasts",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation, Entertainment",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium (user-supplied)",
+    "notes": "Adventure with heart."
+  },
+  {
+    "name": "Pokemon",
+    "platforms": [
+      "Netflix",
+      "Pokemon TV"
+    ],
+    "genre": "Anime / Adventure",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Long-running anime; reviewers consistently describe battles as mild fantasy violence, more moderate than most action anime."
+  },
+  {
+    "name": "Digimon",
+    "platforms": [
+      "Disney+",
+      "Crunchyroll"
+    ],
+    "genre": "Anime / Adventure",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Similar creature-battle format to Pokemon; general reputation as moderately paced anime, not independently verified."
+  },
+  {
+    "name": "Yu-Gi-Oh!",
+    "platforms": [
+      "Crunchyroll",
+      "YouTube"
+    ],
+    "genre": "Anime / Card Game",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 4,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Card-battle anime with dramatic tension; general reputation, not independently verified."
+  },
+  {
+    "name": "My Hero Academia",
+    "platforms": [
+      "Crunchyroll",
+      "Hulu"
+    ],
+    "genre": "Anime / Superhero",
+    "ageMin": 8,
+    "ageMax": 14,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Shonen action anime aimed at older kids/teens; faster pacing and higher stakes than preschool-adjacent titles."
+  },
+  {
+    "name": "Dragon Ball Z Kai",
+    "platforms": [
+      "Crunchyroll"
+    ],
+    "genre": "Anime / Action",
+    "ageMin": 8,
+    "ageMax": 14,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Classic high-action anime; frequent battles and loud sound design based on general reputation."
+  },
+  {
+    "name": "Sailor Moon",
+    "platforms": [
+      "Hulu",
+      "Crunchyroll"
+    ],
+    "genre": "Anime / Magical Girl",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Magical-girl anime with moderate action pacing; general reputation, not independently verified."
+  },
+  {
+    "name": "Ninjago",
+    "platforms": [
+      "Netflix",
+      "Cartoon Network"
+    ],
+    "genre": "Animation / Action",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "LEGO action-adventure with frequent fight sequences and fast editing; general reputation."
+  },
+  {
+    "name": "Transformers: EarthSpark",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Action",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Robot-action franchise entry; general reputation as energetic, fast-cut format."
+  },
+  {
+    "name": "Voltron: Legendary Defender",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Sci-Fi Adventure",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 4,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Serialized sci-fi adventure with battles; general reputation, not independently verified."
+  },
+  {
+    "name": "Sonic Prime",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Action",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Video-game adaptation with fast platforming-style action; general reputation."
+  },
+  {
+    "name": "Sonic Boom",
+    "platforms": [
+      "Cartoon Network"
+    ],
+    "genre": "Animation / Comedy Action",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Comedic take on the Sonic franchise; general reputation as energetic and joke-dense."
+  },
+  {
+    "name": "Kung Fu Panda: The Paws of Destiny",
+    "platforms": [
+      "Amazon Prime"
+    ],
+    "genre": "Animation / Action",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Martial-arts adventure spin-off; general reputation, not independently verified."
+  },
+  {
+    "name": "Zog",
+    "platforms": [
+      "BBC iPlayer",
+      "Other"
+    ],
+    "genre": "Animation / Storybook",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Julia Donaldson storybook adaptation; gentle narrated pacing typical of the format."
+  },
+  {
+    "name": "Room on the Broom",
+    "platforms": [
+      "BBC iPlayer",
+      "Other"
+    ],
+    "genre": "Animation / Storybook",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Julia Donaldson storybook adaptation; gentle narrated pacing typical of the format."
+  },
+  {
+    "name": "The Gruffalo",
+    "platforms": [
+      "BBC iPlayer",
+      "Other"
+    ],
+    "genre": "Animation / Storybook",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Widely cited as a calm, narrated storybook special; low sensory load, no fast cutting."
+  },
+  {
+    "name": "The Snowman",
+    "platforms": [
+      "BBC iPlayer",
+      "Other"
+    ],
+    "genre": "Animation / Storybook",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 1,
+    "emotional": 3,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Classic wordless animated short; slow, musical, and gentle with occasional emotional weight."
+  },
+  {
+    "name": "Ludwig",
+    "platforms": [
+      "BBC iPlayer",
+      "Other"
+    ],
+    "genre": "Animation / Storybook",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Gentle preschool storybook-style animation; general reputation, not independently verified."
+  },
+  {
+    "name": "Sunny Bunnies",
+    "platforms": [
+      "YouTube",
+      "Other"
+    ],
+    "genre": "Animation / Slapstick",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Wordless slapstick preschool comedy; general reputation as moderately paced."
+  },
+  {
+    "name": "Kate & Mim-Mim",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Animation / Fantasy Adventure",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Imaginative preschool adventure format; general reputation, not independently verified."
+  },
+  {
+    "name": "Rainbow Rangers",
+    "platforms": [
+      "Nick Jr"
+    ],
+    "genre": "Animation / Action",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Preschool superhero-adjacent format; general reputation as moderately energetic."
+  },
+  {
+    "name": "Ready Jet Go!",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation / Educational Science",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "PBS Kids science format; standard calm-to-moderate PBS pacing."
+  },
+  {
+    "name": "Hero Elementary",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation / Educational",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "PBS Kids superhero-school format; general reputation, not independently verified."
+  },
+  {
+    "name": "Splash and Bubbles",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation / Educational Science",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Underwater educational adventure; standard PBS Kids pacing."
+  },
+  {
+    "name": "Dot.",
+    "platforms": [
+      "Netflix",
+      "PBS Kids"
+    ],
+    "genre": "Animation / Educational Technology",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Technology-curiosity preschool show; general reputation, not independently verified."
+  },
+  {
+    "name": "Floogals",
+    "platforms": [
+      "Universal Kids",
+      "Other"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Wordless slapstick comedy about tiny explorers; general reputation as moderately paced."
+  },
+  {
+    "name": "Wallykazam",
+    "platforms": [
+      "Nick Jr"
+    ],
+    "genre": "Animation / Educational Literacy",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Interactive literacy format; general reputation similar to other Nick Jr interactive shows."
+  },
+  {
+    "name": "Abby Hatcher",
+    "platforms": [
+      "Nick Jr"
+    ],
+    "genre": "Animation / Problem Solving",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Preschool problem-solving adventure; general reputation, not independently verified."
+  },
+  {
+    "name": "Corn & Peg",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Gentle Western-themed preschool friendship show; general reputation, not independently verified."
+  },
+  {
+    "name": "Rubble & Crew",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Animation / Action",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Paw Patrol spin-off construction show; similar energetic pacing to its parent franchise."
+  },
+  {
+    "name": "Wolfoo",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Animation / Entertainment",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 4,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "High-frequency YouTube preschool content; algorithm-optimized format similar in structure to Cocomelon-adjacent channels."
+  },
+  {
+    "name": "Dino Ranch",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Animation / Western Adventure",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Dinosaur-Western hybrid adventure; general reputation, not independently verified."
+  },
+  {
+    "name": "Karma's World",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Musical",
+    "ageMin": 5,
+    "ageMax": 9,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Music-driven confidence-building show; general reputation, not independently verified."
+  },
+  {
+    "name": "Iyanu: Child of Wonder",
+    "platforms": [
+      "YouTube",
+      "Other"
+    ],
+    "genre": "Animation / Fantasy Adventure",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "African mythology-inspired adventure; general reputation, not independently verified."
+  },
+  {
+    "name": "Mira, Royal Detective",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Animation / Mystery",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Preschool mystery-adventure format; general reputation, not independently verified."
+  },
+  {
+    "name": "101 Dalmatian Street",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 5,
+    "ageMax": 9,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Sitcom-style comedy for older kids; general reputation, not independently verified."
+  },
+  {
+    "name": "Paw Patrol: Rescue Knights",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Animation / Action",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Medieval-themed Paw Patrol spin-off; similar energetic rescue-mission pacing to its parent franchise."
+  },
+  {
+    "name": "Cocomelon Lane",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Educational Songs",
+    "ageMin": 0,
+    "ageMax": 4,
+    "speed": 4,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Cocomelon spin-off with a slightly slower format than the flagship show, but similar bright, musical style."
+  },
+  {
+    "name": "Sydney to the Max",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Live Action / Sitcom",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Tween live-action sitcom; standard multi-camera sitcom pacing with laugh track."
+  },
+  {
+    "name": "Raven's Home",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Live Action / Sitcom",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Tween live-action sitcom; standard multi-camera sitcom pacing with laugh track."
+  },
+  {
+    "name": "Jessie",
+    "platforms": [
+      "Disney Channel",
+      "Disney+"
+    ],
+    "genre": "Live Action / Sitcom",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Tween live-action sitcom; standard multi-camera sitcom pacing with laugh track."
+  },
+  {
+    "name": "Bunk'd",
+    "platforms": [
+      "Disney Channel",
+      "Disney+"
+    ],
+    "genre": "Live Action / Sitcom",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Tween live-action summer-camp sitcom; standard sitcom pacing with laugh track."
+  },
+  {
+    "name": "Andi Mack",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Live Action / Drama",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Tween drama with slower, more serialized pacing than typical Disney sitcoms."
+  },
+  {
+    "name": "Diary of a Future President",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Live Action / Comedy Drama",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Coming-of-age comedy-drama; slower, more narrative-driven pacing than sitcom peers."
+  },
+  {
+    "name": "Just Roll With It",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Live Action / Improv Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Improv-based family sitcom; general reputation, not independently verified."
+  },
+  {
+    "name": "High School Musical: The Musical: The Series",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Live Action / Musical Comedy",
+    "ageMin": 9,
+    "ageMax": 14,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Mockumentary-style teen musical comedy; slower dialogue-driven pacing aimed at older kids/teens."
+  },
+  {
+    "name": "Gabby Duran and the Unsittables",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Live Action / Sci-Fi Comedy",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Sci-fi tinged tween sitcom; general reputation, not independently verified."
+  },
+  {
+    "name": "The Loud House",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Large ensemble family comedy known for chaotic, high-energy pacing across many characters at once."
+  },
+  {
+    "name": "Rugrats (2021)",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 4,
+    "ageMax": 9,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Reboot reviewers describe as louder, sweatier and more frantic in execution than its original 1991 run."
+  },
+  {
+    "name": "All Hail King Julien",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Madagascar spin-off comedy; general reputation, not independently verified."
+  },
+  {
+    "name": "Sanjay and Craig",
+    "platforms": [
+      "Nickelodeon"
+    ],
+    "genre": "Animation / Gross-out Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Gross-out slapstick comedy known for exaggerated, high-energy humor; general reputation."
+  },
+  {
+    "name": "Total DramaRama",
+    "platforms": [
+      "Cartoon Network"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Preschool-aged spin-off of a reality-show parody format; general reputation, not independently verified."
+  },
+  {
+    "name": "She-Ra and the Princesses of Power",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Fantasy Adventure",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 4,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Serialized fantasy adventure with emotional depth; general reputation, not independently verified."
+  },
+  {
+    "name": "Trollhunters: Tales of Arcadia",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Fantasy Adventure",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 4,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Darker serialized fantasy adventure aimed at older kids; general reputation, not independently verified."
+  },
+  {
+    "name": "Infinity Train",
+    "platforms": [
+      "Max"
+    ],
+    "genre": "Animation / Sci-Fi Adventure",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 2,
+    "emotional": 4,
+    "pacing": 2,
+    "novelty": 4,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Slower, more contemplative serialized sci-fi anthology; general reputation, not independently verified."
+  },
+  {
+    "name": "Centaurworld",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Musical Fantasy",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 4,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Genre-blending musical fantasy for older kids; general reputation, not independently verified."
+  },
+  {
+    "name": "Kid Cosmic",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Superhero",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Superhero adventure comedy; general reputation, not independently verified."
+  },
+  {
+    "name": "Jurassic World Camp Cretaceous",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Adventure",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 4,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Dinosaur-peril adventure serial; general reputation, not independently verified."
+  },
+  {
+    "name": "Big Nate",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 7,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Comic-strip adaptation sitcom-style comedy; general reputation, not independently verified."
+  },
+  {
+    "name": "Star vs. the Forces of Evil",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Animation / Fantasy Comedy",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Fantasy-action comedy hybrid; general reputation, not independently verified."
+  },
+  {
+    "name": "Winx Club",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Magical Girl",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Fairy-fantasy action series; general reputation, not independently verified."
+  },
+  {
+    "name": "Monster High",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Animation / Fantasy Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Monster-themed school comedy; general reputation, not independently verified."
+  },
+  {
+    "name": "Barbie Dreamhouse Adventures",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Slice-of-life doll-brand animation; general reputation as gentler-paced than action-adjacent brand shows."
+  },
+  {
+    "name": "Rainbow High",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 5,
+    "ageMax": 9,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Fashion-doll brand animation; general reputation, not independently verified."
+  },
+  {
+    "name": "My Little Pony: Make Your Mark",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Fantasy",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Newer generation of the MLP franchise; character-driven pacing similar to Friendship Is Magic."
+  },
+  {
+    "name": "Garten of Banban (fan content)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Horror-adjacent Gaming Content",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 5,
+    "emotional": 5,
+    "pacing": 5,
+    "novelty": 5,
+    "sensory": 5,
+    "confidence": "High",
+    "notes": "Horror mascot game whose fan/playthrough content is widely watched by kids despite disturbing imagery, jumpscares, and a missing-child premise."
+  },
+  {
+    "name": "The Amazing Digital Circus",
+    "platforms": [
+      "Netflix",
+      "YouTube"
+    ],
+    "genre": "Animation / Psychological Horror-Comedy",
+    "ageMin": 13,
+    "ageMax": 17,
+    "speed": 4,
+    "emotional": 5,
+    "pacing": 4,
+    "novelty": 5,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Netflix-rated TV-PG but reviewers describe dark psychological themes, innuendo and horror elements not suited to young children despite bright, kid-friendly visuals."
+  },
+  {
+    "name": "Rainbow Friends (fan content)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Horror-adjacent Gaming Content",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Horror-survival game with colorful monster characters; widely watched via YouTube playthroughs despite frightening content."
+  },
+  {
+    "name": "Baby Shark's Big Show!",
+    "platforms": [
+      "Nickelodeon",
+      "Netflix"
+    ],
+    "genre": "Animation / Educational Songs",
+    "ageMin": 0,
+    "ageMax": 4,
+    "speed": 4,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "TV expansion of the viral Baby Shark franchise; similar bright, musical, high-frequency format to the original songs."
+  },
+  {
+    "name": "Wild Kratts: Creature Power Challenge",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Animation / Educational Science",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Wild Kratts spin-off special; similar purposeful action-adventure pacing to the flagship show."
+  },
+  {
+    "name": "Ask the Storybots: Answertopia",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Educational",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Interactive spin-off of Ask the StoryBots; similar question-based musical format."
+  },
+  {
+    "name": "Wizards: Tales of Arcadia",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Fantasy Adventure",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 4,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Final chapter of the Tales of Arcadia trilogy; darker serialized fantasy for older kids."
+  },
+  {
+    "name": "3Below: Tales of Arcadia",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Sci-Fi Adventure",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 4,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Sci-fi entry in the Tales of Arcadia trilogy; general reputation, not independently verified."
+  },
+  {
+    "name": "The Dragon Prince: Mystery of Aaravos",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Fantasy Adventure",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 4,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Continuation of the flagship fantasy series; similar serialized pacing to earlier seasons."
+  },
+  {
+    "name": "Spirit Rangers",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Fantasy Adventure",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Indigenous-culture fantasy adventure for preschoolers; general reputation, not independently verified."
+  },
+  {
+    "name": "Mech Cadets",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Action",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Giant-robot action adventure; general reputation as energetic and battle-driven."
+  },
+  {
+    "name": "My Dad the Bounty Hunter",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Sci-Fi Adventure",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Sci-fi action-adventure; general reputation, not independently verified."
+  },
+  {
+    "name": "Iwaju",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation / Adventure",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Nigerian-set adventure mini-series; general reputation, not independently verified."
+  },
+  {
+    "name": "Kiff",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Slice-of-life squirrel comedy; general reputation, not independently verified."
+  },
+  {
+    "name": "Marvel's Moon Girl and Devil Dinosaur",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Animation / Adventure",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "STEM-focused superhero adventure; general reputation, not independently verified."
+  },
+  {
+    "name": "The Proud Family: Louder and Prouder",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Family sitcom-style animated comedy revival; general reputation, not independently verified."
+  },
+  {
+    "name": "Marvel's Spider-Man: Freshman Year",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Animation / Superhero",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Coming-of-age superhero origin story; general reputation, not independently verified."
+  },
+  {
+    "name": "Chibiverse",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation / Comedy Shorts",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Chibi-style comedy shorts based on Disney/Marvel properties; general reputation, not independently verified."
+  },
+  {
+    "name": "Fired on Mars",
+    "platforms": [
+      "Max"
+    ],
+    "genre": "Animation / Sci-Fi Comedy",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Adult-adjacent sci-fi comedy sometimes watched by older kids; general reputation, not independently verified."
+  },
+  {
+    "name": "Camp Snoopy",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Gentle Peanuts-franchise summer-camp series; similar calm pacing to other Peanuts adaptations."
+  },
+  {
+    "name": "Snoopy Presents: Welcome Home, Franklin",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Peanuts-franchise special; similar calm classic pacing to other Peanuts content."
+  },
+  {
+    "name": "Pinecone & Pony",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation / Fantasy Adventure",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Fantasy-adventure friendship story; general reputation, not independently verified."
+  },
+  {
+    "name": "City of Ghosts",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Documentary Hybrid",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Mockumentary-style show exploring local history; calmer, dialogue-driven pacing."
+  },
+  {
+    "name": "Ridley Jones: Mission Christmas",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Problem Solving",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Ridley Jones holiday special; similar pacing to the flagship series."
+  },
+  {
+    "name": "Sesame Street: Not Too Late with Elmo",
+    "platforms": [
+      "Max"
+    ],
+    "genre": "Live Action / Talk Show Parody",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Talk-show parody format for kids; general reputation, not independently verified."
+  },
+  {
+    "name": "The Chicken Squad",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Animation / Mystery",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Preschool mystery-adventure format; general reputation, not independently verified."
+  },
+  {
+    "name": "Marvel's Hulk and the Agents of S.M.A.S.H. (Preschool Cut)",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Animation / Superhero",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Preschool-adapted superhero content; general reputation, not independently verified."
+  },
+  {
+    "name": "PAW Patrol: The Mighty Movie (Series Tie-in Shorts)",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Action",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Movie tie-in shorts continuing the flagship rescue-team format and energetic pacing."
+  },
+  {
+    "name": "Ada Twist's Science Squad",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Animation / Educational Science",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Ada Twist franchise extension; similar curiosity-led educational pacing."
+  },
+  {
+    "name": "Mecha Builders: Full Episodes",
+    "platforms": [
+      "Max"
+    ],
+    "genre": "Animation / STEM",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Sesame Workshop STEM-building show; similar structured educational pacing to Sesame Street spin-offs."
+  },
+  {
+    "name": "Frog and Toad: Storybook Season",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation / Storybook",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 1,
+    "confidence": "Medium",
+    "notes": "Extension of the gentle Frog and Toad adaptation; similarly slow, calm pacing."
+  },
+  {
+    "name": "Eva the Owlet",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Gentle forest-friendship preschool show; general reputation, not independently verified."
+  },
+  {
+    "name": "Duck & Goose",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Gentle picture-book adaptation; general reputation, not independently verified."
+  },
+  {
+    "name": "Interrupting Chicken and Friends",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation / Storybook",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Storybook-anthology format; general reputation, not independently verified."
+  },
+  {
+    "name": "Charlie's Colorforms City",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Animation / Educational",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Simple shapes-and-colors preschool format; general reputation, not independently verified."
+  },
+  {
+    "name": "Suzy's Zoo: Daisy Days",
+    "platforms": [
+      "Amazon Prime"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Gentle friendship-themed preschool show; general reputation, not independently verified."
+  },
+  {
+    "name": "Dino Dana",
+    "platforms": [
+      "Amazon Prime"
+    ],
+    "genre": "Live Action / Educational Science",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Live-action dinosaur-science hybrid; general reputation, not independently verified."
+  },
+  {
+    "name": "Dino Dex",
+    "platforms": [
+      "Amazon Prime"
+    ],
+    "genre": "Live Action / Educational Science",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Dino Dana spin-off; similar live-action science pacing."
+  },
+  {
+    "name": "The Bureau of Magical Things",
+    "platforms": [
+      "Amazon Prime"
+    ],
+    "genre": "Live Action / Fantasy",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Tween fantasy drama; general reputation, not independently verified."
+  },
+  {
+    "name": "Danger Force",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Live Action / Superhero Comedy",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Live-action superhero sitcom spin-off of Henry Danger; general reputation, not independently verified."
+  },
+  {
+    "name": "The Really Loud House",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Live Action / Sitcom",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Live-action adaptation of The Loud House; sitcom pacing rather than the animated original's chaos."
+  },
+  {
+    "name": "SpongeBob's Big Birthday Blowout (Specials)",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "SpongeBob special episode; similar high-energy slapstick pacing to the flagship series."
+  },
+  {
+    "name": "Kamp Koral: SpongeBob's Under Years",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 5,
+    "ageMax": 9,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "SpongeBob prequel spin-off aimed at younger viewers; somewhat gentler pacing than the flagship show."
+  },
+  {
+    "name": "The Patrick Star Show",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "SpongeBob spin-off variety show; general reputation as high-energy and chaotic, similar to its parent franchise."
+  },
+  {
+    "name": "Rocket Power",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Sports Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Extreme-sports themed classic Nicktoon; general reputation, not independently verified."
+  },
+  {
+    "name": "Hey Arnold!",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Classic slice-of-life Nicktoon with slower, more narrative pacing than contemporary peers."
+  },
+  {
+    "name": "The Wild Thornberrys",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Adventure",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Classic wildlife-adventure Nicktoon; general reputation, not independently verified."
+  },
+  {
+    "name": "As Told by Ginger",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Classic slice-of-life Nicktoon with slower, dialogue-driven pacing."
+  },
+  {
+    "name": "CatDog",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Classic slapstick Nicktoon; general reputation, not independently verified."
+  },
+  {
+    "name": "The Angry Beavers",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Classic absurdist Nicktoon comedy; general reputation, not independently verified."
+  },
+  {
+    "name": "Rocko's Modern Life",
+    "platforms": [
+      "Paramount+"
+    ],
+    "genre": "Animation / Comedy",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Classic surreal Nicktoon comedy; general reputation, not independently verified."
+  },
+  {
+    "name": "Doug",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Classic slice-of-life animated show; slower, narration-driven pacing typical of its era."
+  },
+  {
+    "name": "Recess",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation / Slice-of-life",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Classic playground slice-of-life comedy; general reputation, not independently verified."
+  },
+  {
+    "name": "Kim Possible",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation / Action Comedy",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Classic action-comedy hybrid; general reputation, not independently verified."
+  },
+  {
+    "name": "The Proud Family",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Animation / Sitcom Comedy",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Classic family-sitcom-style animated comedy; general reputation, not independently verified."
+  },
+  {
+    "name": "Lizzie McGuire",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Live Action / Sitcom",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Classic tween sitcom with narration asides; slower dialogue-driven pacing."
+  },
+  {
+    "name": "That's So Raven",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Live Action / Sitcom",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Classic tween sitcom; standard multi-camera sitcom pacing with laugh track."
+  },
+  {
+    "name": "Even Stevens",
+    "platforms": [
+      "Disney+"
+    ],
+    "genre": "Live Action / Sitcom",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Classic tween sitcom; standard multi-camera sitcom pacing with laugh track."
+  },
+  {
+    "name": "Chip and Potato: Holiday Special",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 1,
+    "sensory": 1,
+    "confidence": "Medium",
+    "notes": "Holiday special extension of the gentle Chip and Potato format; similarly calm, low-stimulation pacing."
+  },
+  {
+    "name": "Ricky Zoom",
+    "platforms": [
+      "Nick Jr",
+      "Netflix"
+    ],
+    "genre": "Vehicle Adventure",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 4,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Common Sense Media and parent reviews note bold, fast-paced motorbike action; some reviewers flag scenes as too fast for very young viewers."
+  },
+  {
+    "name": "The Fungies!",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Comedy / Science",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Reviewers describe energetic but accessible pacing, bright whimsical animation, and no scary or intense moments."
+  },
+  {
+    "name": "Kitty Is Not a Cat",
+    "platforms": [
+      "Netflix",
+      "YouTube"
+    ],
+    "genre": "Comedy",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Whimsical ensemble comedy about a girl raised by cats; general reputation, not independently verified via pacing-specific review sources."
+  }
+]
