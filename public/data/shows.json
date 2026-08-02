@@ -8115,5 +8115,54 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Whimsical ensemble comedy about a girl raised by cats; general reputation, not independently verified via pacing-specific review sources."
+  },
+  {
+    "name": "Zoboomafoo",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Educational / Nature",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Classic Kratt Brothers preschool nature show mixing live-action animal segments with claymation; reviews describe it as a 'fun and energetic learning environment' but structured with standard PBS Kids preschool pacing. General knowledge plus review descriptions, not independently verified against scene-length data."
+  },
+  {
+    "name": "Nella the Princess Knight",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+"
+    ],
+    "genre": "Fantasy Adventure",
+    "ageMin": 2,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Reviews describe the pacing as 'steady' and well-paced for short attention spans, with action scenes praised for staying clear rather than disorienting. Bright fantasy visuals and knight-quest storylines push novelty and sensory slightly above the calmest tier, but conflict stays low-stress with no scary moments."
+  },
+  {
+    "name": "WordGirl",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Superhero Comedy / Educational",
+    "ageMin": 6,
+    "ageMax": 9,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "The creator has described it as a fast-paced action adventure that 'zips along at a breakneck pace' for its 6-8 target audience's processing speed; Common Sense Media parent reviews flag cartoon violence and sassy humor beyond typical preschool comfort."
   }
 ]
