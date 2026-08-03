@@ -5,9 +5,7 @@ import React, { useMemo, useState, useEffect } from "react";
    bg: cool pale sage paper (not cream)
    ink: deep forest-charcoal
    tiers: teal (low) / amber (moderate) / coral (high)
-   display: Fredoka (rounded, warm, dad-brand friendly)
-   data: Space Mono (meter/readout feel)
-   body: Work Sans
+   font: Libre Baskerville (display, body, and data)
 ---------------------------------------------- */
 const TOKENS = {
   bg: "#EEF2ED",
@@ -76,7 +74,7 @@ function ShowCard({ show }) {
         <div>
           <h3
             className="text-lg leading-snug"
-            style={{ fontFamily: "'Fredoka', sans-serif", color: TOKENS.ink }}
+            style={{ fontFamily: "'Libre Baskerville', serif", color: TOKENS.ink }}
           >
             {show.name}
           </h3>
@@ -86,7 +84,7 @@ function ShowCard({ show }) {
         </div>
         <span
           className="shrink-0 rounded-full px-2.5 py-1 text-xs font-semibold"
-          style={{ backgroundColor: colors.bg, color: colors.fg, fontFamily: "'Space Mono', monospace" }}
+          style={{ backgroundColor: colors.bg, color: colors.fg, fontFamily: "'Libre Baskerville', serif" }}
         >
           {tier}
         </span>
@@ -105,7 +103,7 @@ function ShowCard({ show }) {
       </div>
 
       <div className="flex items-center justify-between text-xs" style={{ color: TOKENS.inkMuted }}>
-        <span style={{ fontFamily: "'Space Mono', monospace" }}>
+        <span style={{ fontFamily: "'Libre Baskerville', serif" }}>
           Score {total}/25
         </span>
         <button
@@ -123,7 +121,7 @@ function ShowCard({ show }) {
           style={{ backgroundColor: TOKENS.surfaceAlt, color: TOKENS.ink }}
         >
           <p className="mb-2">{show.notes}</p>
-          <div className="grid grid-cols-5 gap-2 text-xs" style={{ color: TOKENS.inkMuted, fontFamily: "'Space Mono', monospace" }}>
+          <div className="grid grid-cols-5 gap-2 text-xs" style={{ color: TOKENS.inkMuted, fontFamily: "'Libre Baskerville', serif" }}>
             <div>Speed {show.speed}</div>
             <div>Emotion {show.emotional}</div>
             <div>Pacing {show.pacing}</div>
@@ -140,7 +138,7 @@ function ShowCard({ show }) {
 }
 
 const TABS = [
-  { id: "database", label: "Shows" },
+  { id: "database", label: "All Shows" },
   { id: "recommendations", label: "Recommendations" },
   { id: "avoid", label: "Avoid" },
 ];
@@ -212,10 +210,10 @@ export default function StimulationDatabase() {
   return (
     <div
       className="min-h-screen w-full"
-      style={{ backgroundColor: TOKENS.bg, fontFamily: "'Work Sans', sans-serif" }}
+      style={{ backgroundColor: TOKENS.bg, fontFamily: "'Libre Baskerville', serif" }}
     >
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
         input:focus, select:focus, button:focus-visible { outline: none; box-shadow: 0 0 0 3px ${TOKENS.lowBg}; }
       `}</style>
 
@@ -310,7 +308,7 @@ export default function StimulationDatabase() {
             className="mt-6 rounded-2xl border p-10 text-center"
             style={{ borderColor: TOKENS.line, backgroundColor: TOKENS.surface, color: TOKENS.inkMuted }}
           >
-            <p style={{ fontFamily: "'Fredoka', sans-serif", fontSize: "1.1rem", color: TOKENS.ink }}>
+            <p style={{ fontFamily: "'Libre Baskerville', serif", fontSize: "1.1rem", color: TOKENS.ink }}>
               Loading shows…
             </p>
           </div>
@@ -321,7 +319,7 @@ export default function StimulationDatabase() {
             className="mt-6 rounded-2xl border p-10 text-center"
             style={{ borderColor: TOKENS.high, backgroundColor: TOKENS.highBg, color: TOKENS.high }}
           >
-            <p style={{ fontFamily: "'Fredoka', sans-serif", fontSize: "1.1rem" }}>
+            <p style={{ fontFamily: "'Libre Baskerville', serif", fontSize: "1.1rem" }}>
               Couldn't load the show data.
             </p>
             <p className="mt-1 text-sm">Check that /data/shows.json is reachable, then refresh.</p>
@@ -333,7 +331,7 @@ export default function StimulationDatabase() {
             className="mt-6 rounded-2xl border p-10 text-center"
             style={{ borderColor: TOKENS.line, backgroundColor: TOKENS.surface, color: TOKENS.inkMuted }}
           >
-            <p style={{ fontFamily: "'Fredoka', sans-serif", fontSize: "1.1rem", color: TOKENS.ink }}>
+            <p style={{ fontFamily: "'Libre Baskerville', serif", fontSize: "1.1rem", color: TOKENS.ink }}>
               No shows match that combination yet.
             </p>
             <p className="mt-1 text-sm">Try widening a filter — the database grows every week.</p>
