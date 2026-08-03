@@ -8164,5 +8164,169 @@
     "sensory": 3,
     "confidence": "High",
     "notes": "The creator has described it as a fast-paced action adventure that 'zips along at a breakneck pace' for its 6-8 target audience's processing speed; Common Sense Media parent reviews flag cartoon violence and sassy humor beyond typical preschool comfort."
+  },
+  {
+    "name": "Rosie's Rules",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Educational / Social Studies",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Common Sense Media names it a Common Sense Selection and describes a gentle bilingual civics show built around empathy, mindfulness and basic coping skills — steady preschool pacing, not fast-cut."
+  },
+  {
+    "name": "Lyla in the Loop",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Educational / Computational Thinking",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Common Sense Media (age 5+) calls it a wholesome STEM show about creative problem-solving with positive family dynamics; calm, think-time educational pacing typical of PBS Kids."
+  },
+  {
+    "name": "SuperKitties",
+    "platforms": [
+      "Disney Junior",
+      "Disney+"
+    ],
+    "genre": "Superhero / Preschool Action",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Common Sense Media notes mild adventure with characters never in real peril, but it is a bright, saturated superhero-action format and parents openly debate whether it is overstimulating for toddlers."
+  },
+  {
+    "name": "Sago Mini Friends",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Preschool / Social-Emotional",
+    "ageMin": 2,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Common Sense Media describes a sweet crew of animal friends modeling gratitude, patience and turn-taking; bright, bold animation and songs but gentle, low-conflict preschool pacing."
+  },
+  {
+    "name": "The Snoopy Show",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Comedy / Slice-of-life",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 1,
+    "confidence": "High",
+    "notes": "Reviewers describe it as 'deliberately low-key, nicely low-energy and thoroughly relaxing' with a gentle Peanuts worldview; only mild slapstick and no real peril."
+  },
+  {
+    "name": "Pete the Cat",
+    "platforms": [
+      "Amazon Prime Video"
+    ],
+    "genre": "Music / Slice-of-life",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Laid-back, jazz-inflected 'it's all good' tone with original music from Grammy winners Costello and Krall; reviewers highlight mellow, positive stories rather than fast action."
+  },
+  {
+    "name": "Sunny Day",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+"
+    ],
+    "genre": "Adventure / Slice-of-life",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Common Sense Media calls it a gentle social-emotional show but flags bright 'pink-and-purple sparkly animation' and upbeat pop numbers that push its visual/audio intensity above the calmest tier."
+  },
+  {
+    "name": "44 Cats",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+"
+    ],
+    "genre": "Musical / Comedy",
+    "ageMin": 4,
+    "ageMax": 7,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Rainbow-produced musical comedy (TV-Y7) with catchy pop songs and recurring feline-bully conflict; Common Sense Media reviewers split on whether the antics suit younger preschoolers."
+  },
+  {
+    "name": "Trulli Tales",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Fantasy / Comedy Adventure",
+    "ageMin": 4,
+    "ageMax": 7,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Colorful CGI fantasy-comedy set in the magical Trulli houses of Puglia, with food-magic mishaps driving the plots. General reputation, not independently verified against detailed pacing data."
+  },
+  {
+    "name": "Bakugan: Battle Planet",
+    "platforms": [
+      "Netflix",
+      "Cartoon Network"
+    ],
+    "genre": "Action / Anime",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 5,
+    "confidence": "High",
+    "notes": "Common Sense Media describes battles as 'intense and visually jarring,' with oversized monsters crashing, explosions, and the animation shaking on screen; loud, high-stimulation action built around toy tie-ins."
   }
 ]
