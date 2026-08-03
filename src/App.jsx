@@ -202,7 +202,10 @@ function ShowCard({ show }) {
 const TABS = [
   { id: "database", label: "Shows" },
   { id: "recommendations", label: "Recommendations" },
+  { id: "avoid", label: "Avoid" },
 ];
+
+const AVOID_THRESHOLD = 23;
 
 export default function StimulationDatabase() {
   const [SHOWS, setShows] = useState([]);
@@ -243,6 +246,7 @@ export default function StimulationDatabase() {
 
   const baseList = useMemo(() => {
     if (activeTab === "recommendations") return SHOWS.filter((s) => s.recommended);
+    if (activeTab === "avoid") return SHOWS.filter((s) => scoreOf(s) >= AVOID_THRESHOLD);
     return SHOWS;
   }, [activeTab, SHOWS]);
 
@@ -262,8 +266,8 @@ export default function StimulationDatabase() {
           })();
         return matchesQuery && matchesPlatform && matchesTier && matchesAge;
       })
-      .sort((a, b) => scoreOf(a) - scoreOf(b));
-  }, [baseList, query, platform, ageBucket, tier]);
+      .sort((a, b) => (activeTab === "avoid" ? scoreOf(b) - scoreOf(a) : scoreOf(a) - scoreOf(b)));
+  }, [baseList, query, platform, ageBucket, tier, activeTab]);
 
   return (
     <div
@@ -314,6 +318,13 @@ export default function StimulationDatabase() {
             );
           })}
         </div>
+
+        {activeTab === "avoid" && (
+          <p className="mt-4 text-sm" style={{ color: TOKENS.high }}>
+            These are the shows you should avoid with your little ones, which is everything rated{" "}
+            {AVOID_THRESHOLD} or higher on the stimulation scale.
+          </p>
+        )}
       </header>
 
       <main className="max-w-6xl mx-auto px-6 pb-20">

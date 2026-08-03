@@ -146,9 +146,9 @@
     "ageMin": 1,
     "ageMax": 5,
     "speed": 5,
-    "emotional": 2,
+    "emotional": 3,
     "pacing": 5,
-    "novelty": 3,
+    "novelty": 5,
     "sensory": 5,
     "confidence": "High (creator-confirmed)",
     "notes": "Loud, high-energy, constant motion and exaggerated reactions throughout. Adjusted to High per creator review."
@@ -8328,5 +8328,55 @@
     "sensory": 5,
     "confidence": "High",
     "notes": "Common Sense Media describes battles as 'intense and visually jarring,' with oversized monsters crashing, explosions, and the animation shaking on screen; loud, high-stimulation action built around toy tie-ins."
+  },
+  {
+    "name": "Italian Brain Rot",
+    "platforms": [
+      "YouTube",
+      "TikTok"
+    ],
+    "genre": "Absurdist AI-Generated Meme (short-form)",
+    "ageMin": 6,
+    "ageMax": 12,
+    "speed": 5,
+    "emotional": 5,
+    "pacing": 5,
+    "novelty": 5,
+    "sensory": 5,
+    "confidence": "High",
+    "notes": "News coverage (RTE, ABC News, Fortune) documents AI-generated mashup characters (Tralalero Tralala, Bombardino Crocodilo) with shouted Italian-accented voiceovers and rapid meme-style edits; reporting also flags dark real-world references buried in some character 'lore' and algorithmic escalation into more extreme content."
+  },
+  {
+    "name": "Subway Surfers Brainrot Compilations",
+    "platforms": [
+      "YouTube",
+      "TikTok"
+    ],
+    "genre": "Sludge / Overstimulation Content (short-form)",
+    "ageMin": 6,
+    "ageMax": 12,
+    "speed": 5,
+    "emotional": 2,
+    "pacing": 5,
+    "novelty": 2,
+    "sensory": 5,
+    "confidence": "High",
+    "notes": "Documented on Wikipedia and Know Your Meme as 'sludge content': split-screen endless-runner gameplay layered under unrelated clips purely to hold attention through constant visual motion rather than narrative variety; widely cited in attention-span discussions about Gen Alpha viewing habits."
+  },
+  {
+    "name": "Sprunki (Horror Mod Content)",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Horror Bait-and-Switch (fan content)",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 4,
+    "emotional": 5,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Unauthorized 'Sprunki babies' knockoffs use cheerful, PBS-Kids-style thumbnails that bait-and-switch into jump-scare horror mode and mutilated character depictions partway through; reporting cites parent accounts of resulting nightmares, and Scratch banned Sprunki content outright as unmoderatable."
   }
 ]
