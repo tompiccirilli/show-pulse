@@ -45,64 +45,6 @@ function tierColors(tier) {
   return { fg: TOKENS.high, bg: TOKENS.highBg };
 }
 
-// deterministic pseudo-random from a string, so each show's pulse is stable across renders
-function seededRandom(seed) {
-  let h = 0;
-  for (let i = 0; i < seed.length; i++) {
-    h = (h << 5) - h + seed.charCodeAt(i);
-    h |= 0;
-  }
-  return function () {
-    h ^= h << 13;
-    h ^= h >>> 17;
-    h ^= h << 5;
-    return ((h >>> 0) % 1000) / 1000;
-  };
-}
-
-// Builds an SVG path representing the show's "pulse" — flat & gentle for calm
-// shows, tight & spiky for high-stimulation ones.
-function pulsePath(show) {
-  const total = scoreOf(show);
-  const rand = seededRandom(show.name);
-  const width = 220;
-  const height = 44;
-  const midY = height / 2;
-  const peakCount = Math.max(2, Math.round(total / 2.2));
-  const amplitude = 3 + (show.emotional + show.sensory) * 2.6;
-  const step = width / peakCount;
-
-  let d = `M 0 ${midY}`;
-  for (let i = 0; i < peakCount; i++) {
-    const x1 = step * i + step * 0.35;
-    const x2 = step * i + step * 0.65;
-    const xEnd = step * (i + 1);
-    const dir = i % 2 === 0 ? -1 : 1;
-    const jitter = (rand() - 0.5) * amplitude * 0.5;
-    const y = midY + dir * (amplitude + jitter);
-    d += ` Q ${x1} ${y}, ${(x1 + x2) / 2} ${midY}`;
-    d += ` Q ${x2} ${midY - dir * (amplitude + jitter) * 0.15}, ${xEnd} ${midY}`;
-  }
-  return d;
-}
-
-function Pulse({ show }) {
-  const tier = tierOf(scoreOf(show));
-  const { fg } = tierColors(tier);
-  return (
-    <svg viewBox="0 0 220 44" className="w-full h-10" aria-hidden="true">
-      <path
-        d={pulsePath(show)}
-        fill="none"
-        stroke={fg}
-        strokeWidth="2.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
 function Chip({ active, onClick, children, color }) {
   return (
     <button
@@ -149,8 +91,6 @@ function ShowCard({ show }) {
           {tier}
         </span>
       </div>
-
-      <Pulse show={show} />
 
       <div className="flex flex-wrap gap-1.5">
         {show.platforms.map((p) => (
@@ -280,15 +220,9 @@ export default function StimulationDatabase() {
       `}</style>
 
       <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
-        <h1
-          className="text-4xl sm:text-5xl"
-          style={{ fontFamily: "'Fredoka', sans-serif", color: TOKENS.ink }}
-        >
-          The Show Pulse
-        </h1>
-        <p className="mt-3 max-w-2xl text-base sm:text-lg" style={{ color: TOKENS.inkMuted }}>
-          How much a show asks of your child's brain? Filter by platform, age, and stimulation to
-          find the right shows for your child.
+        <p className="max-w-2xl text-base sm:text-lg" style={{ color: TOKENS.inkMuted }}>
+          How much does a show asks of your child's brain? Filter by platform, age, and
+          stimulation to find the right shows for your child.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-2">
