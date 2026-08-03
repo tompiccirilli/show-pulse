@@ -20,6 +20,8 @@ const TOKENS = {
   moderateBg: "#F6E9D5",
   high: "#B94636",
   highBg: "#F5DFDA",
+  age: "#3D5A80",
+  ageBg: "#E3E9F5",
 };
 
 const AGE_BUCKETS = [
@@ -41,6 +43,11 @@ function tierColors(tier) {
   if (tier === "Low") return { fg: TOKENS.low, bg: TOKENS.lowBg };
   if (tier === "Moderate") return { fg: TOKENS.moderate, bg: TOKENS.moderateBg };
   return { fg: TOKENS.high, bg: TOKENS.highBg };
+}
+function tierEmoji(tier) {
+  if (tier === "Low") return "🟢";
+  if (tier === "Moderate") return "🟡";
+  return "🔴";
 }
 
 function Chip({ active, onClick, children, color }) {
@@ -79,14 +86,25 @@ function ShowCard({ show }) {
             {show.name}
           </h3>
           <p className="text-sm mt-0.5" style={{ color: TOKENS.inkMuted }}>
-            {show.genre} · Ages {show.ageMin}–{show.ageMax}
+            {show.genre}
           </p>
         </div>
         <span
           className="shrink-0 rounded-full px-2.5 py-1 text-xs font-semibold"
           style={{ backgroundColor: colors.bg, color: colors.fg, fontFamily: "'Libre Baskerville', serif" }}
+          title={`${tier} stimulation — score ${total}/25`}
+          aria-label={`${tier} stimulation — score ${total}/25`}
         >
-          {tier}
+          {tierEmoji(tier)} {total}/25
+        </span>
+      </div>
+
+      <div>
+        <span
+          className="text-xs px-2 py-1 rounded-md"
+          style={{ backgroundColor: TOKENS.ageBg, color: TOKENS.age }}
+        >
+          Ages {show.ageMin}–{show.ageMax}
         </span>
       </div>
 
@@ -102,10 +120,7 @@ function ShowCard({ show }) {
         ))}
       </div>
 
-      <div className="flex items-center justify-between text-xs" style={{ color: TOKENS.inkMuted }}>
-        <span style={{ fontFamily: "'Libre Baskerville', serif" }}>
-          Score {total}/25
-        </span>
+      <div className="text-xs" style={{ color: TOKENS.inkMuted }}>
         <button
           onClick={() => setOpen((v) => !v)}
           className="underline underline-offset-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded"
@@ -120,17 +135,28 @@ function ShowCard({ show }) {
           className="text-sm rounded-xl p-3 leading-relaxed"
           style={{ backgroundColor: TOKENS.surfaceAlt, color: TOKENS.ink }}
         >
-          <p className="mb-2">{show.notes}</p>
-          <div className="grid grid-cols-5 gap-2 text-xs" style={{ color: TOKENS.inkMuted, fontFamily: "'Libre Baskerville', serif" }}>
-            <div>Speed {show.speed}</div>
-            <div>Emotion {show.emotional}</div>
-            <div>Pacing {show.pacing}</div>
-            <div>Novelty {show.novelty}</div>
-            <div>Sensory {show.sensory}</div>
+          <p className="mb-2 pb-2" style={{ borderBottom: `1px solid ${TOKENS.line}` }}>{show.notes}</p>
+          <div className="flex flex-col gap-1 text-xs" style={{ fontFamily: "'Libre Baskerville', serif" }}>
+            {[
+              ["Speed", show.speed],
+              ["Emotion", show.emotional],
+              ["Pacing", show.pacing],
+              ["Novelty", show.novelty],
+              ["Sensory", show.sensory],
+            ].map(([label, value]) => (
+              <div key={label} className="flex justify-between">
+                <span style={{ color: TOKENS.inkMuted }}>{label}</span>
+                <span style={{ color: TOKENS.ink, fontWeight: 700 }}>{value}</span>
+              </div>
+            ))}
           </div>
-          <p className="mt-2 text-xs" style={{ color: TOKENS.inkMuted }}>
-            Confidence: {show.confidence}
-          </p>
+          <div
+            className="flex justify-between mt-2 pt-2 text-xs"
+            style={{ borderTop: `1px solid ${TOKENS.line}`, fontFamily: "'Libre Baskerville', serif" }}
+          >
+            <span style={{ color: TOKENS.inkMuted }}>Confidence</span>
+            <span style={{ color: TOKENS.ink, fontWeight: 700 }}>{show.confidence}</span>
+          </div>
         </div>
       )}
     </div>
@@ -139,8 +165,8 @@ function ShowCard({ show }) {
 
 const TABS = [
   { id: "database", label: "All Shows" },
-  { id: "recommendations", label: "Recommendations" },
-  { id: "avoid", label: "Avoid" },
+  { id: "recommendations", label: "Parent Picks" },
+  { id: "avoid", label: "Overstimulating" },
 ];
 
 const AVOID_THRESHOLD = 23;
@@ -195,7 +221,7 @@ export default function StimulationDatabase() {
         const sTier = tierOf(total);
         const matchesQuery = s.name.toLowerCase().includes(query.toLowerCase());
         const matchesPlatform = platform === "All" || s.platforms.includes(platform);
-        const matchesTier = tier === "All" || sTier === tier;
+        const matchesTier = activeTab !== "database" || tier === "All" || sTier === tier;
         const matchesAge =
           ageBucket === "All" ||
           (() => {
@@ -219,49 +245,11 @@ export default function StimulationDatabase() {
 
       <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
         <p className="max-w-2xl text-base sm:text-lg" style={{ color: TOKENS.inkMuted }}>
-          How much does a show asks of your child's brain? Filter by platform, age, and
-          stimulation to find the right shows for your child.
+          <strong>Not all children's TV affects attention in the same way.</strong> Discover shows based on their stimulation level so you can choose what best suits your child.
         </p>
 
-        <div className="mt-6 flex flex-wrap gap-2">
-          {["Low", "Moderate", "High"].map((t) => (
-            <Chip key={t} active={tier === t} onClick={() => setTier(tier === t ? "All" : t)} color={tierColors(t)}>
-              {t} stimulation
-            </Chip>
-          ))}
-        </div>
-
-        <div className="mt-8 flex gap-1 border-b" style={{ borderColor: TOKENS.line }}>
-          {TABS.map((t) => {
-            const active = activeTab === t.id;
-            return (
-              <button
-                key={t.id}
-                onClick={() => setActiveTab(t.id)}
-                className="px-4 py-2.5 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded-t-lg"
-                style={{
-                  color: active ? TOKENS.ink : TOKENS.inkMuted,
-                  borderBottom: active ? `2px solid ${TOKENS.low}` : "2px solid transparent",
-                  marginBottom: "-1px",
-                }}
-              >
-                {t.label}
-              </button>
-            );
-          })}
-        </div>
-
-        {activeTab === "avoid" && (
-          <p className="mt-4 text-sm" style={{ color: TOKENS.high }}>
-            These are the shows you should avoid with your little ones, which is everything rated{" "}
-            {AVOID_THRESHOLD} or higher on the stimulation scale.
-          </p>
-        )}
-      </header>
-
-      <main className="max-w-6xl mx-auto px-6 pb-20">
         <div
-          className="rounded-2xl border p-4 sm:p-5 flex flex-col sm:flex-row gap-3 sm:items-center sticky top-4 z-10"
+          className="mt-6 rounded-2xl border p-4 sm:p-5 flex flex-col sm:flex-row gap-3 sm:items-center sticky top-4 z-10"
           style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}
         >
           <input
@@ -299,7 +287,39 @@ export default function StimulationDatabase() {
           </select>
         </div>
 
-        <div className="mt-4 text-sm" style={{ color: TOKENS.inkMuted }}>
+        <div className="mt-6 flex gap-1 border-b" style={{ borderColor: TOKENS.line }}>
+          {TABS.map((t) => {
+            const active = activeTab === t.id;
+            return (
+              <button
+                key={t.id}
+                onClick={() => setActiveTab(t.id)}
+                className="px-4 py-2.5 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded-t-lg"
+                style={{
+                  color: active ? TOKENS.ink : TOKENS.inkMuted,
+                  borderBottom: active ? `2px solid ${TOKENS.low}` : "2px solid transparent",
+                  marginBottom: "-1px",
+                }}
+              >
+                {t.label}
+              </button>
+            );
+          })}
+        </div>
+      </header>
+
+      <main className="max-w-6xl mx-auto px-6 pb-20">
+        {activeTab === "database" && (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {["Low", "Moderate", "High"].map((t) => (
+              <Chip key={t} active={tier === t} onClick={() => setTier(tier === t ? "All" : t)} color={tierColors(t)}>
+                {tierEmoji(t)} {t} stimulation
+              </Chip>
+            ))}
+          </div>
+        )}
+
+        <div className="mt-3 text-sm" style={{ color: TOKENS.inkMuted }}>
           {loadState === "ready" ? `Showing ${filtered.length} of ${SHOWS.length} shows` : ""}
         </div>
 
