@@ -166,7 +166,7 @@ function ShowCard({ show }) {
 const TABS = [
   { id: "database", label: "All Shows" },
   { id: "recommendations", label: "Parent Picks" },
-  { id: "avoid", label: "Overstimulating" },
+  { id: "avoid", label: "Avoid" },
 ];
 
 const AVOID_THRESHOLD = 23;
@@ -248,8 +248,30 @@ export default function StimulationDatabase() {
           <strong>Not all children's TV affects attention in the same way.</strong> Discover shows based on their stimulation level so you can choose what best suits your child.
         </p>
 
+        <div className="mt-8 flex gap-1 border-b" style={{ borderColor: TOKENS.line }}>
+          {TABS.map((t) => {
+            const active = activeTab === t.id;
+            return (
+              <button
+                key={t.id}
+                onClick={() => setActiveTab(t.id)}
+                className="px-4 py-2.5 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded-t-lg"
+                style={{
+                  color: active ? TOKENS.ink : TOKENS.inkMuted,
+                  borderBottom: active ? `2px solid ${TOKENS.low}` : "2px solid transparent",
+                  marginBottom: "-1px",
+                }}
+              >
+                {t.label}
+              </button>
+            );
+          })}
+        </div>
+      </header>
+
+      <main className="max-w-6xl mx-auto px-6 pb-20">
         <div
-          className="mt-6 rounded-2xl border p-4 sm:p-5 flex flex-col sm:flex-row gap-3 sm:items-center sticky top-4 z-10"
+          className="rounded-2xl border p-4 sm:p-5 flex flex-col sm:flex-row gap-3 sm:items-center sticky top-4 z-10"
           style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}
         >
           <input
@@ -287,28 +309,6 @@ export default function StimulationDatabase() {
           </select>
         </div>
 
-        <div className="mt-6 flex gap-1 border-b" style={{ borderColor: TOKENS.line }}>
-          {TABS.map((t) => {
-            const active = activeTab === t.id;
-            return (
-              <button
-                key={t.id}
-                onClick={() => setActiveTab(t.id)}
-                className="px-4 py-2.5 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded-t-lg"
-                style={{
-                  color: active ? TOKENS.ink : TOKENS.inkMuted,
-                  borderBottom: active ? `2px solid ${TOKENS.low}` : "2px solid transparent",
-                  marginBottom: "-1px",
-                }}
-              >
-                {t.label}
-              </button>
-            );
-          })}
-        </div>
-      </header>
-
-      <main className="max-w-6xl mx-auto px-6 pb-20">
         {activeTab === "database" && (
           <div className="mt-4 flex flex-wrap gap-2">
             {["Low", "Moderate", "High"].map((t) => (
@@ -320,7 +320,12 @@ export default function StimulationDatabase() {
         )}
 
         <div className="mt-3 text-sm" style={{ color: TOKENS.inkMuted }}>
-          {loadState === "ready" ? `Showing ${filtered.length} of ${SHOWS.length} shows` : ""}
+          {loadState === "ready" && (
+            <>
+              Showing <span style={{ fontWeight: 700 }}>{filtered.length}</span> of{" "}
+              {SHOWS.length} shows
+            </>
+          )}
         </div>
 
         {loadState === "loading" && (
