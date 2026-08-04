@@ -1,0 +1,137 @@
+name: Monthly show data cleanup
+
+# Runs at 06:00 UTC on the 1st of every month. Adjust the cron schedule to
+# taste — https://crontab.guru is handy for that.
+#
+# This job can DELETE entries from public/data/shows.json, so unlike the
+# weekly add-shows job it never pushes straight to main — it always opens a
+# Pull Request so a human reviews what's being removed before it merges.
+#
+# Checking every show's availability via web search every month isn't
+# practical within a reasonable time/budget, so the "unavailable" check only
+# samples a rotating batch (~40 shows) each run rather than the whole
+# catalog. Duplicate detection is cheap (no web search needed) and always
+# covers every entry.
+on:
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch: {} # lets you trigger it manually from the GitHub Actions tab
+
+jobs:
+  cleanup-shows:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run monthly duplicate + relevance cleanup
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "Read RUBRIC.md for context, then read public/data/shows.json in full. \
+          Do two cleanup passes on it: \
+          \
+          PASS 1 - Duplicates: Find every pair or group of entries that are the same show, \
+          matching case-insensitively and ignoring parenthetical suffixes like '(UK)' or \
+          '(Selected)', per RUBRIC.md's own duplicate rule. For each duplicate group, keep \
+          exactly one entry and delete the rest. When choosing which to keep: prefer higher \
+          confidence (High > Medium > 'Medium (user-supplied)'), then prefer the one with \
+          'recommended': true, then keep whichever appears first in the file. \
+          \
+          PASS 2 - Unavailable shows: Randomly select up to 40 entries from the file. For each, \
+          use WebSearch to check whether it is still available ANYWHERE right now — any \
+          streaming platform, broadcast channel, or YouTube — not just the platforms already \
+          listed on its entry, since a show that moved platforms is still available and must \
+          stay. Only delete a show if you find clear evidence it has been fully discontinued \
+          with no active distribution anywhere. Do NOT remove a show just because it is old or \
+          finished its original run — classic shows (Mister Rogers, Arthur, Sesame Street, \
+          Franklin, etc.) remain available via reruns, streaming, or YouTube archives and must \
+          stay. When in doubt, keep the show. \
+          \
+          After both passes, public/data/shows.json must still be valid JSON, no trailing \
+          commas, same field structure and 2-space indentation as before, and the array must \
+          not have grown (only Read/Edit — never add new shows in this job). \
+          \
+          Finally, write a short markdown changelog of every change you made this run — for \
+          each removal, the show name and PASS 1 (duplicate, name it kept instead) or PASS 2 \
+          (unavailable, with the evidence found) — to /tmp/cleanup-summary.md. If nothing \
+          needed changing, write 'No changes needed this month.' to that file instead." \
+          --allowedTools "Read,Edit,WebSearch" \
+          --permission-mode acceptEdits \
+          --max-turns 120 \
+          --max-budget-usd 6.00
+
+      - name: Validate output before opening a PR
+        id: validate
+        run: |
+          if git diff --quiet public/data/shows.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to review this month."
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          before_count=$(git show HEAD:public/data/shows.json | node -e "let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>console.log(JSON.parse(d).length))")
+          after_count=$(node -e "console.log(JSON.parse(require('fs').readFileSync('public/data/shows.json','utf8')).length)")
+
+          node -e "
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('public/data/shows.json', 'utf8'));
+            if (!Array.isArray(data) || data.length === 0) {
+              console.error('Refusing to proceed: resulting file is not a non-empty array.');
+              process.exit(1);
+            }
+            const names = data.map(s => s.name.toLowerCase());
+            const dupes = names.filter((n, i) => names.indexOf(n) !== i);
+            if (dupes.length > 0) {
+              console.error('Refusing to proceed: duplicates remain after cleanup:', [...new Set(dupes)]);
+              process.exit(1);
+            }
+            console.log('Validation passed:', data.length, 'shows remain.');
+          "
+
+          if [ "$after_count" -gt "$before_count" ]; then
+            echo "Refusing to proceed: show count grew from $before_count to $after_count (this job should only remove shows)."
+            exit 1
+          fi
+          echo "Show count: $before_count -> $after_count"
+
+      - name: Open Pull Request
+        if: steps.validate.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "show-pulse-bot"
+          git config user.email "actions@github.com"
+
+          branch="automated/monthly-cleanup-$(date +%Y-%m-%d)"
+          git checkout -b "$branch"
+          git add public/data/shows.json
+          git commit -m "Monthly cleanup: remove duplicate/unavailable shows"
+          git push -u origin "$branch"
+
+          {
+            echo "**This is an automated PR that deletes database entries — please review carefully before merging.**"
+            echo ""
+            echo "Duplicates are matched by RUBRIC.md's own rule; unavailability is only accepted when a show was confirmed gone from every platform, not just because it's old."
+            echo ""
+            echo "## Changes"
+            cat /tmp/cleanup-summary.md
+          } > /tmp/pr-body.md
+
+          gh pr create \
+            --title "Monthly cleanup: $(date +%B\ %Y)" \
+            --body-file /tmp/pr-body.md \
+            --base main \
+            --head "$branch"

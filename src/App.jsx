@@ -190,6 +190,8 @@ export default function StimulationDatabase() {
   const [contentTag, setContentTag] = useState("All");
   const [sortDesc, setSortDesc] = useState(false);
 
+  const [lastUpdated, setLastUpdated] = useState(null);
+
   useEffect(() => {
     setSortDesc(activeTab === "avoid");
   }, [activeTab]);
@@ -210,6 +212,22 @@ export default function StimulationDatabase() {
       .catch((err) => {
         console.error("Failed to load show data:", err);
         if (!cancelled) setLoadState("error");
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch("https://api.github.com/repos/tompiccirilli/show-pulse/commits?path=public/data/shows.json&per_page=1")
+      .then((res) => (res.ok ? res.json() : Promise.reject(new Error("GitHub API request failed"))))
+      .then((commits) => {
+        const date = commits?.[0]?.commit?.author?.date;
+        if (!cancelled && date) setLastUpdated(date);
+      })
+      .catch((err) => {
+        console.error("Failed to load last-updated info:", err);
       });
     return () => {
       cancelled = true;
@@ -258,12 +276,28 @@ export default function StimulationDatabase() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
         input:focus, select:focus, button:focus-visible { outline: none; box-shadow: 0 0 0 3px ${TOKENS.lowBg}; }
+        @keyframes livePulse {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.4; }
+        }
+        .live-dot { animation: livePulse 2.4s ease-in-out infinite; }
+        @media (prefers-reduced-motion: reduce) {
+          .live-dot { animation: none; }
+        }
       `}</style>
 
       <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
         <p className="max-w-2xl text-base sm:text-lg" style={{ color: TOKENS.inkMuted }}>
           <strong>Not all children's TV affects attention in the same way.</strong> Discover shows based on their stimulation level so you can choose what best suits your child.
         </p>
+
+        {lastUpdated && SHOWS.length > 0 && (
+          <p className="mt-3 flex items-center gap-1.5 text-xs italic underline" style={{ color: TOKENS.inkMuted }}>
+            <span className="live-dot inline-block h-1.5 w-1.5 rounded-full" style={{ backgroundColor: TOKENS.low }} />
+            Tracking {SHOWS.length} shows · Latest addition: {SHOWS[SHOWS.length - 1].name} (added{" "}
+            {new Date(lastUpdated).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })})
+          </p>
+        )}
 
         <div className="mt-8 flex gap-1 border-b" style={{ borderColor: TOKENS.line }}>
           {TABS.map((t) => {
