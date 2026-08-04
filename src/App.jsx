@@ -31,6 +31,13 @@ const AGE_BUCKETS = [
   { label: "11+", min: 11, max: 18 },
 ];
 
+const CONTENT_TAGS = [
+  { id: "rainyDays", emoji: "🌧️", label: "Rainy Days" },
+  { id: "beforeBedtime", emoji: "🌙", label: "Before Bedtime" },
+  { id: "travel", emoji: "✈️", label: "Travel" },
+  { id: "familyTime", emoji: "👨‍👩‍👧", label: "Family Time" },
+];
+
 function scoreOf(s) {
   return s.speed + s.emotional + s.pacing + s.novelty + s.sensory;
 }
@@ -166,10 +173,10 @@ function ShowCard({ show }) {
 const TABS = [
   { id: "database", label: "All Shows" },
   { id: "recommendations", label: "Parent Picks" },
-  { id: "avoid", label: "Avoid" },
+  { id: "avoid", label: "Limit" },
 ];
 
-const AVOID_THRESHOLD = 23;
+const AVOID_THRESHOLD = 22;
 
 export default function StimulationDatabase() {
   const [SHOWS, setShows] = useState([]);
@@ -179,6 +186,13 @@ export default function StimulationDatabase() {
   const [platform, setPlatform] = useState("All");
   const [ageBucket, setAgeBucket] = useState("All");
   const [tier, setTier] = useState("All");
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [contentTag, setContentTag] = useState("All");
+  const [sortDesc, setSortDesc] = useState(false);
+
+  useEffect(() => {
+    setSortDesc(activeTab === "avoid");
+  }, [activeTab]);
 
   useEffect(() => {
     let cancelled = false;
@@ -205,6 +219,7 @@ export default function StimulationDatabase() {
   const platforms = useMemo(() => {
     const set = new Set();
     SHOWS.forEach((s) => s.platforms.forEach((p) => set.add(p)));
+    set.delete("TikTok");
     return ["All", ...Array.from(set).sort()];
   }, [SHOWS]);
 
@@ -222,16 +237,18 @@ export default function StimulationDatabase() {
         const matchesQuery = s.name.toLowerCase().includes(query.toLowerCase());
         const matchesPlatform = platform === "All" || s.platforms.includes(platform);
         const matchesTier = activeTab !== "database" || tier === "All" || sTier === tier;
+        const matchesContentTag =
+          activeTab !== "database" || contentTag === "All" || (s.tags || []).includes(contentTag);
         const matchesAge =
           ageBucket === "All" ||
           (() => {
             const bucket = AGE_BUCKETS.find((b) => b.label === ageBucket);
             return s.ageMin <= bucket.max && s.ageMax >= bucket.min;
           })();
-        return matchesQuery && matchesPlatform && matchesTier && matchesAge;
+        return matchesQuery && matchesPlatform && matchesTier && matchesContentTag && matchesAge;
       })
-      .sort((a, b) => (activeTab === "avoid" ? scoreOf(b) - scoreOf(a) : scoreOf(a) - scoreOf(b)));
-  }, [baseList, query, platform, ageBucket, tier, activeTab]);
+      .sort((a, b) => (sortDesc ? scoreOf(b) - scoreOf(a) : scoreOf(a) - scoreOf(b)));
+  }, [baseList, query, platform, ageBucket, tier, contentTag, sortDesc]);
 
   return (
     <div
@@ -271,62 +288,105 @@ export default function StimulationDatabase() {
 
       <main className="max-w-6xl mx-auto px-6 pb-20">
         <div
-          className="rounded-2xl border p-4 sm:p-5 flex flex-col sm:flex-row gap-3 sm:items-center sticky top-4 z-10"
+          className="rounded-2xl border p-4 sm:p-5 sticky top-4 z-10"
           style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}
         >
-          <input
-            type="text"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search by show name…"
-            className="flex-1 rounded-xl border px-4 py-2.5 text-sm bg-transparent"
-            style={{ borderColor: TOKENS.line, color: TOKENS.ink }}
-          />
-          <select
-            value={platform}
-            onChange={(e) => setPlatform(e.target.value)}
-            className="rounded-xl border px-3 py-2.5 text-sm"
-            style={{ borderColor: TOKENS.line, color: TOKENS.ink, backgroundColor: TOKENS.surface }}
+          <div className="flex flex-col sm:flex-row gap-3 sm:items-center">
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search by show name…"
+              className="flex-1 rounded-xl border px-4 py-2.5 text-sm bg-transparent"
+              style={{ borderColor: TOKENS.line, color: TOKENS.ink }}
+            />
+            <select
+              value={platform}
+              onChange={(e) => setPlatform(e.target.value)}
+              className="rounded-xl border px-3 py-2.5 text-sm"
+              style={{ borderColor: TOKENS.line, color: TOKENS.ink, backgroundColor: TOKENS.surface }}
+            >
+              {platforms.map((p) => (
+                <option key={p} value={p}>
+                  {p === "All" ? "All platforms" : p}
+                </option>
+              ))}
+            </select>
+            <select
+              value={ageBucket}
+              onChange={(e) => setAgeBucket(e.target.value)}
+              className="rounded-xl border px-3 py-2.5 text-sm"
+              style={{ borderColor: TOKENS.line, color: TOKENS.ink, backgroundColor: TOKENS.surface }}
+            >
+              <option value="All">All ages</option>
+              {AGE_BUCKETS.map((b) => (
+                <option key={b.label} value={b.label}>
+                  Ages {b.label}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div className="mt-3 text-sm" style={{ color: TOKENS.inkMuted }}>
+            {loadState === "ready" && (
+              <>
+                Showing <span style={{ fontWeight: 700 }}>{filtered.length}</span> of{" "}
+                {SHOWS.length} shows
+              </>
+            )}
+          </div>
+        </div>
+
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          {activeTab === "database" && (
+            <button
+              onClick={() => setFiltersOpen((v) => !v)}
+              className="rounded-xl border px-3 py-2 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+              style={{
+                borderColor: filtersOpen ? TOKENS.low : TOKENS.line,
+                backgroundColor: filtersOpen ? TOKENS.lowBg : TOKENS.surface,
+                color: filtersOpen ? TOKENS.low : TOKENS.ink,
+              }}
+            >
+              ≔ Filters
+            </button>
+          )}
+          <button
+            onClick={() => setSortDesc((v) => !v)}
+            className="rounded-xl border px-3 py-2 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+            style={{ borderColor: TOKENS.line, backgroundColor: TOKENS.surface, color: TOKENS.ink }}
           >
-            {platforms.map((p) => (
-              <option key={p} value={p}>
-                {p === "All" ? "All platforms" : p}
-              </option>
-            ))}
-          </select>
-          <select
-            value={ageBucket}
-            onChange={(e) => setAgeBucket(e.target.value)}
-            className="rounded-xl border px-3 py-2.5 text-sm"
-            style={{ borderColor: TOKENS.line, color: TOKENS.ink, backgroundColor: TOKENS.surface }}
-          >
-            <option value="All">All ages</option>
-            {AGE_BUCKETS.map((b) => (
-              <option key={b.label} value={b.label}>
-                Ages {b.label}
-              </option>
-            ))}
-          </select>
+            Sort: Stimulation {sortDesc ? "↓" : "↑"}
+          </button>
         </div>
 
         {activeTab === "database" && (
-          <div className="mt-4 flex flex-wrap gap-2">
-            {["Low", "Moderate", "High"].map((t) => (
-              <Chip key={t} active={tier === t} onClick={() => setTier(tier === t ? "All" : t)} color={tierColors(t)}>
-                {tierEmoji(t)} {t} stimulation
-              </Chip>
-            ))}
+          <div className="mt-2">
+            {filtersOpen && (
+              <>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {["Low", "Moderate", "High"].map((t) => (
+                    <Chip key={t} active={tier === t} onClick={() => setTier(tier === t ? "All" : t)} color={tierColors(t)}>
+                      {tierEmoji(t)} {t} stimulation
+                    </Chip>
+                  ))}
+                </div>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {CONTENT_TAGS.map((ct) => (
+                    <Chip
+                      key={ct.id}
+                      active={contentTag === ct.id}
+                      onClick={() => setContentTag(contentTag === ct.id ? "All" : ct.id)}
+                      color={{ fg: TOKENS.age, bg: TOKENS.ageBg }}
+                    >
+                      {ct.emoji} {ct.label}
+                    </Chip>
+                  ))}
+                </div>
+              </>
+            )}
           </div>
         )}
-
-        <div className="mt-3 text-sm" style={{ color: TOKENS.inkMuted }}>
-          {loadState === "ready" && (
-            <>
-              Showing <span style={{ fontWeight: 700 }}>{filtered.length}</span> of{" "}
-              {SHOWS.length} shows
-            </>
-          )}
-        </div>
 
         {loadState === "loading" && (
           <div
@@ -359,7 +419,7 @@ export default function StimulationDatabase() {
             <p style={{ fontFamily: "'Libre Baskerville', serif", fontSize: "1.1rem", color: TOKENS.ink }}>
               No shows match that combination yet.
             </p>
-            <p className="mt-1 text-sm">Try widening a filter — the database grows every week.</p>
+            <p className="mt-1 text-sm">Try widening a filter, the database grows every week.</p>
           </div>
         )}
 
