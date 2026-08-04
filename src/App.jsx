@@ -22,6 +22,7 @@ const TOKENS = {
   highBg: "#F5DFDA",
   age: "#3D5A80",
   ageBg: "#E3E9F5",
+  font: "'Libre Baskerville', serif",
 };
 
 const AGE_BUCKETS = [
@@ -88,7 +89,7 @@ function ShowCard({ show }) {
         <div>
           <h3
             className="text-lg leading-snug"
-            style={{ fontFamily: "'Libre Baskerville', serif", color: TOKENS.ink }}
+            style={{ fontFamily: TOKENS.font, color: TOKENS.ink }}
           >
             {show.name}
           </h3>
@@ -98,7 +99,7 @@ function ShowCard({ show }) {
         </div>
         <span
           className="shrink-0 rounded-full px-2.5 py-1 text-xs font-semibold"
-          style={{ backgroundColor: colors.bg, color: colors.fg, fontFamily: "'Libre Baskerville', serif" }}
+          style={{ backgroundColor: colors.bg, color: colors.fg, fontFamily: TOKENS.font }}
           title={`${tier} stimulation — score ${total}/25`}
           aria-label={`${tier} stimulation — score ${total}/25`}
         >
@@ -143,7 +144,7 @@ function ShowCard({ show }) {
           style={{ backgroundColor: TOKENS.surfaceAlt, color: TOKENS.ink }}
         >
           <p className="mb-2 pb-2" style={{ borderBottom: `1px solid ${TOKENS.line}` }}>{show.notes}</p>
-          <div className="flex flex-col gap-1 text-xs" style={{ fontFamily: "'Libre Baskerville', serif" }}>
+          <div className="flex flex-col gap-1 text-xs" style={{ fontFamily: TOKENS.font }}>
             {[
               ["Speed", show.speed],
               ["Emotion", show.emotional],
@@ -159,7 +160,7 @@ function ShowCard({ show }) {
           </div>
           <div
             className="flex justify-between mt-2 pt-2 text-xs"
-            style={{ borderTop: `1px solid ${TOKENS.line}`, fontFamily: "'Libre Baskerville', serif" }}
+            style={{ borderTop: `1px solid ${TOKENS.line}`, fontFamily: TOKENS.font }}
           >
             <span style={{ color: TOKENS.inkMuted }}>Confidence</span>
             <span style={{ color: TOKENS.ink, fontWeight: 700 }}>{show.confidence}</span>
@@ -271,7 +272,7 @@ export default function StimulationDatabase() {
   return (
     <div
       className="min-h-screen w-full"
-      style={{ backgroundColor: TOKENS.bg, fontFamily: "'Libre Baskerville', serif" }}
+      style={{ backgroundColor: TOKENS.bg, fontFamily: TOKENS.font }}
     >
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
@@ -287,7 +288,14 @@ export default function StimulationDatabase() {
       `}</style>
 
       <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
-        <p className="max-w-2xl text-base sm:text-lg" style={{ color: TOKENS.inkMuted }}>
+        <h1
+          className="hidden text-2xl sm:text-3xl"
+          style={{ fontFamily: TOKENS.font, color: TOKENS.ink }}
+        >
+          StimScout.com | ScreenSniff.com
+        </h1>
+
+        <p className="mt-3 max-w-2xl text-base sm:text-lg" style={{ color: TOKENS.inkMuted }}>
           Discover shows based on their stimulation level so you can choose what shows are best for your child...
         </p>
 
@@ -430,7 +438,7 @@ export default function StimulationDatabase() {
             className="mt-6 rounded-2xl border p-10 text-center"
             style={{ borderColor: TOKENS.line, backgroundColor: TOKENS.surface, color: TOKENS.inkMuted }}
           >
-            <p style={{ fontFamily: "'Libre Baskerville', serif", fontSize: "1.1rem", color: TOKENS.ink }}>
+            <p style={{ fontFamily: TOKENS.font, fontSize: "1.1rem", color: TOKENS.ink }}>
               Loading shows…
             </p>
           </div>
@@ -441,7 +449,7 @@ export default function StimulationDatabase() {
             className="mt-6 rounded-2xl border p-10 text-center"
             style={{ borderColor: TOKENS.high, backgroundColor: TOKENS.highBg, color: TOKENS.high }}
           >
-            <p style={{ fontFamily: "'Libre Baskerville', serif", fontSize: "1.1rem" }}>
+            <p style={{ fontFamily: TOKENS.font, fontSize: "1.1rem" }}>
               Couldn't load the show data.
             </p>
             <p className="mt-1 text-sm">Check that /data/shows.json is reachable, then refresh.</p>
@@ -453,7 +461,7 @@ export default function StimulationDatabase() {
             className="mt-6 rounded-2xl border p-10 text-center"
             style={{ borderColor: TOKENS.line, backgroundColor: TOKENS.surface, color: TOKENS.inkMuted }}
           >
-            <p style={{ fontFamily: "'Libre Baskerville', serif", fontSize: "1.1rem", color: TOKENS.ink }}>
+            <p style={{ fontFamily: TOKENS.font, fontSize: "1.1rem", color: TOKENS.ink }}>
               No shows match that combination yet.
             </p>
             <p className="mt-1 text-sm">Try widening a filter, the database grows every week.</p>
