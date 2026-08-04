@@ -277,8 +277,8 @@ export default function StimulationDatabase() {
         @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
         input:focus, select:focus, button:focus-visible { outline: none; box-shadow: 0 0 0 3px ${TOKENS.lowBg}; }
         @keyframes livePulse {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0.4; }
+          0%, 100% { background-color: ${TOKENS.age}; opacity: 1; }
+          50% { background-color: ${TOKENS.low}; opacity: 0.7; }
         }
         .live-dot { animation: livePulse 2.4s ease-in-out infinite; }
         @media (prefers-reduced-motion: reduce) {
@@ -288,14 +288,17 @@ export default function StimulationDatabase() {
 
       <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
         <p className="max-w-2xl text-base sm:text-lg" style={{ color: TOKENS.inkMuted }}>
-          <strong>Not all children's TV affects attention in the same way.</strong> Discover shows based on their stimulation level so you can choose what best suits your child.
+          Discover shows based on their stimulation level so you can choose what shows are best for your child...
         </p>
 
         {lastUpdated && SHOWS.length > 0 && (
-          <p className="mt-3 flex items-center gap-1.5 text-xs italic underline" style={{ color: TOKENS.inkMuted }}>
-            <span className="live-dot inline-block h-1.5 w-1.5 rounded-full" style={{ backgroundColor: TOKENS.low }} />
-            Tracking {SHOWS.length} shows · Latest addition: {SHOWS[SHOWS.length - 1].name} (added{" "}
-            {new Date(lastUpdated).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })})
+          <p
+            className="mt-3 inline-flex items-center gap-1.5 rounded-md px-2 py-1 text-xs italic"
+            style={{ backgroundColor: TOKENS.ageBg, color: TOKENS.age }}
+          >
+            <span className="live-dot inline-block h-1.5 w-1.5 rounded-full" style={{ backgroundColor: TOKENS.age }} />
+            Tracking {SHOWS.length} shows · Updated{" "}
+            {new Date(lastUpdated).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}
           </p>
         )}
 
@@ -387,7 +390,7 @@ export default function StimulationDatabase() {
           )}
           <button
             onClick={() => setSortDesc((v) => !v)}
-            className="rounded-xl border px-3 py-2 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+            className="ml-auto rounded-xl border px-3 py-2 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
             style={{ borderColor: TOKENS.line, backgroundColor: TOKENS.surface, color: TOKENS.ink }}
           >
             Sort: Stimulation {sortDesc ? "↓" : "↑"}
