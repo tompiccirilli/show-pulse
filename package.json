@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "dev:full": "vite",
+    "dev:free": "vite --mode free",
+    "generate:free": "node scripts/generate-free-data.js",
+    "build": "npm run generate:free && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

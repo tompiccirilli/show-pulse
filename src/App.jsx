@@ -1,5 +1,22 @@
 import React, { useMemo, useState, useEffect } from "react";
 
+// "full" (default/unset) = current paid behavior, ratings shown normally.
+// "free" = lead-magnet mode: every show is listed but ratings are locked.
+const IS_FREE_MODE = import.meta.env.VITE_APP_MODE === "free";
+const SHOWS_DATA_URL = IS_FREE_MODE ? "/data/shows-free.json" : "/data/shows.json";
+
+// Edit this line to change the free-mode banner copy — it's the only
+// place this string lives.
+const FREE_MODE_BANNER =
+  "Showing all shows — unlock full ratings and stimulation breakdowns in the Screen Time Hub.";
+
+// Page title, shown on both full and free versions.
+const PAGE_TITLE = "The Safe Screen Time Database";
+
+// CTA fixed to the bottom of the viewport, free version only.
+const CTA_LABEL = "Unlock Access";
+const CTA_LINK = "https://www.thedadvibes.com/offers/zyys5nzo/checkout?coupon_code=INTRO20";
+
 /* ---------------------------------------------
    Design tokens
    bg: cool pale sage paper (not cream)
@@ -79,11 +96,14 @@ function saveLocalData(data) {
   }
 }
 
-function Chip({ active, onClick, children, color }) {
+function Chip({ active, onClick, children, color, disabled }) {
   return (
     <button
       onClick={onClick}
-      className="motion-safe:transition-colors duration-150 px-3 py-1.5 rounded-full text-sm font-medium border focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+      disabled={disabled}
+      className={`motion-safe:transition-colors duration-150 px-3 py-1.5 rounded-full text-sm font-medium border focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 ${
+        disabled ? "cursor-not-allowed opacity-60" : ""
+      }`}
       style={{
         borderColor: active ? color.fg : TOKENS.line,
         backgroundColor: active ? color.bg : TOKENS.surface,
@@ -95,8 +115,122 @@ function Chip({ active, onClick, children, color }) {
   );
 }
 
+function HeartButton({ isFavorite, onToggleFavorite, showName }) {
+  return (
+    <button
+      onClick={() => onToggleFavorite(showName)}
+      aria-label={isFavorite ? "Remove from My Shows" : "Save to My Shows"}
+      className="rounded-full p-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+      style={{ color: isFavorite ? TOKENS.high : TOKENS.inkMuted }}
+    >
+      <svg width="19" height="19" viewBox="0 0 24 24" fill={isFavorite ? "currentColor" : "none"}>
+        <path
+          d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+          stroke="currentColor"
+          strokeWidth="2.25"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  );
+}
+
+function LockIcon({ size = 12 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+      <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+    </svg>
+  );
+}
+
+// Same padlock body as LockIcon, but the shackle swings open — used on the
+// "Unlock Access" CTA rather than the read-only locked badges.
+function UnlockIcon({ size = 16 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+      <path d="M7 11V7a5 5 0 0 1 9.9-1" />
+    </svg>
+  );
+}
+
+function LockedBadge() {
+  return (
+    <span
+      className="inline-flex shrink-0 items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold"
+      style={{ backgroundColor: TOKENS.surfaceAlt, color: TOKENS.inkMuted, fontFamily: TOKENS.font }}
+      title="Rating locked in the free preview"
+      aria-label="Rating locked — unlock in the Screen Time Hub"
+    >
+      <LockIcon />
+      Unlock rating
+    </span>
+  );
+}
+
 function ShowCard({ show, isFavorite, onToggleFavorite }) {
   const [open, setOpen] = useState(false);
+
+  if (IS_FREE_MODE) {
+    return (
+      <div
+        className="rounded-2xl border p-5 flex flex-col gap-3 motion-safe:transition-shadow duration-150 hover:shadow-md"
+        style={{ borderColor: TOKENS.line, backgroundColor: TOKENS.surface }}
+      >
+        <div className="flex items-start justify-between gap-3">
+          <div>
+            <h3
+              className="text-lg leading-snug"
+              style={{ fontFamily: TOKENS.font, color: TOKENS.ink }}
+            >
+              {show.name}
+            </h3>
+            <p className="text-sm mt-0.5" style={{ color: TOKENS.inkMuted }}>
+              {show.genre}
+            </p>
+          </div>
+          <div className="flex shrink-0 items-center gap-1.5">
+            <HeartButton isFavorite={isFavorite} onToggleFavorite={onToggleFavorite} showName={show.name} />
+            <LockedBadge />
+          </div>
+        </div>
+
+        <div>
+          <span
+            className="text-xs px-2 py-1 rounded-md"
+            style={{ backgroundColor: TOKENS.ageBg, color: TOKENS.age }}
+          >
+            Ages {show.ageMin}–{show.ageMax}
+          </span>
+        </div>
+
+        <div className="flex flex-wrap gap-1.5">
+          {show.platforms.map((p) => (
+            <span
+              key={p}
+              className="text-xs px-2 py-1 rounded-md"
+              style={{ backgroundColor: TOKENS.surfaceAlt, color: TOKENS.inkMuted }}
+            >
+              {p}
+            </span>
+          ))}
+        </div>
+
+        <span
+          className="inline-flex items-center gap-1 text-xs cursor-not-allowed"
+          style={{ color: TOKENS.inkMuted }}
+          aria-disabled="true"
+          title="Unlock in the Screen Time Hub to see this"
+        >
+          <LockIcon size={11} />
+          Why this rating?
+        </span>
+      </div>
+    );
+  }
+
   const total = scoreOf(show);
   const tier = tierOf(total);
   const colors = tierColors(tier);
@@ -119,22 +253,7 @@ function ShowCard({ show, isFavorite, onToggleFavorite }) {
           </p>
         </div>
         <div className="flex shrink-0 items-center gap-1.5">
-          <button
-            onClick={() => onToggleFavorite(show.name)}
-            aria-label={isFavorite ? "Remove from My Shows" : "Save to My Shows"}
-            className="rounded-full p-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
-            style={{ color: isFavorite ? TOKENS.high : TOKENS.inkMuted }}
-          >
-            <svg width="19" height="19" viewBox="0 0 24 24" fill={isFavorite ? "currentColor" : "none"}>
-              <path
-                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
-                stroke="currentColor"
-                strokeWidth="2.25"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
+          <HeartButton isFavorite={isFavorite} onToggleFavorite={onToggleFavorite} showName={show.name} />
           <span
             className="rounded-full px-2.5 py-1 text-xs font-semibold"
             style={{ backgroundColor: colors.bg, color: colors.fg, fontFamily: TOKENS.font }}
@@ -262,9 +381,9 @@ export default function StimulationDatabase() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/data/shows.json")
+    fetch(SHOWS_DATA_URL)
       .then((res) => {
-        if (!res.ok) throw new Error("Failed to load shows.json");
+        if (!res.ok) throw new Error(`Failed to load ${SHOWS_DATA_URL}`);
         return res.json();
       })
       .then((data) => {
@@ -298,6 +417,14 @@ export default function StimulationDatabase() {
     };
   }, []);
 
+  // The Limit tab and the Filters/Sort controls all operate on rating data
+  // that doesn't exist in free mode (stripped from shows-free.json) — showing
+  // them would mean either an always-empty tab or, worse, every show
+  // misreporting as "High" stimulation (tierOf() falls through to "High" for
+  // the NaN total you get from summing undefined fields). Hiding them here
+  // rather than leaving broken/misleading controls visible.
+  const visibleTabs = IS_FREE_MODE ? TABS.filter((t) => t.id !== "avoid") : TABS;
+
   const platforms = useMemo(() => {
     const set = new Set();
     SHOWS.forEach((s) => s.platforms.forEach((p) => set.add(p)));
@@ -330,7 +457,7 @@ export default function StimulationDatabase() {
           })();
         return matchesQuery && matchesPlatform && matchesTier && matchesContentTag && matchesAge;
       })
-      .sort((a, b) => (sortDesc ? scoreOf(b) - scoreOf(a) : scoreOf(a) - scoreOf(b)));
+      .sort((a, b) => (IS_FREE_MODE ? 0 : sortDesc ? scoreOf(b) - scoreOf(a) : scoreOf(a) - scoreOf(b)));
   }, [baseList, query, platform, ageBucket, tier, contentTag, sortDesc]);
 
   return (
@@ -349,6 +476,8 @@ export default function StimulationDatabase() {
         @media (prefers-reduced-motion: reduce) {
           .live-dot { animation: none; }
         }
+        .cta-button { transition: filter 0.15s ease; }
+        .cta-button:hover { filter: brightness(0.92); }
       `}</style>
 
       <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
@@ -359,9 +488,22 @@ export default function StimulationDatabase() {
           StimScout.com | ScreenSniff.com
         </h1>
 
+        <h2
+          className="text-2xl sm:text-3xl"
+          style={{ fontFamily: TOKENS.font, color: TOKENS.ink }}
+        >
+          {PAGE_TITLE}
+        </h2>
+
         <p className="mt-3 max-w-2xl text-base sm:text-lg" style={{ color: TOKENS.inkMuted }}>
           Discover shows based on their stimulation level so you can choose what shows are best for your child...
         </p>
+
+        {IS_FREE_MODE && (
+          <p className="mt-2 text-sm" style={{ color: TOKENS.inkMuted }}>
+            {FREE_MODE_BANNER}
+          </p>
+        )}
 
         {lastUpdated && SHOWS.length > 0 && (
           <p
@@ -375,7 +517,7 @@ export default function StimulationDatabase() {
         )}
 
         <div className="mt-8 flex gap-1 border-b" style={{ borderColor: TOKENS.line }}>
-          {TABS.map((t) => {
+          {visibleTabs.map((t) => {
             const active = activeTab === t.id;
             return (
               <button
@@ -398,7 +540,7 @@ export default function StimulationDatabase() {
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto px-6 pb-20">
+      <main className={`max-w-6xl mx-auto px-6 ${IS_FREE_MODE ? "pb-32" : "pb-20"}`}>
         <div
           className="rounded-2xl border p-4 sm:p-5 sticky top-4 z-10"
           style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}
@@ -464,11 +606,20 @@ export default function StimulationDatabase() {
             </button>
           )}
           <button
-            onClick={() => setSortDesc((v) => !v)}
-            className="ml-auto rounded-xl border px-3 py-2 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+            onClick={() => !IS_FREE_MODE && setSortDesc((v) => !v)}
+            disabled={IS_FREE_MODE}
+            className={`ml-auto rounded-xl border px-3 py-2 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 ${
+              IS_FREE_MODE ? "cursor-not-allowed opacity-60" : ""
+            }`}
             style={{ borderColor: TOKENS.line, backgroundColor: TOKENS.surface, color: TOKENS.ink }}
           >
-            Sort: Stimulation {sortDesc ? "↓" : "↑"}
+            {IS_FREE_MODE ? (
+              <span className="inline-flex items-center gap-1.5">
+                <LockIcon size={12} /> Sort: Stimulation
+              </span>
+            ) : (
+              <>Sort: Stimulation {sortDesc ? "↓" : "↑"}</>
+            )}
           </button>
         </div>
 
@@ -476,9 +627,20 @@ export default function StimulationDatabase() {
           <div className="mt-2">
             {filtersOpen && (
               <>
+                {IS_FREE_MODE && (
+                  <p className="mb-1 inline-flex items-center gap-1.5 text-xs" style={{ color: TOKENS.inkMuted }}>
+                    <LockIcon size={11} /> Unlock to apply filters
+                  </p>
+                )}
                 <div className="mt-2 flex flex-wrap gap-2">
                   {["Low", "Moderate", "High"].map((t) => (
-                    <Chip key={t} active={tier === t} onClick={() => setTier(tier === t ? "All" : t)} color={tierColors(t)}>
+                    <Chip
+                      key={t}
+                      active={tier === t}
+                      disabled={IS_FREE_MODE}
+                      onClick={() => setTier(tier === t ? "All" : t)}
+                      color={tierColors(t)}
+                    >
                       {tierEmoji(t)} {t} stimulation
                     </Chip>
                   ))}
@@ -488,6 +650,7 @@ export default function StimulationDatabase() {
                     <Chip
                       key={ct.id}
                       active={contentTag === ct.id}
+                      disabled={IS_FREE_MODE}
                       onClick={() => setContentTag(contentTag === ct.id ? "All" : ct.id)}
                       color={{ fg: TOKENS.age, bg: TOKENS.ageBg }}
                     >
@@ -519,7 +682,7 @@ export default function StimulationDatabase() {
             <p style={{ fontFamily: TOKENS.font, fontSize: "1.1rem" }}>
               Couldn't load the show data.
             </p>
-            <p className="mt-1 text-sm">Check that /data/shows.json is reachable, then refresh.</p>
+            <p className="mt-1 text-sm">Check that {SHOWS_DATA_URL} is reachable, then refresh.</p>
           </div>
         )}
 
@@ -554,6 +717,24 @@ export default function StimulationDatabase() {
           documented pacing data — use alongside your own judgment of your child.
         </footer>
       </main>
+
+      {IS_FREE_MODE && (
+        <div
+          className="fixed bottom-0 left-0 right-0 z-20 w-full border-t"
+          style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}
+        >
+          <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center">
+            <a
+              href={CTA_LINK}
+              className="cta-button inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+              style={{ backgroundColor: TOKENS.low, color: TOKENS.surface, fontFamily: TOKENS.font }}
+            >
+              <UnlockIcon size={16} />
+              {CTA_LABEL}
+            </a>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
