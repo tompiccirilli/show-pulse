@@ -213,8 +213,8 @@ function ShowCard({ show, isFavorite, onToggleFavorite }) {
 const TABS = [
   { id: "database", label: "All Shows" },
   { id: "recommendations", label: "Parent Picks" },
-  { id: "myShows", label: "My Shows" },
   { id: "avoid", label: "Limit" },
+  { id: "myShows", label: "My Shows" },
 ];
 
 const AVOID_THRESHOLD = 22;
@@ -383,8 +383,11 @@ export default function StimulationDatabase() {
                 onClick={() => setActiveTab(t.id)}
                 className="px-4 py-2.5 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded-t-lg"
                 style={{
-                  color: active ? TOKENS.ink : TOKENS.inkMuted,
-                  borderBottom: active ? `2px solid ${TOKENS.low}` : "2px solid transparent",
+                  color: t.id === "myShows" ? TOKENS.age : active ? TOKENS.ink : TOKENS.inkMuted,
+                  backgroundColor: t.id === "myShows" ? TOKENS.ageBg : "transparent",
+                  borderBottom: active
+                    ? `2px solid ${t.id === "myShows" ? TOKENS.age : TOKENS.low}`
+                    : "2px solid transparent",
                   marginBottom: "-1px",
                 }}
               >
