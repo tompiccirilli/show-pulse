@@ -58,6 +58,27 @@ function tierEmoji(tier) {
   return "🔴";
 }
 
+const LOCAL_STORAGE_KEY = "stimscout:v1";
+
+function loadLocalData() {
+  try {
+    const raw = localStorage.getItem(LOCAL_STORAGE_KEY);
+    if (!raw) return { favorites: [] };
+    const parsed = JSON.parse(raw);
+    return { favorites: parsed.favorites ?? [] };
+  } catch {
+    return { favorites: [] };
+  }
+}
+
+function saveLocalData(data) {
+  try {
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({ version: 1, ...data }));
+  } catch {
+    // private browsing / quota exceeded — fail silently, feature just doesn't persist
+  }
+}
+
 function Chip({ active, onClick, children, color }) {
   return (
     <button
@@ -74,7 +95,7 @@ function Chip({ active, onClick, children, color }) {
   );
 }
 
-function ShowCard({ show }) {
+function ShowCard({ show, isFavorite, onToggleFavorite }) {
   const [open, setOpen] = useState(false);
   const total = scoreOf(show);
   const tier = tierOf(total);
@@ -97,14 +118,32 @@ function ShowCard({ show }) {
             {show.genre}
           </p>
         </div>
-        <span
-          className="shrink-0 rounded-full px-2.5 py-1 text-xs font-semibold"
-          style={{ backgroundColor: colors.bg, color: colors.fg, fontFamily: TOKENS.font }}
-          title={`${tier} stimulation — score ${total}/25`}
-          aria-label={`${tier} stimulation — score ${total}/25`}
-        >
-          {tierEmoji(tier)} {total}/25
-        </span>
+        <div className="flex shrink-0 items-center gap-1.5">
+          <button
+            onClick={() => onToggleFavorite(show.name)}
+            aria-label={isFavorite ? "Remove from My Shows" : "Save to My Shows"}
+            className="rounded-full p-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+            style={{ color: isFavorite ? TOKENS.high : TOKENS.inkMuted }}
+          >
+            <svg width="19" height="19" viewBox="0 0 24 24" fill={isFavorite ? "currentColor" : "none"}>
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                stroke="currentColor"
+                strokeWidth="2.25"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
+          <span
+            className="rounded-full px-2.5 py-1 text-xs font-semibold"
+            style={{ backgroundColor: colors.bg, color: colors.fg, fontFamily: TOKENS.font }}
+            title={`${tier} stimulation — score ${total}/25`}
+            aria-label={`${tier} stimulation — score ${total}/25`}
+          >
+            {tierEmoji(tier)} {total}/25
+          </span>
+        </div>
       </div>
 
       <div>
@@ -174,6 +213,7 @@ function ShowCard({ show }) {
 const TABS = [
   { id: "database", label: "All Shows" },
   { id: "recommendations", label: "Parent Picks" },
+  { id: "myShows", label: "My Shows" },
   { id: "avoid", label: "Limit" },
 ];
 
@@ -190,12 +230,35 @@ export default function StimulationDatabase() {
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [contentTag, setContentTag] = useState("All");
   const [sortDesc, setSortDesc] = useState(false);
+  const [favorites, setFavorites] = useState([]);
+  const [localDataLoaded, setLocalDataLoaded] = useState(false);
 
   const [lastUpdated, setLastUpdated] = useState(null);
 
   useEffect(() => {
     setSortDesc(activeTab === "avoid");
   }, [activeTab]);
+
+  useEffect(() => {
+    const local = loadLocalData();
+    setFavorites(local.favorites);
+    setLocalDataLoaded(true);
+  }, []);
+
+  useEffect(() => {
+    // Guard against saving before the initial load above has completed —
+    // without this, the effect fires on mount with the default empty
+    // state before the load effect's update has flushed, overwriting
+    // real saved data with nothing (most visible under StrictMode's
+    // double-invoked effects in dev, but the underlying race exists
+    // regardless).
+    if (!localDataLoaded) return;
+    saveLocalData({ favorites });
+  }, [favorites, localDataLoaded]);
+
+  function toggleFavorite(name) {
+    setFavorites((prev) => (prev.includes(name) ? prev.filter((n) => n !== name) : [...prev, name]));
+  }
 
   useEffect(() => {
     let cancelled = false;
@@ -244,9 +307,10 @@ export default function StimulationDatabase() {
 
   const baseList = useMemo(() => {
     if (activeTab === "recommendations") return SHOWS.filter((s) => s.recommended);
+    if (activeTab === "myShows") return SHOWS.filter((s) => favorites.includes(s.name));
     if (activeTab === "avoid") return SHOWS.filter((s) => scoreOf(s) >= AVOID_THRESHOLD);
     return SHOWS;
-  }, [activeTab, SHOWS]);
+  }, [activeTab, SHOWS, favorites]);
 
   const filtered = useMemo(() => {
     return baseList
@@ -324,7 +388,7 @@ export default function StimulationDatabase() {
                   marginBottom: "-1px",
                 }}
               >
-                {t.label}
+                {t.id === "myShows" && favorites.length > 0 ? `${t.label} (${favorites.length})` : t.label}
               </button>
             );
           })}
@@ -471,7 +535,12 @@ export default function StimulationDatabase() {
         {loadState === "ready" && filtered.length > 0 && (
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {filtered.map((s) => (
-              <ShowCard key={s.name} show={s} />
+              <ShowCard
+                key={s.name}
+                show={s}
+                isFavorite={favorites.includes(s.name)}
+                onToggleFavorite={toggleFavorite}
+              />
             ))}
           </div>
         )}
