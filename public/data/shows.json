@@ -11925,5 +11925,39 @@
     "confidence": "Medium",
     "notes": "High-intensity 'brain break' movement and dance videos designed for kids to get up and move rather than sit passively, similar in format and energy to GoNoodle. General reputation from parent/teacher guides, not independently verified against pacing data.",
     "tags": []
+  },
+  {
+    "name": "MrBeast",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Entertainment, Challenge Videos",
+    "ageMin": 6,
+    "ageMax": 14,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "High",
+    "notes": "Common Sense Media rates the main channel 14+ due to risky stunts, heavy product promotion, and how money and fame are presented, and notes the 'fast-paced editing and constant energy can overstimulate' — but flags it's widely watched by much younger kids despite that guidance.",
+    "tags": []
+  },
+  {
+    "name": "Mark Rober",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Educational, Science, Entertainment",
+    "ageMin": 6,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Common Sense Media describes the videos as 'fast-paced with lots of interesting images and helpful graphics' built around 'extreme experiments' and 'sensationalized stunts'; also flags that CrunchLabs product promos are woven directly into videos without a clear break, making them hard for kids to distinguish from the content.",
+    "tags": []
   }
 ]
