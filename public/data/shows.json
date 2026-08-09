@@ -36,7 +36,8 @@
     "confidence": "High",
     "notes": "Slow-paced (8–15s scenes), gentle songs, built to teach emotional regulation rather than entertain at speed.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -95,7 +96,8 @@
     "confidence": "High",
     "notes": "Segment-based format keeps engagement up without rapid pacing; research suggests it doesn't erode attention span.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -115,7 +117,8 @@
     "confidence": "Medium",
     "notes": "Rated slower-paced than most peers, but several parent reports describe strong fixation. Worth a personal spot-check.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -170,7 +173,9 @@
     "sensory": 5,
     "confidence": "High (creator-confirmed)",
     "notes": "Loud, high-energy, constant motion and exaggerated reactions throughout. Adjusted to High per creator review.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "SpongeBob SquarePants",
@@ -206,7 +211,9 @@
     "sensory": 5,
     "confidence": "High",
     "notes": "Scene cuts every 1–3 seconds. The most frequently cited example of overstimulating toddler content in reviews.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Skibidi Toilet",
@@ -242,7 +249,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Gentle rescue-adventure format; danger is consistently softened with music and encouragement.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Numberblocks",
@@ -260,7 +269,9 @@
     "sensory": 1,
     "confidence": "Medium",
     "notes": "Short, simple episodes with minimal music and block-based visuals. General reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Alphablocks",
@@ -277,7 +288,9 @@
     "sensory": 1,
     "confidence": "Medium",
     "notes": "Same production style and pacing as Numberblocks. General reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Word Party",
@@ -295,7 +308,8 @@
     "confidence": "High",
     "notes": "High-pitched, exaggerated 'help me' vocal style flagged by reviewers, though visual pacing itself is not fast.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -351,7 +365,8 @@
     "confidence": "High",
     "notes": "Unhurried, direct-address pace with no flashy graphics. The gold-standard calm format.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -389,7 +404,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Standard PBS Kids pacing and format. General reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Curious George",
@@ -408,7 +425,8 @@
     "notes": "Standard PBS Kids pacing and format. General reputation, not independently verified.",
     "tags": [
       "beforeBedtime",
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -485,7 +503,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Interactive call-and-response builds in pauses, but bright visuals and constant energy add up.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Go, Diego, Go!",
@@ -502,7 +522,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Same interactive format and energy level as sister series Dora the Explorer.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Team Umizoomi",
@@ -520,7 +542,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Energetic musical math format. General reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Bubble Guppies",
@@ -538,7 +562,9 @@
     "sensory": 4,
     "confidence": "Medium",
     "notes": "Bright, musical, high-energy educational format. General reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Backyardigans",
@@ -576,7 +602,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Built on a slow, think-time interactive format designed to let kids process and respond.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Chip and Potato",
@@ -687,7 +715,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Interactive musical format with steady energy. General reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Puppy Dog Pals",
@@ -722,7 +752,8 @@
     "confidence": "Medium",
     "notes": "Standard Disney Junior preschool pacing. General reputation, not independently verified.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -901,7 +932,9 @@
     "sensory": 4,
     "confidence": "Medium",
     "notes": "Algorithm-optimized format similar in structure to other high-frequency-cut children's content. Worth a personal spot-check.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "LazyTown",
@@ -919,7 +952,9 @@
     "sensory": 4,
     "confidence": "Medium",
     "notes": "High-energy live-action physical stunts, loud music, fast pacing throughout. General reputation.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Lankybox",
@@ -953,7 +988,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Answers kids' questions about how the world works. Engaging songs and colorful animation. Educational content balanced with entertainment. Closed platform means no algorithm concerns.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Hey Bear Sensory",
@@ -1005,7 +1042,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Beautiful stop-motion animation teaching science and discovery. Perfect bedtime show with calming nature sounds and gentle pacing. Encourages curiosity without overstimulation.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -1040,7 +1078,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches scientific inquiry and observation skills. Encourages kids to ask questions and explore nature. Gentle pacing makes it suitable for winding down. PBS platform ensures safe, quality content.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Ms Rachel",
@@ -1057,7 +1097,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Excellent for toddler language development. Engaging, interactive content with clear speech. YouTube platform requires supervision.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Wild Kratts",
@@ -1074,7 +1116,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches zoology and biology through adventure. Engaging and educational.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Puffin Rock",
@@ -1091,7 +1135,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Beautifully animated Irish show. Very calming with Chris O'Dowd narration. Perfect for bedtime.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Hey Duggee",
@@ -1109,7 +1155,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Charming British show. Teaches life skills through badge-earning activities. Funny for adults too.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -1127,7 +1174,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Question-based learning with great music. Teaches science and how things work.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Stinky and Dirty",
@@ -1144,7 +1193,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches problem-solving and perseverance. Based on books by Jim McMullan.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Mickey Mouse Clubhouse",
@@ -1161,7 +1212,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Interactive show teaching problem-solving and early math. Can be repetitive.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Alma's Way",
@@ -1178,7 +1231,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches critical thinking and decision-making. Features Latinx culture and family values.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Super Why!",
@@ -1195,7 +1250,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches reading and literacy skills. Interactive and engaging.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Clifford the Big Red Dog",
@@ -1213,7 +1270,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Classic show teaching kindness and friendship. Gentle and heartwarming.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -1231,7 +1289,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Features Alaska Native culture. Teaches research skills and problem-solving.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Xavier Riddle and the Secret Museum",
@@ -1248,7 +1308,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches history and character traits through time travel adventures.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Spidey and His Amazing Friends",
@@ -1265,7 +1327,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Preschool-friendly superhero content. Teaches teamwork and problem-solving.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Dinosaur Train",
@@ -1282,7 +1346,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches paleontology and scientific inquiry. Great for dinosaur-loving kids.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Magic School Bus",
@@ -1299,7 +1365,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Classic science education show. Makes complex topics fun and accessible.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Ridley Jones",
@@ -1316,7 +1384,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Museum adventures teaching teamwork and problem-solving.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Llama Llama",
@@ -1333,7 +1403,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Based on beloved books. Teaches social-emotional skills. Gentle and calming.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Beat Bugs",
@@ -1350,7 +1422,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Features Beatles songs. Teaches friendship and problem-solving through music.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Waffles + Mochi",
@@ -1367,7 +1441,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Michelle Obama's show teaching about food and cooking. Diverse and educational.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Ada Twist, Scientist",
@@ -1384,7 +1460,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches scientific method and curiosity. Based on popular children's books.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Magic School Bus Rides Again",
@@ -1401,7 +1479,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Reboot of the classic. Modern animation with same great science education.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "True and the Rainbow Kingdom",
@@ -1418,7 +1498,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches empathy and problem-solving. Colorful and positive.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Top Wing",
@@ -1469,7 +1551,9 @@
     "sensory": 4,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches STEM concepts through racing. Fast-paced and stimulating.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Santiago of the Seas",
@@ -1486,7 +1570,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Pirate adventure teaching teamwork. Features Latino culture and Spanish phrases.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Rusty Rivets",
@@ -1503,7 +1589,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches engineering and problem-solving. Decent educational content.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Shimmer and Shine",
@@ -1520,7 +1608,9 @@
     "sensory": 4,
     "confidence": "Medium (user-supplied)",
     "notes": "Genie-themed show. More entertainment-focused with some problem-solving elements.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Diana and Roma",
@@ -1555,7 +1645,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Classical music and simple visuals for babies. Keep sessions very short. YouTube requires supervision.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -1675,7 +1766,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Simple songs for language learning. Better than similar YouTube content but still requires supervision.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Vlad and Niki",
@@ -1709,7 +1802,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Muppets as babies using imagination. Teaches creativity and problem-solving.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Fancy Nancy",
@@ -1726,7 +1821,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Based on popular books. Teaches vocabulary and creativity.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "T.O.T.S.",
@@ -1743,7 +1840,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Birds delivering baby animals. Teaches caring and responsibility.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Encanto: The Series",
@@ -1760,7 +1859,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Based on popular film. Features Colombian culture and family themes.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Lion Guard",
@@ -1777,7 +1878,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Lion King spinoff. Teaches teamwork and African wildlife.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Elena of Avalor",
@@ -1794,7 +1897,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Latina princess learning to lead. Teaches leadership and cultural values.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Owl House",
@@ -1828,7 +1933,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Latest Mickey show. Teaches problem-solving and friendship.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Gravity Falls",
@@ -1845,7 +1952,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Mystery adventures for older kids. Clever writing and problem-solving. Some scary moments.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Amphibia",
@@ -1862,7 +1971,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Girl transported to frog world. For older kids. Good character development.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Winnie the Pooh",
@@ -1879,7 +1990,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Classic gentle stories. Perfect for young children. Very calming and sweet.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Ghost and Molly McGee",
@@ -1896,7 +2009,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Optimistic girl and grumpy ghost. Teaches positivity and friendship.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Pocoyo",
@@ -1949,7 +2064,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "First responder vehicles. Teaches teamwork and helping others.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "DuckTales",
@@ -1966,7 +2083,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Reboot of classic. Adventure and problem-solving. For older kids.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Odd Squad",
@@ -1983,7 +2102,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches math through spy adventures. Clever and engaging for school-age kids.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Cyberchase",
@@ -2000,7 +2121,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches math concepts through digital adventures. For older elementary kids.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Donkey Hodie",
@@ -2017,7 +2140,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "From Fred Rogers Productions. Teaches perseverance and resilience. High quality.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Work It Out Wombats!",
@@ -2035,7 +2160,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches computational thinking and problem-solving. From PBS Kids.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -2054,7 +2180,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches spelling and word building. Characters made of letters. Innovative and educational.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -2072,7 +2199,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Dr. Seuss character teaching science. Educational and fun.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Pinkalicious & Peterrific",
@@ -2089,7 +2218,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Based on popular books. Teaches creativity and arts. Very colorful.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Let's Go Luna",
@@ -2107,7 +2238,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches world cultures and geography. Educational and diverse.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -2142,7 +2274,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Octopus and his dog. Very gentle and kind. Teaches friendship.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Shaun the Sheep",
@@ -2160,7 +2294,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Aardman claymation. No dialogue but very clever. Teaches problem-solving through visuals.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -2178,7 +2313,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Monkey toddler and mum. Teaches toddler emotions and development. Very gentle.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Ben & Holly's Little Kingdom",
@@ -2290,7 +2427,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Shaun the Sheep spinoff for toddlers. No dialogue. Teaches preschool skills. Very gentle.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Handy Manny",
@@ -2307,7 +2446,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Handyman solving problems. Teaches tools and fixing things. Some Spanish.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Chuggington",
@@ -2324,7 +2465,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Train characters learning responsibilities. Teaches teamwork.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Nina's World",
@@ -2341,7 +2484,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Latina girl exploring her community. Teaches cultural appreciation.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Chuggington: Tales from the Rails",
@@ -2359,7 +2504,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Continuation of Chuggington. Trains learning and growing.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -2377,7 +2523,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Animal vehicles solving problems. Gentle and positive.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Little Einsteins",
@@ -2394,7 +2542,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches classical music and art. Interactive format encourages participation.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Thomas & Friends",
@@ -2428,7 +2578,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Bear teaching life skills through spy missions. Educational and fun.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Cleo & Cuquin",
@@ -2445,7 +2597,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Spanish show about siblings solving problems. Bilingual learning opportunity.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Thomas & Friends: All Engines Go",
@@ -2462,7 +2616,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Modern reboot of Thomas. Faster paced than original.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Maddie's Do You Know?",
@@ -2479,7 +2635,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Maddie explores how everyday things are made and work.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Andy's Dinosaur Adventures",
@@ -2496,7 +2654,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Andy travels back in time to meet dinosaurs.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Deadly 60",
@@ -2514,7 +2674,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "BBC wildlife series. Steve Backshall explores dangerous animals. Highly educational and engaging.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Newsround",
@@ -2532,7 +2694,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "BBC news programme for children. Age-appropriate current events coverage.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -2552,7 +2715,8 @@
     "notes": "CBeebies. Andy explores marine life and water habitats.",
     "tags": [
       "rainyDays",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -2570,7 +2734,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies wildlife show. Andy Day explores animals in their natural habitats.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Blue Peter",
@@ -2590,7 +2756,8 @@
     "notes": "Iconic BBC children's magazine show. Crafts, challenges, and educational segments.",
     "tags": [
       "travel",
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -2608,7 +2775,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Mr Tumble uses Makaton sign language. Inclusive and gentle.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Andy's Safari Adventures",
@@ -2626,7 +2795,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Andy travels on safari to film wild animals.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -2645,7 +2815,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Andy explores prehistoric creatures and ice age animals.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -2663,7 +2834,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBBC drama about children in care. Tackles social issues sensitively.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "My Petsaurus",
@@ -2697,7 +2870,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Geography adventures around the world. Fun and educational.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "JoJo & Gran Gran",
@@ -2716,7 +2891,8 @@
     "notes": "CBeebies. Black British family. Gentle intergenerational stories.",
     "tags": [
       "beforeBedtime",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -2734,7 +2910,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBBC. Comedy sketch show teaching history. Award-winning and highly engaging.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Bitz & Bob",
@@ -2752,7 +2930,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Engineering and problem-solving through play and imagination.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -2772,7 +2951,8 @@
     "notes": "CBeebies. Twins navigate everyday experiences. Very gentle and relatable.",
     "tags": [
       "beforeBedtime",
-      "travel"
+      "travel",
+      "educational"
     ],
     "recommended": true
   },
@@ -2792,7 +2972,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBBC. Two doctors explore the human body. Educational and entertaining.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Numberblocks Presents",
@@ -2812,7 +2994,8 @@
     "tags": [
       "beforeBedtime",
       "rainyDays",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -2847,7 +3030,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Word-building show. Great for language development.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Twirlywoos",
@@ -2865,7 +3050,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Four bird-like creatures explore concepts. Gentle and curious.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -2900,7 +3086,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Lion cub learns about sounds and communication.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Swashbuckle",
@@ -2951,7 +3139,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Bing bunny navigates toddler challenges. Emotionally intelligent.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Nina and the Neurons",
@@ -2968,7 +3158,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Science show exploring how things work through the five senses.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Let's Play",
@@ -2985,7 +3177,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Children explore different professions through imaginative play.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Gigglebiz",
@@ -3019,7 +3213,9 @@
     "sensory": 1,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Two sisters explore nature. Calm and observational.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Clangers",
@@ -3075,7 +3271,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Monster learns about emotions and relationships. Sweet and kind.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Colourblocks",
@@ -3093,7 +3291,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. From creators of Alphablocks. Teaches colours brilliantly.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -3145,7 +3344,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Autistic boy navigates world through art. Inclusive and sensitive.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Moon and Me",
@@ -3181,7 +3382,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Children cook recipes from their heritage. Diverse and educational.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Spot Bots",
@@ -3199,7 +3402,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Robot characters solve problems. Simple and fun.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -3217,7 +3421,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Real families across UK. Documentary-style. Diverse and real.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Grandpa in My Pocket",
@@ -3252,7 +3458,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Brother-sister relationship. Based on Lauren Child books.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -3271,7 +3478,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Girl and her toy friends. Gentle friendship stories.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -3289,7 +3497,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Mouse solves problems with 'easy crew'. Reggae music.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Molly and Mack",
@@ -3306,7 +3516,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Kids in a seaside town. Community and friendship themes.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Fifi and the Flowertots",
@@ -3324,7 +3536,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Flower characters in a garden. Gentle problem-solving.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -3359,7 +3572,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Children and their pets. Teaches animal care.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Teacup Travels",
@@ -3376,7 +3591,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Children travel through history. Great storytelling.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Messy Goes to OKIDO",
@@ -3393,7 +3610,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Monster explores science questions. Engaging and educational.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Biggleton",
@@ -3411,7 +3630,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Town where everyone helps. Community values.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -3464,7 +3684,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Stories told through British Sign Language. Inclusive.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -3483,7 +3704,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Real farm life and animals. Educational and gentle.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -3504,7 +3726,8 @@
     "tags": [
       "beforeBedtime",
       "rainyDays",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -3539,7 +3762,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Scottish island life. Beautiful and gentle.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Wallace & Gromit",
@@ -3576,7 +3801,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Real vet visits. Teaches animal care and empathy.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Tiny Happy People",
@@ -3594,7 +3821,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Language development activities. For babies and parents.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -3613,7 +3841,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Live-action engineering challenges. Inspiring.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -3631,7 +3860,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Explores different vehicles and machines. Engaging.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Planet Earth (Kids)",
@@ -3650,7 +3881,8 @@
     "notes": "BBC nature documentary. Stunning visuals. May need parent guidance for some scenes.",
     "tags": [
       "rainyDays",
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -3670,7 +3902,8 @@
     "notes": "BBC. Explores wildlife on each continent. Attenborough narration.",
     "tags": [
       "beforeBedtime",
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -3689,7 +3922,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "BBC wildlife documentary. Fascinating animal behaviors.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -3708,7 +3942,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "BBC. Live UK nature watch. Seasonal wildlife coverage.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -3726,7 +3961,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "BBC. Animal intelligence. Engaging and educational.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Big Cats",
@@ -3743,7 +3980,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "BBC. Follows lion, tiger, cheetah families. Some predation scenes.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Wild Isles",
@@ -3761,7 +4000,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "BBC. UK wildlife. Recent Attenborough series.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -3780,7 +4020,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "BBC polar regions documentary. Stunning nature footage.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -3801,7 +4042,8 @@
     "tags": [
       "beforeBedtime",
       "rainyDays",
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -3821,7 +4063,8 @@
     "notes": "BBC. UK wildlife in autumn. Educational and calming.",
     "tags": [
       "travel",
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -3839,7 +4082,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBBC. Unusual animals and behaviors. Fun and educational.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Maddie the Home and You",
@@ -3856,7 +4101,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. How household items work. Practical learning.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Maddie the Zoo and You",
@@ -3874,7 +4121,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Zoo animals and habitats. Educational.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -3892,7 +4140,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBBC classic. Wildlife adventures and animal facts.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Bitesize Daily",
@@ -3909,7 +4159,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBBC/CBeebies. Educational content aligned to UK curriculum.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Winterwatch",
@@ -3927,7 +4179,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "BBC. UK wildlife in winter. Seasonal nature watch.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -3945,7 +4198,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Recycling and upcycling crafts. Environmental focus.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Hey You What If?",
@@ -3962,7 +4217,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Answers children's science questions. Engaging.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Maddie's Space Adventure",
@@ -3979,7 +4236,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Space exploration. Exciting and educational.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Art Ninja",
@@ -3996,7 +4255,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBBC. Art and craft projects. Creative and inspiring.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Show Me Show Me",
@@ -4013,7 +4274,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Explores objects and ideas. Gentle and curious.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Bob the Builder (Original)",
@@ -4031,7 +4294,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies classic. Construction team solves problems. Teamwork focus.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -4051,7 +4315,8 @@
     "notes": "CBeebies. Postman delivers special items. Classic British show.",
     "tags": [
       "rainyDays",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -4069,7 +4334,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Art and craft activities. Energetic but creative.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "I Can Cook",
@@ -4087,7 +4354,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Simple cooking with Katy Ashworth. Encourages healthy eating.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -4105,7 +4373,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Gentle creatures practice yoga. Very calming.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Fireman Sam (UK)",
@@ -4122,7 +4392,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Fire rescue adventures. Safety lessons.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Numtums",
@@ -4139,7 +4411,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Maths adventures. Fun number learning.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Count Duckula",
@@ -4190,7 +4464,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "CBeebies. Nature and outdoor learning. Encourages outdoor play.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Peter Rabbit (CBeebies)",
@@ -4226,7 +4502,8 @@
     "notes": "CBeebies. Paddington Bear in Windsor Gardens. Kind and gentle.",
     "tags": [
       "beforeBedtime",
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -4244,7 +4521,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Gentle friendship themes.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Guess How Much I Love You",
@@ -4332,7 +4611,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Miffy and Friends",
@@ -4400,7 +4681,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Gentle pacing; good wind-down option.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Star Wars Resistance",
@@ -4570,7 +4853,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Storyline Online",
@@ -4587,7 +4872,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Cosmic Kids Zen Den",
@@ -4604,7 +4891,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Art for Kids Hub",
@@ -4621,7 +4910,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "SciShow Kids",
@@ -4638,7 +4929,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "High learning value; best in short, intentional sessions.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "TED-Ed",
@@ -4655,7 +4948,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "How It's Made (Clips)",
@@ -4672,7 +4967,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Kids Learning Tube",
@@ -4689,7 +4986,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Scratch Garden",
@@ -4706,7 +5005,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Kurzgesagt",
@@ -4723,7 +5024,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Platform/availability varies by region.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Sesame Street: Elmo's World",
@@ -4740,7 +5043,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "High learning value; best in short, intentional sessions.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Summer Camp Island",
@@ -4825,7 +5130,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "High learning value; best in short, intentional sessions.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Animaniacs",
@@ -4859,7 +5166,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Craft-focused, predictable structure, generally calm pacing.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Berenstain Bears",
@@ -4876,7 +5185,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Family life lessons and consequences; generally steady pacing.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Pajanimals",
@@ -4895,7 +5206,8 @@
     "notes": "Sleep-themed stories; good for wind-down routines.",
     "tags": [
       "rainyDays",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -4913,7 +5225,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Highly structured call-and-response problem solving; paced.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Octonauts: The Ring of Fire",
@@ -4930,7 +5244,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Feature-length special; consider a break halfway.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Avatar: The Last Airbender",
@@ -4947,7 +5263,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Adventure with strong themes (friendship, responsibility). Some action.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "If You Give a Mouse a Cookie",
@@ -4998,7 +5316,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Classic book-focused show; very calm, great for literacy.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Wiggles",
@@ -5015,7 +5335,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Music-driven. Curate to avoid autoplay.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Disney Junior (Official Channel)",
@@ -5049,7 +5371,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Animated moral stories; moderate pace.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Paisley's Corner",
@@ -5066,7 +5390,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Calm host-led learning. Good wind-down.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Little Bill",
@@ -5083,7 +5409,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Everyday kid situations; gentle pacing.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Tangled: The Series",
@@ -5134,7 +5462,9 @@
     "sensory": 4,
     "confidence": "Medium (user-supplied)",
     "notes": "Movement breaks. High energy but purposeful.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Bounce Patrol",
@@ -5202,7 +5532,9 @@
     "sensory": 4,
     "confidence": "Medium (user-supplied)",
     "notes": "Action + STEM-ish themes; can be revving.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Blue Planet II",
@@ -5220,7 +5552,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Nature doc. Calm pacing, occasional intense scenes.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -5238,7 +5571,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Slower paced educational stories; good for toddlers.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Holy Sprouts",
@@ -5255,7 +5590,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Gentle shorts with simple lessons.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Milo Murphy's Law",
@@ -5395,7 +5732,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Strong themes; some chaos.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Muppet Christmas Carol",
@@ -5504,7 +5843,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Behind-the-scenes zoo doc; calm style.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -5523,7 +5863,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Beautiful doc; occasional intense scenes.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -5542,7 +5883,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Big topics; co-view recommended.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -5560,7 +5902,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Experiments and perception tricks; engaging but not frantic.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Cosmos: Possible Worlds",
@@ -5578,7 +5922,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Big topics; co-view recommended.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -5630,7 +5975,9 @@
     "sensory": 4,
     "confidence": "Medium (user-supplied)",
     "notes": "Avoid shorts/feed. Curate playlists.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Frozen II",
@@ -5664,7 +6011,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Strong themes and music; co-view friendly.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Luca",
@@ -5683,7 +6032,8 @@
     "notes": "Warm, calmer Pixar pacing.",
     "tags": [
       "beforeBedtime",
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -5702,7 +6052,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "High quality nature doc; occasional predator scenes.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -5771,7 +6122,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Mystery-style plot; good discussion themes.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Hercules (Animated)",
@@ -5841,7 +6194,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Calmer singing and gestures. Use curated playlists only.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Numberjacks",
@@ -5858,7 +6213,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Maths problem solving with clear structure; generally calm.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Postcards from Buster",
@@ -5875,7 +6232,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Travel and culture; calm documentary segments.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Peg + Cat",
@@ -5892,7 +6251,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Math problem solving with songs; a bit peppy.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Nature Cat",
@@ -5909,7 +6270,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Outdoor learning with some silliness.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Baby Bumblebee",
@@ -6052,7 +6415,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Food curiosity; a bit peppy.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "CBeebies: My First Nursery Rhymes",
@@ -6086,7 +6451,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Community and jobs; steady pacing.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Guess with Jess",
@@ -6104,7 +6471,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Gentle questions and curiosity-led stories.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -6174,7 +6542,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Friendship and feelings; gentle pacing.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -6267,7 +6636,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Playlist-only to avoid autoplay/shorts feed.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Khan Academy Kids (Videos)",
@@ -6285,7 +6656,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Use curated videos; avoid feed.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -6303,7 +6675,9 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Structured engagement; paced.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Paddington (TV) (Selected)",
@@ -6321,7 +6695,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Manners and gentle humour.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -6339,7 +6714,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Curate clips/playlists; avoid feed.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Liberty's Kids",
@@ -6356,7 +6733,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "History stories; co-view for context.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Scooby-Doo Where Are You!",
@@ -6390,7 +6769,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Time-travel history; moderately peppy.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Horrible Science",
@@ -6407,7 +6788,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Sketch science; a bit quick at times.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "MythBusters (Family Picks)",
@@ -6424,7 +6807,9 @@
     "sensory": 4,
     "confidence": "Medium (user-supplied)",
     "notes": "Explosions/experiments; engaging but stimulating.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Fetch! With Ruff Ruffman",
@@ -6441,7 +6826,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Challenge-based science and problem solving.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Bill Nye the Science Guy",
@@ -6458,7 +6845,9 @@
     "sensory": 4,
     "confidence": "Medium (user-supplied)",
     "notes": "High energy but educational; not a wind-down pick.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Carmen Sandiego",
@@ -6475,7 +6864,9 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Mystery + geography; brisk but manageable.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Wallace & Gromit: The Wrong Trousers",
@@ -6563,7 +6954,8 @@
     "confidence": "Medium (user-supplied)",
     "notes": "Clever storytelling; co-view friendly.",
     "tags": [
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -6583,7 +6975,8 @@
     "notes": "Friendship and empathy themes.",
     "tags": [
       "rainyDays",
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -6624,7 +7017,8 @@
     "notes": "Nature doc; occasional intense scenes.",
     "tags": [
       "travel",
-      "familyTime"
+      "familyTime",
+      "educational"
     ]
   },
   {
@@ -7052,7 +7446,8 @@
     "confidence": "High",
     "notes": "PBS Kids science format; standard calm-to-moderate PBS pacing.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -7070,7 +7465,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "PBS Kids superhero-school format; general reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Splash and Bubbles",
@@ -7089,7 +7486,8 @@
     "notes": "Underwater educational adventure; standard PBS Kids pacing.",
     "tags": [
       "beforeBedtime",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -7108,7 +7506,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Technology-curiosity preschool show; general reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Floogals",
@@ -7143,7 +7543,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Interactive literacy format; general reputation similar to other Nick Jr interactive shows.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Abby Hatcher",
@@ -7160,7 +7562,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Preschool problem-solving adventure; general reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Corn & Peg",
@@ -7333,7 +7737,9 @@
     "sensory": 4,
     "confidence": "Medium",
     "notes": "Cocomelon spin-off with a slightly slower format than the flagship show, but similar bright, musical style.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Sydney to the Max",
@@ -7872,7 +8278,9 @@
     "sensory": 4,
     "confidence": "Medium",
     "notes": "TV expansion of the viral Baby Shark franchise; similar bright, musical, high-frequency format to the original songs.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Wild Kratts: Creature Power Challenge",
@@ -7889,7 +8297,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Wild Kratts spin-off special; similar purposeful action-adventure pacing to the flagship show.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Ask the Storybots: Answertopia",
@@ -7906,7 +8316,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Interactive spin-off of Ask the StoryBots; similar question-based musical format.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Wizards: Tales of Arcadia",
@@ -8059,7 +8471,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "STEM-focused superhero adventure; general reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Proud Family: Louder and Prouder",
@@ -8202,7 +8616,8 @@
     "notes": "Mockumentary-style show exploring local history; calmer, dialogue-driven pacing.",
     "tags": [
       "rainyDays",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -8220,7 +8635,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Ridley Jones holiday special; similar pacing to the flagship series.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Sesame Street: Not Too Late with Elmo",
@@ -8237,7 +8654,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Talk-show parody format for kids; general reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Chicken Squad",
@@ -8305,7 +8724,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Ada Twist franchise extension; similar curiosity-led educational pacing.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Mecha Builders: Full Episodes",
@@ -8322,7 +8743,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Sesame Workshop STEM-building show; similar structured educational pacing to Sesame Street spin-offs.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Frog and Toad: Storybook Season",
@@ -8411,7 +8834,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Simple shapes-and-colors preschool format; general reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Suzy's Zoo: Daisy Days",
@@ -8447,7 +8872,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Live-action dinosaur-science hybrid; general reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Dino Dex",
@@ -8464,7 +8891,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Dino Dana spin-off; similar live-action science pacing.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Bureau of Magical Things",
@@ -8623,7 +9052,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Classic wildlife-adventure Nicktoon; general reputation, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "As Told by Ginger",
@@ -8874,7 +9305,9 @@
     "sensory": 3,
     "confidence": "High",
     "notes": "Reviewers describe energetic but accessible pacing, bright whimsical animation, and no scary or intense moments.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Kitty Is Not a Cat",
@@ -8909,7 +9342,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Classic Kratt Brothers preschool nature show mixing live-action animal segments with claymation; reviews describe it as a 'fun and energetic learning environment' but structured with standard PBS Kids preschool pacing. General knowledge plus review descriptions, not independently verified against scene-length data.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Nella the Princess Knight",
@@ -8946,7 +9381,9 @@
     "sensory": 3,
     "confidence": "High",
     "notes": "The creator has described it as a fast-paced action adventure that 'zips along at a breakneck pace' for its 6-8 target audience's processing speed; Common Sense Media parent reviews flag cartoon violence and sassy humor beyond typical preschool comfort.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Rosie's Rules",
@@ -8963,7 +9400,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Common Sense Media names it a Common Sense Selection and describes a gentle bilingual civics show built around empathy, mindfulness and basic coping skills — steady preschool pacing, not fast-cut.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Lyla in the Loop",
@@ -8981,7 +9420,8 @@
     "confidence": "Medium",
     "notes": "Common Sense Media (age 5+) calls it a wholesome STEM show about creative problem-solving with positive family dynamics; calm, think-time educational pacing typical of PBS Kids.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -9018,7 +9458,8 @@
     "confidence": "Medium",
     "notes": "Common Sense Media describes a sweet crew of animal friends modeling gratitude, patience and turn-taking; bright, bold animation and songs but gentle, low-conflict preschool pacing.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -9073,7 +9514,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Common Sense Media calls it a gentle social-emotional show but flags bright 'pink-and-purple sparkly animation' and upbeat pop numbers that push its visual/audio intensity above the calmest tier.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "44 Cats",
@@ -9198,7 +9641,8 @@
     "notes": "Andy Day and the BBC Studios Natural History Unit's latest Andy's Adventures instalment, blending live action with CGI dinosaurs; same explorer-base-camp format and pacing as the rest of the strand.",
     "tags": [
       "beforeBedtime",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -9217,7 +9661,8 @@
     "confidence": "High",
     "notes": "Built explicitly as a bedtime wind-down show, following a fixed Playtime-Mealtime-Bathtime-Bedtime routine each episode and closing with a narrated bedtime story. About as calm as preschool TV gets.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -9235,7 +9680,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Revived CBeebies cooking format pairing a real recipe with a story segment and two songs each episode; steady, unhurried pacing typical of the original run.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Do Not Watch This Show",
@@ -9286,7 +9733,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Live-action assistance-dog show blending short missions (litter picking, vet visits) with real demonstrations of dog training; framed educationally rather than as high-stakes rescue action.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Hamza Loves Animals: Africa",
@@ -9303,7 +9752,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Ranger Hamza (Hamza Yassin) wildlife strand in the same calm presenter-led format as CBeebies' other nature shows.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "I Spy, You Spy",
@@ -9320,7 +9771,9 @@
     "sensory": 1,
     "confidence": "High",
     "notes": "Five-minute episodes built around pausing to observe surroundings and play I Spy; explicitly designed to encourage slow, attentive looking rather than fast stimulation.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Let's Go for a Walk",
@@ -9337,7 +9790,9 @@
     "sensory": 1,
     "confidence": "High",
     "notes": "Ranger Hamza leads gentle outdoor rambles; unhurried walking-pace format similar to other calm CBeebies presenter-led nature strands.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Maddie + Triggs",
@@ -9354,7 +9809,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Audio-first musical series built so blind and sighted children have an equal viewing experience; each episode centres one original song rather than visual spectacle.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Mojo Swoptops",
@@ -9371,7 +9828,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "CG comedy-action preschool series about a truck that swaps its top to solve neighbours' problems; general reputation from marketing copy, not independently verified.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Mr Tumble",
@@ -9388,7 +9847,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "The Something Special universe's 2025 relaunch, now with Justin Fletcher rotating alongside Maddie Moate and Ben Cajee; keeps the same gentle Makaton-signing, inclusive format as Something Special.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Piggy Builders",
@@ -9405,7 +9866,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Three pig siblings learning to build and work as a team; standard calm preschool problem-solving format.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Piripenguins",
@@ -9422,7 +9885,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "CGI/2D penguin colony comedy built around comedic mishaps and mild adventure; aimed at the older end of preschool.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Rafi the Wishing Wizard",
@@ -9439,7 +9904,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Warm family sitcom about a young wizard whose wishes go wrong; general reputation from marketing copy, not independently verified against pacing data.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Roots and Fruits",
@@ -9456,7 +9923,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Variety-show format with fruit and veg characters performing musical numbers; described as lively and theatrical despite five-minute runtimes.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Teeny Tiny Creatures",
@@ -9473,7 +9942,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Presenter-led factual strand on small creatures and bugs, in the same calm documentary format as other CBeebies nature spin-offs.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Weasy Family",
@@ -9507,7 +9978,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Unscripted fly-on-the-wall documentary following real Reception classes; nothing staged or edited for pace, closer to observational film than typical kids' TV.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Vegesaurs",
@@ -9524,7 +9997,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Dinosaur-shaped vegetable characters on 'mini adventures' built around mealtime and sharing themes; general reputation from marketing copy.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Vida the Vet",
@@ -9542,7 +10017,8 @@
     "confidence": "Medium",
     "notes": "From the Paw Patrol studio but framed around empathy and healing rather than rescue action; a girl caring for injured woodland animals.",
     "tags": [
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -9560,7 +10036,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Gentle gardening and plant-exploration format mixing fun facts with interactive participation; general reputation from marketing copy.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Yukee",
@@ -9577,7 +10055,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Music-first series about a ukulele-playing girl's garden adventures, featuring real musicians as guest characters; whimsical but calm framing.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Loveykins",
@@ -9708,7 +10188,9 @@
     "sensory": 1,
     "confidence": "High",
     "notes": "Award-winning documentary strand following real children's personal stories, often on serious topics like anxiety or refugee experiences; unhurried, observational documentary pacing despite weighty subject matter.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Our School",
@@ -9726,7 +10208,8 @@
     "confidence": "High",
     "notes": "Fly-on-the-wall documentary following real pupils starting secondary school; unscripted and observational, similar calm format to other CBBC school documentaries.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -9744,7 +10227,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Behind-the-scenes documentary following three brothers running a real zoo and big cat sanctuary; blends conservation education with family antics at a measured pace.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Pets Factor",
@@ -9761,7 +10246,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Documentary following real vets treating pets, mixing diagnosis and treatment with child-friendly explanations; steady factual pacing.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Out of This World",
@@ -9779,7 +10266,8 @@
     "confidence": "High",
     "notes": "Space-science documentary presented by an astrophysicist and her daughter; calm factual explainer format.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -9797,7 +10285,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Observational zoo documentary given a comedic twist via CGI facial-tracking so animals appear to talk; livelier and more character-driven than a plain nature documentary.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Coming to England",
@@ -9848,7 +10338,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Science-trick and gadget show hosted by two young presenters; energetic demonstration format typical of CBBC factual entertainment.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Dexter Procter: The 10-Year-Old Doctor",
@@ -9883,7 +10375,8 @@
     "confidence": "Medium",
     "notes": "Steve Backshall's craft/build spin-off of the Deadly strand; calmer studio-based format than the field expeditions.",
     "tags": [
-      "beforeBedtime"
+      "beforeBedtime",
+      "educational"
     ]
   },
   {
@@ -9901,7 +10394,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Steve Backshall's Deadly-strand spin-off applying the same expedition-style factual format to prehistoric creatures.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Deadly Mission Shark",
@@ -9918,7 +10413,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Deadly-strand expedition series focused on sharks; same field-adventure factual format as Deadly 60.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Deadly Pole to Pole",
@@ -9935,7 +10432,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Deadly-strand expedition series covering polar wildlife; same field-adventure factual format as Deadly 60.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Deadly Predators",
@@ -9952,7 +10451,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Deadly-strand series profiling apex predators; same field-adventure factual format as Deadly 60.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Shark Bites",
@@ -9969,7 +10470,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Short-form Steve Backshall factual strand on shark biology, combining field footage with studio 'Shark Lab' demonstrations; brief five-minute episodes keep it calmer than the full Deadly expeditions.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Stage Stars",
@@ -9986,7 +10489,9 @@
     "sensory": 3,
     "confidence": "High",
     "notes": "Observational-documentary hybrid following students at a performing arts boarding school, described as blending behind-the-scenes footage with glossy performance segments and social-media-style graphics.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Style It Out",
@@ -10037,7 +10542,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Low-key cooking show where a young host teaches simple recipes to a different friend each episode, in exchange for learning a new skill.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Go Get Arty",
@@ -10056,7 +10563,8 @@
     "notes": "Family art-challenge show hosted by a real YouTube family with a talking-paintbrush sidekick; craft-focused pacing similar to other CBBC art shows.",
     "tags": [
       "beforeBedtime",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -10091,7 +10599,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Musician Ricky Wilson and celebrity guests discuss art and inspiration in his studio; conversational, low-key format.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Clipheads",
@@ -11383,7 +11893,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "BBC Radio 2's short-story-writing competition strand for kids, covered with author interviews and finalist readings; calm, literary-focused format.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Absolute Genius with Dick and Dom",
@@ -11400,7 +11912,9 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Science-history comedy duo demonstrating famous inventions and experiments; energetic double-act presenting style.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Britain's Best Young Artist",
@@ -11417,7 +11931,9 @@
     "sensory": 2,
     "confidence": "Medium",
     "notes": "Art competition series showcasing young artists' work; general reputation, calmer than a typical reality competition.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Jennie's Fitness in 5",
@@ -11452,7 +11968,8 @@
     "confidence": "High",
     "notes": "Short advice strand tackling awkward and serious issues for kids, from bullying to family relationships; calm, honest, low-key delivery.",
     "tags": [
-      "rainyDays"
+      "rainyDays",
+      "educational"
     ]
   },
   {
@@ -11470,7 +11987,9 @@
     "sensory": 1,
     "confidence": "Medium",
     "notes": "BBC's online-safety education initiative for kids, covering privacy, cyberbullying and digital wellbeing through calm advice-led content.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Gangnam Project: A K-pop Story",
@@ -11504,7 +12023,9 @@
     "sensory": 3,
     "confidence": "High",
     "notes": "Makeover show where a team builds elaborate themed dens for children, ending in a big reveal; excitement is concentrated in reveal moments rather than constant high energy.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "Boy Girl Dog Cat Mouse Cheese",
@@ -11557,7 +12078,8 @@
     "notes": "Behind-the-scenes documentary following young UK gymnasts training across artistic, trampoline and acrobatic disciplines; observational factual pacing.",
     "tags": [
       "beforeBedtime",
-      "travel"
+      "travel",
+      "educational"
     ]
   },
   {
@@ -11717,7 +12239,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Beekeeping competition show where kids learn apiary skills and compete to produce the tastiest honey; calmer, nature-focused format compared to typical CBBC competition shows.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "So Awkward",
@@ -11821,7 +12345,9 @@
     "sensory": 2,
     "confidence": "High",
     "notes": "Documentary following young players at professional football academies as they chase a career in the sport, balancing training pressure with school and personal challenges.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "The Lady Grace Mysteries",
@@ -11925,7 +12451,9 @@
     "sensory": 4,
     "confidence": "Medium",
     "notes": "High-intensity 'brain break' movement and dance videos designed for kids to get up and move rather than sit passively, similar in format and energy to GoNoodle. General reputation from parent/teacher guides, not independently verified against pacing data.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   },
   {
     "name": "MrBeast",
@@ -11959,6 +12487,8 @@
     "sensory": 4,
     "confidence": "High",
     "notes": "Common Sense Media describes the videos as 'fast-paced with lots of interesting images and helpful graphics' built around 'extreme experiments' and 'sensationalized stunts'; also flags that CrunchLabs product promos are woven directly into videos without a clear break, making them hard for kids to distinguish from the content.",
-    "tags": []
+    "tags": [
+      "educational"
+    ]
   }
 ]

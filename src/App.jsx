@@ -349,6 +349,7 @@ export default function StimulationDatabase() {
   const [tier, setTier] = useState("All");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [contentTag, setContentTag] = useState("All");
+  const [educationalOnly, setEducationalOnly] = useState(false);
   const [sortDesc, setSortDesc] = useState(false);
   const [favorites, setFavorites] = useState([]);
   const [localDataLoaded, setLocalDataLoaded] = useState(false);
@@ -455,16 +456,18 @@ export default function StimulationDatabase() {
         const matchesTier = activeTab !== "database" || tier === "All" || sTier === tier;
         const matchesContentTag =
           activeTab !== "database" || contentTag === "All" || (s.tags || []).includes(contentTag);
+        const matchesEducational =
+          activeTab !== "database" || !educationalOnly || (s.tags || []).includes("educational");
         const matchesAge =
           ageBucket === "All" ||
           (() => {
             const bucket = AGE_BUCKETS.find((b) => b.label === ageBucket);
             return s.ageMin <= bucket.max && s.ageMax >= bucket.min;
           })();
-        return matchesQuery && matchesPlatform && matchesTier && matchesContentTag && matchesAge;
+        return matchesQuery && matchesPlatform && matchesTier && matchesContentTag && matchesEducational && matchesAge;
       })
       .sort((a, b) => (IS_FREE_MODE ? 0 : sortDesc ? scoreOf(b) - scoreOf(a) : scoreOf(a) - scoreOf(b)));
-  }, [baseList, query, selectedPlatforms, ageBucket, tier, contentTag, sortDesc]);
+  }, [baseList, query, selectedPlatforms, ageBucket, tier, contentTag, educationalOnly, sortDesc]);
 
   return (
     <div
@@ -705,6 +708,16 @@ export default function StimulationDatabase() {
                       {ct.emoji} {ct.label}
                     </Chip>
                   ))}
+                </div>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <Chip
+                    active={educationalOnly}
+                    disabled={IS_FREE_MODE}
+                    onClick={() => setEducationalOnly(!educationalOnly)}
+                    color={{ fg: TOKENS.low, bg: TOKENS.lowBg }}
+                  >
+                    🎓 Educational Only
+                  </Chip>
                 </div>
               </>
             )}
