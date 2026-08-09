@@ -172,9 +172,7 @@
     "sensory": 5,
     "confidence": "High (creator-confirmed)",
     "notes": "Loud, high-energy, constant motion and exaggerated reactions throughout. Adjusted to High per creator review.",
-    "tags": [
-      "educational"
-    ]
+    "tags": []
   },
   {
     "name": "SpongeBob SquarePants",
@@ -711,9 +709,7 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Interactive musical format with steady energy. General reputation, not independently verified.",
-    "tags": [
-      "educational"
-    ]
+    "tags": []
   },
   {
     "name": "Puppy Dog Pals",
@@ -1198,9 +1194,7 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Interactive show teaching problem-solving and early math. Can be repetitive.",
-    "tags": [
-      "educational"
-    ]
+    "tags": []
   },
   {
     "name": "Alma's Way",
@@ -1842,9 +1836,7 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Lion King spinoff. Teaches teamwork and African wildlife.",
-    "tags": [
-      "educational"
-    ]
+    "tags": []
   },
   {
     "name": "Elena of Avalor",
@@ -2050,9 +2042,7 @@
     "sensory": 3,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches math through spy adventures. Clever and engaging for school-age kids.",
-    "tags": [
-      "educational"
-    ]
+    "tags": []
   },
   {
     "name": "Cyberchase",
