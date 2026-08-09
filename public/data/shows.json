@@ -157,7 +157,7 @@
     "name": "Blippi",
     "platforms": [
       "YouTube",
-      "Amazon",
+      "Amazon Prime",
       "Moonbug"
     ],
     "genre": "Educational / Live-action",
@@ -2773,7 +2773,8 @@
     "tags": [
       "beforeBedtime",
       "travel"
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Operation Ouch!",
@@ -9042,7 +9043,7 @@
   {
     "name": "Pete the Cat",
     "platforms": [
-      "Amazon Prime Video"
+      "Amazon Prime"
     ],
     "genre": "Music / Slice-of-life",
     "ageMin": 3,

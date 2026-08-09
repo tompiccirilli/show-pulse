@@ -343,7 +343,8 @@ export default function StimulationDatabase() {
   const [loadState, setLoadState] = useState("loading"); // loading | ready | error
   const [activeTab, setActiveTab] = useState("database");
   const [query, setQuery] = useState("");
-  const [platform, setPlatform] = useState("All");
+  const [selectedPlatforms, setSelectedPlatforms] = useState([]); // empty = all platforms
+  const [platformDropdownOpen, setPlatformDropdownOpen] = useState(false);
   const [ageBucket, setAgeBucket] = useState("All");
   const [tier, setTier] = useState("All");
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -377,6 +378,10 @@ export default function StimulationDatabase() {
 
   function toggleFavorite(name) {
     setFavorites((prev) => (prev.includes(name) ? prev.filter((n) => n !== name) : [...prev, name]));
+  }
+
+  function togglePlatform(p) {
+    setSelectedPlatforms((prev) => (prev.includes(p) ? prev.filter((x) => x !== p) : [...prev, p]));
   }
 
   useEffect(() => {
@@ -444,8 +449,9 @@ export default function StimulationDatabase() {
       .filter((s) => {
         const total = scoreOf(s);
         const sTier = tierOf(total);
-        const matchesQuery = s.name.toLowerCase().includes(query.toLowerCase());
-        const matchesPlatform = platform === "All" || s.platforms.includes(platform);
+        const matchesQuery = s.name.toLowerCase().includes(query.trim().toLowerCase());
+        const matchesPlatform =
+          selectedPlatforms.length === 0 || selectedPlatforms.some((p) => s.platforms.includes(p));
         const matchesTier = activeTab !== "database" || tier === "All" || sTier === tier;
         const matchesContentTag =
           activeTab !== "database" || contentTag === "All" || (s.tags || []).includes(contentTag);
@@ -458,7 +464,7 @@ export default function StimulationDatabase() {
         return matchesQuery && matchesPlatform && matchesTier && matchesContentTag && matchesAge;
       })
       .sort((a, b) => (IS_FREE_MODE ? 0 : sortDesc ? scoreOf(b) - scoreOf(a) : scoreOf(a) - scoreOf(b)));
-  }, [baseList, query, platform, ageBucket, tier, contentTag, sortDesc]);
+  }, [baseList, query, selectedPlatforms, ageBucket, tier, contentTag, sortDesc]);
 
   return (
     <div
@@ -554,18 +560,22 @@ export default function StimulationDatabase() {
               className="flex-1 rounded-xl border px-4 py-2.5 text-sm bg-transparent"
               style={{ borderColor: TOKENS.line, color: TOKENS.ink }}
             />
-            <select
-              value={platform}
-              onChange={(e) => setPlatform(e.target.value)}
-              className="rounded-xl border px-3 py-2.5 text-sm"
-              style={{ borderColor: TOKENS.line, color: TOKENS.ink, backgroundColor: TOKENS.surface }}
+            <button
+              onClick={() => setPlatformDropdownOpen((v) => !v)}
+              className="rounded-xl border px-3 py-2.5 text-sm text-left motion-safe:transition-colors duration-150"
+              style={{
+                borderColor: platformDropdownOpen || selectedPlatforms.length > 0 ? TOKENS.low : TOKENS.line,
+                backgroundColor: platformDropdownOpen ? TOKENS.lowBg : TOKENS.surface,
+                color: selectedPlatforms.length > 0 ? TOKENS.low : TOKENS.ink,
+              }}
             >
-              {platforms.map((p) => (
-                <option key={p} value={p}>
-                  {p === "All" ? "All platforms" : p}
-                </option>
-              ))}
-            </select>
+              {selectedPlatforms.length === 0
+                ? "All platforms"
+                : selectedPlatforms.length === 1
+                ? selectedPlatforms[0]
+                : `${selectedPlatforms.length} platforms`}{" "}
+              ▾
+            </button>
             <select
               value={ageBucket}
               onChange={(e) => setAgeBucket(e.target.value)}
@@ -580,6 +590,44 @@ export default function StimulationDatabase() {
               ))}
             </select>
           </div>
+
+          {platformDropdownOpen && (
+            <div className="mt-3 pt-3 flex flex-wrap items-center gap-2" style={{ borderTop: `1px solid ${TOKENS.line}` }}>
+              {platforms
+                .filter((p) => p !== "All")
+                .map((p) => {
+                  const checked = selectedPlatforms.includes(p);
+                  return (
+                    <label
+                      key={p}
+                      className="inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1.5 text-sm cursor-pointer motion-safe:transition-colors duration-150"
+                      style={{
+                        borderColor: checked ? TOKENS.low : TOKENS.line,
+                        backgroundColor: checked ? TOKENS.lowBg : TOKENS.surface,
+                        color: checked ? TOKENS.low : TOKENS.inkMuted,
+                      }}
+                    >
+                      <input
+                        type="checkbox"
+                        checked={checked}
+                        onChange={() => togglePlatform(p)}
+                        className="sr-only"
+                      />
+                      {p}
+                    </label>
+                  );
+                })}
+              {selectedPlatforms.length > 0 && (
+                <button
+                  onClick={() => setSelectedPlatforms([])}
+                  className="text-xs underline underline-offset-2 focus:outline-none"
+                  style={{ color: TOKENS.inkMuted }}
+                >
+                  Clear
+                </button>
+              )}
+            </div>
+          )}
 
           <div className="mt-3 text-sm" style={{ color: TOKENS.inkMuted }}>
             {loadState === "ready" && (
