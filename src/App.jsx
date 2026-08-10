@@ -56,6 +56,66 @@ const CONTENT_TAGS = [
   { id: "familyTime", emoji: "👨‍👩‍👧", label: "Family Time" },
 ];
 
+// One shared source of truth for what each factor/score means, per RUBRIC.md.
+// Looked up by every card's "Why this rating?" panel — never duplicated into shows.json.
+const FACTOR_INFO = {
+  speed: {
+    label: "Speed",
+    description: "How quickly scenes and shots change.",
+    levels: {
+      1: "Long, slow scenes with minimal cutting.",
+      2: "Mostly steady shots, with occasional cuts.",
+      3: "A moderate mix of held and quick shots.",
+      4: "Frequent cuts — scenes change every few seconds.",
+      5: "Rapid cuts, often every 1–2 seconds.",
+    },
+  },
+  emotional: {
+    label: "Emotion",
+    description: "Intensity of emotional highs and lows (excitement, danger, conflict, drama).",
+    levels: {
+      1: "Calm and even throughout.",
+      2: "Mostly calm, with occasional mild tension.",
+      3: "A regular mix of calm and tense moments.",
+      4: "Frequent excitement, danger, or conflict.",
+      5: "Frequent big emotional spikes.",
+    },
+  },
+  pacing: {
+    label: "Pacing",
+    description: "Overall rhythm and tempo, distinct from how often the picture cuts.",
+    levels: {
+      1: "Unhurried and relaxed throughout.",
+      2: "Generally gentle, with brief bursts of energy.",
+      3: "A balanced tempo — mixes calm and lively stretches.",
+      4: "Energetic and keeps moving.",
+      5: "Relentless — rarely slows down.",
+    },
+  },
+  novelty: {
+    label: "Novelty",
+    description: "How much new or unexpected stimuli appear (new characters, settings, jokes, twists).",
+    levels: {
+      1: "Highly repetitive and predictable structure.",
+      2: "A familiar format with minor variation.",
+      3: "A regular mix of familiar and new elements.",
+      4: "Frequent new characters, jokes, or twists.",
+      5: "Constant novelty — something new in nearly every scene.",
+    },
+  },
+  sensory: {
+    label: "Sensory",
+    description: "Combined visual and audio intensity (brightness, saturation, sound effects, music).",
+    levels: {
+      1: "Muted colors and quiet sound.",
+      2: "Mostly soft visuals and audio, with occasional louder moments.",
+      3: "A balanced level of brightness and sound.",
+      4: "Bright, saturated visuals with prominent sound effects and music.",
+      5: "Loud, bright, and dense throughout.",
+    },
+  },
+};
+
 function scoreOf(s) {
   return s.speed + s.emotional + s.pacing + s.novelty + s.sensory;
 }
@@ -302,19 +362,24 @@ function ShowCard({ show, isFavorite, onToggleFavorite }) {
           style={{ backgroundColor: TOKENS.surfaceAlt, color: TOKENS.ink }}
         >
           <p className="mb-2 pb-2" style={{ borderBottom: `1px solid ${TOKENS.line}` }}>{show.notes}</p>
-          <div className="flex flex-col gap-1 text-xs" style={{ fontFamily: TOKENS.font }}>
-            {[
-              ["Speed", show.speed],
-              ["Emotion", show.emotional],
-              ["Pacing", show.pacing],
-              ["Novelty", show.novelty],
-              ["Sensory", show.sensory],
-            ].map(([label, value]) => (
-              <div key={label} className="flex justify-between">
-                <span style={{ color: TOKENS.inkMuted }}>{label}</span>
-                <span style={{ color: TOKENS.ink, fontWeight: 700 }}>{value}</span>
-              </div>
-            ))}
+          <div className="flex flex-col gap-2 text-xs" style={{ fontFamily: TOKENS.font }}>
+            {["speed", "emotional", "pacing", "novelty", "sensory"].map((key) => {
+              const info = FACTOR_INFO[key];
+              const value = show[key];
+              return (
+                <div key={key} className="flex justify-between items-start gap-3">
+                  <div>
+                    <div style={{ color: TOKENS.ink, fontWeight: 700 }}>{info.label}</div>
+                    <div className="mt-0.5" style={{ color: TOKENS.inkMuted, fontWeight: 400 }}>
+                      {info.levels[value]}
+                    </div>
+                  </div>
+                  <span className="shrink-0" style={{ color: TOKENS.ink, fontWeight: 700 }}>
+                    {value}/5
+                  </span>
+                </div>
+              );
+            })}
           </div>
           <div
             className="flex justify-between mt-2 pt-2 text-xs"
