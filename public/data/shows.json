@@ -12282,5 +12282,168 @@
     "tags": [
       "educational"
     ]
+  },
+  {
+    "name": "Yo Gabba GabbaLand!",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Music / Live-action Variety",
+    "ageMin": 2,
+    "ageMax": 4,
+    "speed": 4,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "High",
+    "notes": "2024 Apple TV+ reboot of the neon, music-and-dance format; reviews warn colors 'can flash quickly' and the show 'could be overstimulating,' with rapid transitions and dense songs, though content is emotionally gentle."
+  },
+  {
+    "name": "StarBeam",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Superhero / Preschool Action",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Reviews describe a vibrant but soft palette made for 'little eyes,' comical (non-scary) villains, and simple one-or-two-step plots; StarBeam even models taking a breath before acting, keeping intensity moderate."
+  },
+  {
+    "name": "The Creature Cases",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Mystery / Nature-Adventure",
+    "ageMin": 5,
+    "ageMax": 9,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Parents repeatedly call it 'overwhelming due to its high stimulation and fast-paced scenes,' with fast dialogue and 'unexpected twists that keep kids on the edge of their seats,' though it is non-violent and educational."
+  },
+  {
+    "name": "Kid-E-Cats",
+    "platforms": [
+      "Nick Jr",
+      "YouTube"
+    ],
+    "genre": "Slice-of-life / Preschool Comedy",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Short (~4-5 min) wholesome kitten adventures; reviewers describe a 'calm pace with nice and charming characters' suited to low-key background viewing. General reputation from reviews, not independently verified against measured pacing data."
+  },
+  {
+    "name": "Rhyme Time Town",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Musical / Nursery Rhyme",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Described as 'visually stimulating without overwhelming sensory input' and 'a calm viewing option... suitable for wind-down periods'; song-driven and warm, but noted as highly repetitive in songs and storylines."
+  },
+  {
+    "name": "Team Zenko Go",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Action-Comedy / Preschool",
+    "ageMin": 4,
+    "ageMax": 7,
+    "speed": 4,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Parents flag that the 'pacing is weirdly fast and intense for such gentle content' with 'intense music, which could be overstimulating for some toddlers,' despite no violence or scary material."
+  },
+  {
+    "name": "Monkie Kid",
+    "platforms": [
+      "Cartoon Network",
+      "Amazon Prime"
+    ],
+    "genre": "Action-Fantasy",
+    "ageMin": 8,
+    "ageMax": 12,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "High",
+    "notes": "Common Sense Media calls it 'fast-moving, suspenseful, and frenetic,' packing full arcs into ~10 minutes with 'lots of cartoon violence' and 'scary, loud villains' — the most action-intense of this batch."
+  },
+  {
+    "name": "Ni Hao, Kai-Lan",
+    "platforms": [
+      "Nick Jr",
+      "Paramount+"
+    ],
+    "genre": "Educational / Language",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Built on a 'think-along, play-along' format with planned pauses for viewer responses, making it inherently slow; teaches gentle handling of feelings like fear and jealousy. Rated from general knowledge of this established Dora-style show."
+  },
+  {
+    "name": "Get Rolling with Otis",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Slice-of-life / Social-Emotional",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 1,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Common Sense Media calls it a 'gentle, slow-paced show... perfect for very young kids' with calm, colorful (not garish) animation and simple stories built around naming feelings — the quietest entry in this batch."
+  },
+  {
+    "name": "Barney & Friends",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Musical / Educational",
+    "ageMin": 1,
+    "ageMax": 4,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Slow, soft-spoken pacing and reassuring emotional tone, but the screen is filled with bright colors and near-constant upbeat sing-along numbers, giving it an elevated sensory load despite its gentle rhythm."
   }
 ]
