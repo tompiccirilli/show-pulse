@@ -24,6 +24,9 @@ jobs:
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
 
+      - name: Snapshot shows.json before the update
+        run: cp public/data/shows.json /tmp/shows-before.json
+
       - name: Run weekly research + update
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -38,12 +41,15 @@ jobs:
           --max-turns 40 \
           --max-budget-usd 3.00
 
+      - name: Generate community update log entry
+        run: node scripts/log-weekly-update.mjs /tmp/shows-before.json
+
       - name: Commit and push if changed
         run: |
           git config user.name "show-pulse-bot"
           git config user.email "actions@github.com"
-          if ! git diff --quiet public/data/shows.json; then
-            git add public/data/shows.json
+          if ! git diff --quiet public/data/shows.json logs/community-updates.txt; then
+            git add public/data/shows.json logs/community-updates.txt
             git commit -m "Add new shows (weekly automated update)"
             git push
           else
