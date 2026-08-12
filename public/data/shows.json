@@ -12445,5 +12445,176 @@
     "sensory": 4,
     "confidence": "High",
     "notes": "Slow, soft-spoken pacing and reassuring emotional tone, but the screen is filled with bright colors and near-constant upbeat sing-along numbers, giving it an elevated sensory load despite its gentle rhythm."
+  },
+  {
+    "name": "Gigantosaurus",
+    "platforms": [
+      "Disney Junior",
+      "DisneyNOW",
+      "Netflix"
+    ],
+    "genre": "Preschool Adventure / Dinosaurs",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "CGI preschool dino-adventure with recurring musical frolic sequences and bright, saturated visuals; reviews (Forbes, Common Sense) describe teamwork-driven stories with moderate action energy rather than frantic pacing. Cut speed and pacing estimated from general viewing, not scene-timed."
+  },
+  {
+    "name": "Ben 10 (2016)",
+    "platforms": [
+      "Cartoon Network",
+      "HBO Max"
+    ],
+    "genre": "Action-Comedy / Superhero",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "Medium",
+    "notes": "Reboot reviews note the 'bad guys come fast and furious' with a bright palette, rapid alien transformations, and comedy-forward but high-energy action; loud, dense sensory load. High-end factors inferred from reviews, not independently scene-timed."
+  },
+  {
+    "name": "The Smurfs (2021)",
+    "platforms": [
+      "Nickelodeon"
+    ],
+    "genre": "Comedy / Fantasy",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Common Sense Media's review states this reboot has 'more action, more perilous moments, and less character build-up than the original,' citing chases, cliff falls, and exploding potions - a moderate step up in emotional spikes and pace from the 1980s series."
+  },
+  {
+    "name": "Trotro",
+    "platforms": [
+      "YouTube",
+      "France 5"
+    ],
+    "genre": "Preschool Slice-of-life",
+    "ageMin": 2,
+    "ageMax": 4,
+    "speed": 1,
+    "emotional": 1,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Repeatedly listed among low-stimulation toddler shows: gentle, slow, natural-language storytelling built around everyday routines of a little donkey, with calm visuals and quiet audio. Rated from those descriptions, not scene-timed."
+  },
+  {
+    "name": "Do, Re & Mi",
+    "platforms": [
+      "Amazon Prime Video",
+      "Amazon Kids+"
+    ],
+    "genre": "Musical / Preschool",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Song-driven preschool series (KidsFirst/Common Sense) that explicitly teaches music concepts like tempo and dynamics; multiple songs per episode add sensory density but the overall rhythm is gentle and unhurried. Rated from reviews, not independently verified."
+  },
+  {
+    "name": "Sooty (2011)",
+    "platforms": [
+      "CITV",
+      "ITVX"
+    ],
+    "genre": "Puppet Comedy / Slapstick",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Live puppet slapstick built around water pranks, magic mishaps and 'playful chaos' per series descriptions; single-set staging keeps cuts moderate while the comic set-pieces give it a livelier tempo. Rated from reviews, not scene-timed."
+  },
+  {
+    "name": "Rev & Roll",
+    "platforms": [
+      "Nick Jr.",
+      "Pluto TV",
+      "Amazon Prime Video"
+    ],
+    "genre": "Preschool Adventure / Vehicles",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Common Sense Media describes it as 'a calm show ideal for young preschoolers not ready for TV with too much conflict,' with no scary content or perilous situations despite its vehicle-adventure premise - keeping emotional and pace scores low."
+  },
+  {
+    "name": "Pop Paper City",
+    "platforms": [
+      "Apple TV+",
+      "Milkshake!"
+    ],
+    "genre": "Preschool Craft / Adventure",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Vibrant paper-world preschool show that alternates gentle 3D adventures with live-action craft montages encouraging kids to make their own creations; colorful but low-conflict and unhurried. Rated from descriptions, pacing not independently verified."
+  },
+  {
+    "name": "Trolls: TrollsTopia",
+    "platforms": [
+      "Hulu",
+      "Peacock"
+    ],
+    "genre": "Musical Comedy",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 5,
+    "confidence": "Medium",
+    "notes": "Common Sense Media highlights 'great music' and 'lots of random silliness,' with catchy numbers in constantly changing musical styles and a bright, glittery, high-energy palette - a loud, dense, fast-feeling show. Cut-speed and pacing inferred from reviews, not scene-timed."
+  },
+  {
+    "name": "The InBESTigators",
+    "platforms": [
+      "Netflix",
+      "ABC ME"
+    ],
+    "genre": "Live-action Mystery Comedy / Mockumentary",
+    "ageMin": 7,
+    "ageMax": 11,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Dialogue-driven Aussie mockumentary ('an Office for kids') where kid detectives solve low-stakes mysteries; talking-head format and gentle humor keep cuts, sensory load and emotional spikes modest. Rated from reviews, not scene-timed."
   }
 ]
