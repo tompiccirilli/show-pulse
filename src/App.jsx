@@ -17,6 +17,31 @@ const PAGE_TITLE = "The Safe Screen Time Database";
 const CTA_LABEL = "Unlock Access";
 const CTA_LINK = "https://www.thedadvibes.com/offers/zyys5nzo/checkout?coupon_code=INTRO20";
 
+// Access-code gate for the full (paid) version only — never applies in free
+// mode, which is meant to be shared openly. If no code is configured (e.g.
+// the env var isn't set), the gate is skipped rather than locking everyone
+// out, including in local dev.
+const ACCESS_CODE = import.meta.env.VITE_ACCESS_CODE || "";
+const GATE_ENABLED = !IS_FREE_MODE && ACCESS_CODE.length > 0;
+const ACCESS_STORAGE_KEY = "stimscout:access";
+
+function hasStoredAccess() {
+  try {
+    return localStorage.getItem(ACCESS_STORAGE_KEY) === "true";
+  } catch {
+    return false;
+  }
+}
+
+function storeAccess() {
+  try {
+    localStorage.setItem(ACCESS_STORAGE_KEY, "true");
+  } catch {
+    // private browsing / quota exceeded — code just won't persist, user
+    // re-enters it next visit rather than the app crashing.
+  }
+}
+
 /* ---------------------------------------------
    Design tokens
    bg: cool pale sage paper (not cream)
@@ -404,6 +429,20 @@ const TABS = [
 const AVOID_THRESHOLD = 22;
 
 export default function StimulationDatabase() {
+  const [unlocked, setUnlocked] = useState(() => !GATE_ENABLED || hasStoredAccess());
+  const [codeInput, setCodeInput] = useState("");
+  const [codeError, setCodeError] = useState(false);
+
+  function handleUnlock(e) {
+    e.preventDefault();
+    if (codeInput.trim().toLowerCase() === ACCESS_CODE.toLowerCase()) {
+      storeAccess();
+      setUnlocked(true);
+    } else {
+      setCodeError(true);
+    }
+  }
+
   const [SHOWS, setShows] = useState([]);
   const [loadState, setLoadState] = useState("loading"); // loading | ready | error
   const [activeTab, setActiveTab] = useState("database");
@@ -451,6 +490,7 @@ export default function StimulationDatabase() {
   }
 
   useEffect(() => {
+    if (!unlocked) return;
     let cancelled = false;
     fetch(SHOWS_DATA_URL)
       .then((res) => {
@@ -470,7 +510,7 @@ export default function StimulationDatabase() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [unlocked]);
 
   useEffect(() => {
     let cancelled = false;
@@ -533,6 +573,69 @@ export default function StimulationDatabase() {
       })
       .sort((a, b) => (IS_FREE_MODE ? 0 : sortDesc ? scoreOf(b) - scoreOf(a) : scoreOf(a) - scoreOf(b)));
   }, [baseList, query, selectedPlatforms, ageBucket, tier, contentTag, educationalOnly, sortDesc]);
+
+  if (!unlocked) {
+    return (
+      <div
+        className="min-h-screen w-full flex items-center justify-center px-6"
+        style={{ backgroundColor: TOKENS.bg, fontFamily: TOKENS.font }}
+      >
+        <style>{`
+          @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+          input:focus, button:focus-visible { outline: none; box-shadow: 0 0 0 3px ${TOKENS.lowBg}; }
+          .cta-button { transition: filter 0.15s ease; }
+          .cta-button:hover { filter: brightness(0.92); }
+        `}</style>
+        <form
+          onSubmit={handleUnlock}
+          className="w-full max-w-sm rounded-2xl border p-8 flex flex-col gap-4"
+          style={{ borderColor: TOKENS.line, backgroundColor: TOKENS.surface }}
+        >
+          <h1 className="text-2xl" style={{ fontFamily: TOKENS.font, color: TOKENS.ink }}>
+            {PAGE_TITLE}
+          </h1>
+          <p className="text-sm" style={{ color: TOKENS.inkMuted }}>
+            Enter your access code to continue.
+          </p>
+          <input
+            type="text"
+            value={codeInput}
+            onChange={(e) => {
+              setCodeInput(e.target.value);
+              setCodeError(false);
+            }}
+            placeholder="Access code"
+            autoFocus
+            className="rounded-lg border px-3 py-2 text-base"
+            style={{
+              borderColor: codeError ? TOKENS.high : TOKENS.line,
+              backgroundColor: TOKENS.bg,
+              color: TOKENS.ink,
+            }}
+          />
+          {codeError && (
+            <p className="text-sm" style={{ color: TOKENS.high }}>
+              That code isn't right — check your email and try again.
+            </p>
+          )}
+          <button
+            type="submit"
+            className="cta-button rounded-lg px-4 py-2 text-sm font-semibold"
+            style={{ backgroundColor: TOKENS.low, color: "#FFFFFF" }}
+          >
+            Unlock
+          </button>
+          <a
+            href={CTA_LINK}
+            className="text-xs underline text-center"
+            style={{ color: TOKENS.inkMuted }}
+          >
+            Don't have a code yet?
+          </a>
+        </form>
+      </div>
+    );
+  }
 
   return (
     <div
