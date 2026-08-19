@@ -32,7 +32,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           claude -p "Read RUBRIC.md for the scoring rules. Read public/data/shows.json to see \
-          the existing shows. Research 10 new, real children's shows not already in the file — \
+          the existing shows. Research 4 new, real children's shows not already in the file — \
           vary the platform, age range, and genre. Score each one following RUBRIC.md exactly. \
           Append the new entries to public/data/shows.json, keeping it valid JSON with no \
           duplicate names. Do not modify any existing entries." \
