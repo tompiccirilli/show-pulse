@@ -39,7 +39,7 @@ jobs:
           --allowedTools "Read,Edit,WebSearch" \
           --permission-mode acceptEdits \
           --max-turns 40 \
-          --max-budget-usd 3.00
+          --max-budget-usd 6.00
 
       - name: Generate community update log entry
         run: node scripts/log-weekly-update.mjs /tmp/shows-before.json
