@@ -8963,7 +8963,8 @@
   {
     "name": "Doug",
     "platforms": [
-      "Disney+"
+      "Disney+",
+      "Paramount+"
     ],
     "genre": "Animation / Slice-of-life",
     "ageMin": 6,
@@ -8977,7 +8978,8 @@
     "notes": "Classic slice-of-life animated show; slower, narration-driven pacing typical of its era.",
     "tags": [
       "familyTime"
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Recess",
@@ -8987,14 +8989,15 @@
     "genre": "Animation / Slice-of-life",
     "ageMin": 6,
     "ageMax": 11,
-    "speed": 3,
-    "emotional": 3,
+    "speed": 2,
+    "emotional": 2,
     "pacing": 3,
-    "novelty": 3,
-    "sensory": 3,
+    "novelty": 2,
+    "sensory": 2,
     "confidence": "Medium",
-    "notes": "Classic playground slice-of-life comedy; general reputation, not independently verified.",
-    "tags": []
+    "notes": "Classic playground slice-of-life comedy; steady scene holds and largely dialogue-driven despite the schoolyard setting, keeping overall stimulation low. General reputation, not independently verified.",
+    "tags": [],
+    "recommended": true
   },
   {
     "name": "Kim Possible",
