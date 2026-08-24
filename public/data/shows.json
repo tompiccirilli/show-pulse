@@ -12685,5 +12685,73 @@
     "sensory": 5,
     "confidence": "Medium",
     "notes": "A competitive spinning-top battle anime (Common Sense Media: parents 8+, kids 6+) built on high-stakes tournament rivalries, rapid-cut battle sequences, and loud, flashy 'Let it rip!' effects with dramatic music. Rated from reviews and genre norms, not scene-timed."
+  },
+  {
+    "name": "Star Trek: Prodigy",
+    "platforms": [
+      "Netflix",
+      "Paramount+"
+    ],
+    "genre": "Sci-Fi / Action-Adventure",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Common Sense Media rates it age 7+ and describes it as an action-packed, cinematic CGI series with heart-pumping adventures, real peril, and a serialized story that keeps introducing new alien worlds and characters. Rated from the CSM review and genre norms, not scene-timed."
+  },
+  {
+    "name": "Gecko's Garage",
+    "platforms": [
+      "YouTube",
+      "Peacock",
+      "Amazon Prime Video"
+    ],
+    "genre": "Educational / Vehicles",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Reviews describe it as colourful and 'nicely paced for toddlers, not manic like some cartoons,' with simple dialogue and catchy songs, but the bright palette and busy sound design push sensory intensity up. General reputation from reviews, not independently scene-timed."
+  },
+  {
+    "name": "Odo",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Preschool / Social-Emotional",
+    "ageMin": 3,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Featured on Common Sense Media's 'Low Stimulating TV Shows for Little Kids' list; gentle 7-minute episodes about two young birds at camp with soft visuals, a light social-emotional focus, and easily understandable short stories. Rated from the CSM review and low-stim listing, not scene-timed."
+  },
+  {
+    "name": "Deer Squad",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Preschool / Eco Action-Adventure",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 2,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Reviews describe a fast-paced, action-oriented rescue-mission format that 'might be overstimulating for some sensitive or very young children,' with bright CGI action but a formulaic, repetitive episode structure that lowers novelty. Rated from reviews and genre norms, not scene-timed."
   }
 ]
