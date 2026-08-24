@@ -52,29 +52,39 @@ if (added.length === 0) {
   process.exit(0);
 }
 
-const dateLabel = new Date().toLocaleDateString("en-GB", {
-  day: "numeric",
-  month: "long",
-  year: "numeric",
-});
+const ACCESS_CODE_FOR_POST = "8965";
+
+// Round down to the nearest hundred so the "over N00 shows" figure stays
+// accurate (never overstates the database size) without needing a manual
+// update every week.
+const totalShowsRounded = Math.floor(after.length / 100) * 100;
+
+const sortedAdded = [...added].sort(
+  (a, b) =>
+    a.speed + a.emotional + a.pacing + a.novelty + a.sensory -
+    (b.speed + b.emotional + b.pacing + b.novelty + b.sensory)
+);
 
 const lines = [];
-lines.push(`📬 New shows added — ${dateLabel}`);
-lines.push("=".repeat(50));
+lines.push("Weekly Database Update");
 lines.push("");
-lines.push(`I added ${added.length} new show${added.length === 1 ? "" : "s"} to The Safe Screen Time Database this week:`);
+lines.push(`${added.length} new show${added.length === 1 ? " has" : "s have"} been added to The Safe Screen Time Database this week:`);
 lines.push("");
 
-for (const s of added) {
+for (const s of sortedAdded) {
   const total = s.speed + s.emotional + s.pacing + s.novelty + s.sensory;
   const tier = tierOf(total);
   lines.push(`${tierEmoji(tier)} ${s.name} — Ages ${s.ageMin}–${s.ageMax} — ${tier} stimulation`);
-  lines.push(`   Available on: ${s.platforms.join(", ")}`);
-  if (s.notes) lines.push(`   ${s.notes}`);
   lines.push("");
 }
 
-lines.push("Browse the full database to find what's right for your family.");
+lines.push(
+  `Full details of these shows, plus over ${totalShowsRounded} other kids shows can be found in the database.`
+);
+lines.push("");
+lines.push(
+  `Browse the full database to find what's right for your family. (access code: ${ACCESS_CODE_FOR_POST})`
+);
 lines.push("");
 lines.push("-".repeat(50));
 lines.push("");
