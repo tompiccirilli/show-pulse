@@ -12753,5 +12753,71 @@
     "sensory": 4,
     "confidence": "Medium",
     "notes": "Reviews describe a fast-paced, action-oriented rescue-mission format that 'might be overstimulating for some sensitive or very young children,' with bright CGI action but a formulaic, repetitive episode structure that lowers novelty. Rated from reviews and genre norms, not scene-timed."
+  },
+  {
+    "name": "Interstellar Ella",
+    "platforms": [
+      "TVOKids",
+      "ITVX"
+    ],
+    "genre": "Preschool / Space & Science (STEM)",
+    "ageMin": 4,
+    "ageMax": 7,
+    "speed": 2,
+    "emotional": 3,
+    "pacing": 2,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Educational 3D-animated space series (ages 4-7) described as discovery-led and calm in tempo but 'emotionally charged,' with each episode introducing a genuinely new science concept (nebulae, black holes, Jupiter's moons) that keeps novelty high. Rated from production/TVOKids descriptions and genre norms, not scene-timed."
+  },
+  {
+    "name": "Hot Wheels Let's Race",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Racing / Action-Adventure",
+    "ageMin": 4,
+    "ageMax": 8,
+    "speed": 5,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 3,
+    "sensory": 5,
+    "confidence": "Medium",
+    "notes": "Common Sense Media and Plugged In describe a 'high-octane,' 'fast-paced, high-energy' racing series with 'pulse-pounding music' and extreme stunts, though the choose-a-car-then-race episode formula keeps novelty moderate. Rated from those reviews, not scene-timed."
+  },
+  {
+    "name": "Pikwik Pack",
+    "platforms": [
+      "Disney Junior",
+      "Disney+"
+    ],
+    "genre": "Preschool / Adventure",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Common Sense Media characterizes it as a 'sunny' preschool cartoon focused on kindness with only mild, age-appropriate adventure that isn't scary; the repetitive package-delivery structure keeps pacing and novelty low. Rated from reviews and genre norms, not scene-timed."
+  },
+  {
+    "name": "Supa Team 4",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Superhero / Sci-fi Action",
+    "ageMin": 7,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Reviews (Common Sense Media, Plugged In) describe a lively TV-Y7 Africanfuturistic superhero series with fresh, funny, fast adventures and 'gorgeous' bold-colored animation, plus tense peril (helicopter crashes, tornadoes, creepy villains) that younger viewers may find alarming. Rated from those reviews, not scene-timed."
   }
 ]
