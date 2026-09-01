@@ -997,23 +997,6 @@
     "tags": []
   },
   {
-    "name": "Elsagate-style Content",
-    "platforms": [
-      "YouTube"
-    ],
-    "genre": "Animation",
-    "ageMin": 10,
-    "ageMax": 14,
-    "speed": 4,
-    "emotional": 4,
-    "pacing": 4,
-    "novelty": 4,
-    "sensory": 4,
-    "confidence": "Medium (user-supplied)",
-    "notes": "WARNING: Inappropriate content disguised as kids' videos featuring familiar characters in disturbing scenarios. Extremely high algorithmic risk. Always supervise YouTube viewing and use YouTube Kids with restricted mode.",
-    "tags": []
-  },
-  {
     "name": "Tumble Leaf",
     "platforms": [
       "Amazon Prime"
@@ -1065,25 +1048,6 @@
     "sensory": 2,
     "confidence": "Medium (user-supplied)",
     "notes": "Teaches scientific inquiry and observation skills. Encourages kids to ask questions and explore nature. Gentle pacing makes it suitable for winding down. PBS platform ensures safe, quality content.",
-    "tags": [
-      "educational"
-    ]
-  },
-  {
-    "name": "Ms Rachel",
-    "platforms": [
-      "YouTube"
-    ],
-    "genre": "Educational, Interactive, Live Action, Music",
-    "ageMin": 0,
-    "ageMax": 1,
-    "speed": 2,
-    "emotional": 2,
-    "pacing": 2,
-    "novelty": 2,
-    "sensory": 2,
-    "confidence": "Medium (user-supplied)",
-    "notes": "Excellent for toddler language development. Engaging, interactive content with clear speech. YouTube platform requires supervision.",
     "tags": [
       "educational"
     ]
@@ -6504,25 +6468,6 @@
     "notes": "Use curated videos; avoid feed.",
     "tags": [
       "beforeBedtime",
-      "educational"
-    ]
-  },
-  {
-    "name": "Blue's Clues & You! (Selected)",
-    "platforms": [
-      "Nick Jr"
-    ],
-    "genre": "Interactive, Problem Solving",
-    "ageMin": 3,
-    "ageMax": 4,
-    "speed": 2,
-    "emotional": 2,
-    "pacing": 2,
-    "novelty": 2,
-    "sensory": 2,
-    "confidence": "Medium (user-supplied)",
-    "notes": "Structured engagement; paced.",
-    "tags": [
       "educational"
     ]
   },
