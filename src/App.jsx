@@ -17,10 +17,9 @@ const PAGE_TITLE = "The Safe Screen Time Database";
 const CTA_LABEL = "Unlock Access";
 const CTA_LINK = "https://www.thedadvibes.com/offers/zyys5nzo/checkout?coupon_code=INTRO20";
 
-// Slim promo bar across the top of the page, both versions. Tom to confirm
-// the real destination — placeholder "#" until then.
+// Slim promo bar across the top of the page, both versions.
 const PLAYBOOK_LABEL = "📖 Get the Playbook (Limited Offer)";
-const PLAYBOOK_LINK = "#";
+const PLAYBOOK_LINK = "https://www.thedadvibes.com/database-offer-safe-screen-time-playbook";
 
 /* ---------------------------------------------
    Design tokens
@@ -559,16 +558,6 @@ export default function StimulationDatabase() {
         .cta-button:hover { filter: brightness(0.92); }
       `}</style>
 
-      <div className="w-full text-center py-2 px-4" style={{ backgroundColor: TOKENS.low }}>
-        <a
-          href={PLAYBOOK_LINK}
-          className="text-sm font-semibold underline underline-offset-2"
-          style={{ color: "#FFFFFF" }}
-        >
-          {PLAYBOOK_LABEL}
-        </a>
-      </div>
-
       <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
         <h1
           className="hidden text-2xl sm:text-3xl"
@@ -629,7 +618,7 @@ export default function StimulationDatabase() {
         </div>
       </header>
 
-      <main className={`max-w-6xl mx-auto px-6 ${IS_FREE_MODE ? "pb-32" : "pb-20"}`}>
+      <main className={`max-w-6xl mx-auto px-6 ${IS_FREE_MODE ? "pb-44" : "pb-20"}`}>
         <div
           className="rounded-2xl border p-4 sm:p-5 sticky top-4 z-10"
           style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}
@@ -859,23 +848,32 @@ export default function StimulationDatabase() {
         </footer>
       </main>
 
-      {IS_FREE_MODE && (
-        <div
-          className="fixed bottom-0 left-0 right-0 z-20 w-full border-t"
-          style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}
-        >
-          <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center">
-            <a
-              href={CTA_LINK}
-              className="cta-button inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
-              style={{ backgroundColor: TOKENS.low, color: TOKENS.surface, fontFamily: TOKENS.font }}
-            >
-              <UnlockIcon size={16} />
-              {CTA_LABEL}
-            </a>
-          </div>
+      <div className="fixed bottom-0 left-0 right-0 z-20 w-full">
+        <div className="w-full text-center py-2 px-4" style={{ backgroundColor: TOKENS.low }}>
+          <a
+            href={PLAYBOOK_LINK}
+            className="text-sm font-semibold underline underline-offset-2"
+            style={{ color: "#FFFFFF" }}
+          >
+            {PLAYBOOK_LABEL}
+          </a>
         </div>
-      )}
+
+        {IS_FREE_MODE && (
+          <div className="w-full border-t" style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}>
+            <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center">
+              <a
+                href={CTA_LINK}
+                className="cta-button inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+                style={{ backgroundColor: TOKENS.low, color: TOKENS.surface, fontFamily: TOKENS.font }}
+              >
+                <UnlockIcon size={16} />
+                {CTA_LABEL}
+              </a>
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
