@@ -17,6 +17,11 @@ const PAGE_TITLE = "The Safe Screen Time Database";
 const CTA_LABEL = "Unlock Access";
 const CTA_LINK = "https://www.thedadvibes.com/offers/zyys5nzo/checkout?coupon_code=INTRO20";
 
+// Slim promo bar across the top of the page, both versions. Tom to confirm
+// the real destination — placeholder "#" until then.
+const PLAYBOOK_LABEL = "📖 Get the Playbook (Limited Offer)";
+const PLAYBOOK_LINK = "#";
+
 /* ---------------------------------------------
    Design tokens
    bg: cool pale sage paper (not cream)
@@ -553,6 +558,16 @@ export default function StimulationDatabase() {
         .cta-button { transition: filter 0.15s ease; }
         .cta-button:hover { filter: brightness(0.92); }
       `}</style>
+
+      <div className="w-full text-center py-2 px-4" style={{ backgroundColor: TOKENS.low }}>
+        <a
+          href={PLAYBOOK_LINK}
+          className="text-sm font-semibold underline underline-offset-2"
+          style={{ color: "#FFFFFF" }}
+        >
+          {PLAYBOOK_LABEL}
+        </a>
+      </div>
 
       <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
         <h1
