@@ -1,4 +1,5 @@
 import React, { useMemo, useState, useEffect } from "react";
+import { track } from "@vercel/analytics/react";
 
 // "full" (default/unset) = current paid behavior, ratings shown normally.
 // "free" = lead-magnet mode: every show is listed but ratings are locked.
@@ -68,6 +69,7 @@ function PlaybookBar() {
         href={expired ? PLAYBOOK_REGULAR_LINK : PLAYBOOK_LIMITED_LINK}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => track("playbook_bar_clicked", { offer_expired: expired })}
         className="text-sm font-semibold underline underline-offset-2"
         style={{ color: "#000000" }}
       >
@@ -408,7 +410,10 @@ function ShowCard({ show, isFavorite, onToggleFavorite }) {
 
       <div className="text-xs" style={{ color: TOKENS.inkMuted }}>
         <button
-          onClick={() => setOpen((v) => !v)}
+          onClick={() => {
+            if (!open) track("why_rating_expanded", { show: show.name });
+            setOpen((v) => !v);
+          }}
           className="underline underline-offset-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded"
           style={{ color: TOKENS.ink }}
         >
@@ -503,10 +508,14 @@ export default function StimulationDatabase() {
   }, [favorites, localDataLoaded]);
 
   function toggleFavorite(name) {
+    const alreadyFavorite = favorites.includes(name);
+    track("favorite_toggled", { show: name, action: alreadyFavorite ? "removed" : "added" });
     setFavorites((prev) => (prev.includes(name) ? prev.filter((n) => n !== name) : [...prev, name]));
   }
 
   function togglePlatform(p) {
+    const alreadySelected = selectedPlatforms.includes(p);
+    track("platform_filter_used", { platform: p, action: alreadySelected ? "removed" : "added" });
     setSelectedPlatforms((prev) => (prev.includes(p) ? prev.filter((x) => x !== p) : [...prev, p]));
   }
 
@@ -656,7 +665,10 @@ export default function StimulationDatabase() {
             return (
               <button
                 key={t.id}
-                onClick={() => setActiveTab(t.id)}
+                onClick={() => {
+                  track("tab_changed", { tab: t.id });
+                  setActiveTab(t.id);
+                }}
                 className="px-4 py-2.5 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded-t-lg"
                 style={{
                   color: t.id === "myShows" ? TOKENS.age : active ? TOKENS.ink : TOKENS.inkMuted,
@@ -683,7 +695,10 @@ export default function StimulationDatabase() {
             <input
               type="text"
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => {
+                if (!query && e.target.value) track("search_used");
+                setQuery(e.target.value);
+              }}
               placeholder="Search by show name…"
               className="flex-1 rounded-xl border px-4 py-2.5 text-sm bg-transparent"
               style={{ borderColor: TOKENS.line, color: TOKENS.ink }}
@@ -770,7 +785,10 @@ export default function StimulationDatabase() {
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {activeTab === "database" && (
             <button
-              onClick={() => setFiltersOpen((v) => !v)}
+              onClick={() => {
+                if (!filtersOpen) track("filters_opened");
+                setFiltersOpen((v) => !v);
+              }}
               className="rounded-xl border px-3 py-2 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
               style={{
                 borderColor: filtersOpen ? TOKENS.low : TOKENS.line,
@@ -782,7 +800,11 @@ export default function StimulationDatabase() {
             </button>
           )}
           <button
-            onClick={() => !IS_FREE_MODE && setSortDesc((v) => !v)}
+            onClick={() => {
+              if (IS_FREE_MODE) return;
+              track("sort_toggled", { direction: sortDesc ? "ascending" : "descending" });
+              setSortDesc((v) => !v);
+            }}
             disabled={IS_FREE_MODE}
             className={`ml-auto rounded-xl border px-3 py-2 text-sm font-medium motion-safe:transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 ${
               IS_FREE_MODE ? "cursor-not-allowed opacity-60" : ""
@@ -814,7 +836,10 @@ export default function StimulationDatabase() {
                       key={t}
                       active={tier === t}
                       disabled={IS_FREE_MODE}
-                      onClick={() => setTier(tier === t ? "All" : t)}
+                      onClick={() => {
+                        track("tier_filter_used", { tier: tier === t ? "All" : t });
+                        setTier(tier === t ? "All" : t);
+                      }}
                       color={tierColors(t)}
                     >
                       {tierEmoji(t)} {t} stimulation
@@ -827,7 +852,10 @@ export default function StimulationDatabase() {
                       key={ct.id}
                       active={contentTag === ct.id}
                       disabled={IS_FREE_MODE}
-                      onClick={() => setContentTag(contentTag === ct.id ? "All" : ct.id)}
+                      onClick={() => {
+                        track("content_tag_used", { tag: contentTag === ct.id ? "All" : ct.id });
+                        setContentTag(contentTag === ct.id ? "All" : ct.id);
+                      }}
                       color={{ fg: TOKENS.age, bg: TOKENS.ageBg }}
                     >
                       {ct.emoji} {ct.label}
@@ -838,7 +866,10 @@ export default function StimulationDatabase() {
                   <Chip
                     active={educationalOnly}
                     disabled={IS_FREE_MODE}
-                    onClick={() => setEducationalOnly(!educationalOnly)}
+                    onClick={() => {
+                      track("educational_filter_used", { enabled: !educationalOnly });
+                      setEducationalOnly(!educationalOnly);
+                    }}
                     color={{ fg: TOKENS.low, bg: TOKENS.lowBg }}
                   >
                     🎓 Educational Only
@@ -912,6 +943,7 @@ export default function StimulationDatabase() {
             <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center">
               <a
                 href={CTA_LINK}
+                onClick={() => track("unlock_cta_clicked")}
                 className="cta-button inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
                 style={{ backgroundColor: TOKENS.low, color: TOKENS.surface, fontFamily: TOKENS.font }}
               >
