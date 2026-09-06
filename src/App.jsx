@@ -17,14 +17,14 @@ const PAGE_TITLE = "The Safe Screen Time Database";
 const CTA_LABEL = "Unlock Access";
 const CTA_LINK = "https://www.thedadvibes.com/offers/zyys5nzo/checkout?coupon_code=INTRO20";
 
-// Fixed-bottom promo bar, both versions. Shows a 48-hour countdown (from each
+// Fixed-bottom promo bar, both versions. Shows a 24-hour countdown (from each
 // visitor's first visit, tracked in localStorage) pointing at the limited-offer
 // link; once it expires, switches permanently to the regular link/label.
-const PLAYBOOK_LIMITED_LABEL = "📖 Get the Playbook (Limited Offer)";
-const PLAYBOOK_LIMITED_LINK = "https://www.thedadvibes.com/database-offer-safe-screen-time-playbook";
+const PLAYBOOK_LIMITED_LABEL = "📖 Exclusive Offer: Get the Playbook ($19.99)";
+const PLAYBOOK_LIMITED_LINK = "https://www.thedadvibes.com/playbook-offer-safe-screen-time-database";
 const PLAYBOOK_REGULAR_LABEL = "📖 Get the Playbook";
-const PLAYBOOK_REGULAR_LINK = "#"; // placeholder — Tom to confirm the post-offer link
-const PLAYBOOK_COUNTDOWN_MS = 48 * 60 * 60 * 1000;
+const PLAYBOOK_REGULAR_LINK = "https://www.thedadvibes.com/database-offer-safe-screen-time-playbook";
+const PLAYBOOK_COUNTDOWN_MS = 24 * 60 * 60 * 1000;
 const PLAYBOOK_FIRST_SEEN_KEY = "stimscout:playbookFirstSeen";
 
 function getPlaybookFirstSeen() {
@@ -63,13 +63,15 @@ function PlaybookBar() {
   const expired = msRemaining <= 0;
 
   return (
-    <div className="w-full text-center py-2 px-4" style={{ backgroundColor: TOKENS.low }}>
+    <div className="w-full text-center px-4" style={{ backgroundColor: "#5DCDFF", paddingTop: "18px", paddingBottom: "18px" }}>
       <a
         href={expired ? PLAYBOOK_REGULAR_LINK : PLAYBOOK_LIMITED_LINK}
+        target="_blank"
+        rel="noopener noreferrer"
         className="text-sm font-semibold underline underline-offset-2"
-        style={{ color: "#FFFFFF" }}
+        style={{ color: "#000000" }}
       >
-        {expired ? PLAYBOOK_REGULAR_LABEL : `${PLAYBOOK_LIMITED_LABEL} — ends in ${formatCountdown(msRemaining)}`}
+        {expired ? PLAYBOOK_REGULAR_LABEL : `${PLAYBOOK_LIMITED_LABEL} - Ends in ${formatCountdown(msRemaining)}`}
       </a>
     </div>
   );
