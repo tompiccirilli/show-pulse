@@ -17,9 +17,63 @@ const PAGE_TITLE = "The Safe Screen Time Database";
 const CTA_LABEL = "Unlock Access";
 const CTA_LINK = "https://www.thedadvibes.com/offers/zyys5nzo/checkout?coupon_code=INTRO20";
 
-// Slim promo bar across the top of the page, both versions.
-const PLAYBOOK_LABEL = "📖 Get the Playbook (Limited Offer)";
-const PLAYBOOK_LINK = "https://www.thedadvibes.com/database-offer-safe-screen-time-playbook";
+// Fixed-bottom promo bar, both versions. Shows a 48-hour countdown (from each
+// visitor's first visit, tracked in localStorage) pointing at the limited-offer
+// link; once it expires, switches permanently to the regular link/label.
+const PLAYBOOK_LIMITED_LABEL = "📖 Get the Playbook (Limited Offer)";
+const PLAYBOOK_LIMITED_LINK = "https://www.thedadvibes.com/database-offer-safe-screen-time-playbook";
+const PLAYBOOK_REGULAR_LABEL = "📖 Get the Playbook";
+const PLAYBOOK_REGULAR_LINK = "#"; // placeholder — Tom to confirm the post-offer link
+const PLAYBOOK_COUNTDOWN_MS = 48 * 60 * 60 * 1000;
+const PLAYBOOK_FIRST_SEEN_KEY = "stimscout:playbookFirstSeen";
+
+function getPlaybookFirstSeen() {
+  try {
+    const stored = localStorage.getItem(PLAYBOOK_FIRST_SEEN_KEY);
+    if (stored) return Number(stored);
+    const now = Date.now();
+    localStorage.setItem(PLAYBOOK_FIRST_SEEN_KEY, String(now));
+    return now;
+  } catch {
+    // No storage access (private browsing, etc.) — countdown just restarts
+    // on every visit rather than the app crashing.
+    return Date.now();
+  }
+}
+
+function formatCountdown(ms) {
+  const totalSeconds = Math.floor(ms / 1000);
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  const pad = (n) => String(n).padStart(2, "0");
+  return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+}
+
+function PlaybookBar() {
+  const [firstSeen] = useState(getPlaybookFirstSeen);
+  const [now, setNow] = useState(Date.now());
+
+  useEffect(() => {
+    const interval = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const msRemaining = Math.max(0, firstSeen + PLAYBOOK_COUNTDOWN_MS - now);
+  const expired = msRemaining <= 0;
+
+  return (
+    <div className="w-full text-center py-2 px-4" style={{ backgroundColor: TOKENS.low }}>
+      <a
+        href={expired ? PLAYBOOK_REGULAR_LINK : PLAYBOOK_LIMITED_LINK}
+        className="text-sm font-semibold underline underline-offset-2"
+        style={{ color: "#FFFFFF" }}
+      >
+        {expired ? PLAYBOOK_REGULAR_LABEL : `${PLAYBOOK_LIMITED_LABEL} — ends in ${formatCountdown(msRemaining)}`}
+      </a>
+    </div>
+  );
+}
 
 /* ---------------------------------------------
    Design tokens
@@ -849,15 +903,7 @@ export default function StimulationDatabase() {
       </main>
 
       <div className="fixed bottom-0 left-0 right-0 z-20 w-full">
-        <div className="w-full text-center py-2 px-4" style={{ backgroundColor: TOKENS.low }}>
-          <a
-            href={PLAYBOOK_LINK}
-            className="text-sm font-semibold underline underline-offset-2"
-            style={{ color: "#FFFFFF" }}
-          >
-            {PLAYBOOK_LABEL}
-          </a>
-        </div>
+        <PlaybookBar />
 
         {IS_FREE_MODE && (
           <div className="w-full border-t" style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}>
