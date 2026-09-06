@@ -64,7 +64,7 @@ function PlaybookBar() {
   const expired = msRemaining <= 0;
 
   return (
-    <div className="w-full text-center px-4" style={{ backgroundColor: "#5DCDFF", paddingTop: "18px", paddingBottom: "18px" }}>
+    <div className="w-full text-center px-4" style={{ backgroundColor: "#5DCDFF", paddingTop: "13px", paddingBottom: "13px" }}>
       <a
         href={expired ? PLAYBOOK_REGULAR_LINK : PLAYBOOK_LIMITED_LINK}
         target="_blank"
