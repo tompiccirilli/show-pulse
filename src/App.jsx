@@ -512,10 +512,16 @@ export default function StimulationDatabase() {
     // per keystroke — fires ~800ms after the user stops typing.
     if (!query.trim()) return;
     const timeout = setTimeout(() => {
-      track("search_used", { query: query.trim() });
+      const q = query.trim();
+      track("search_used", { query: q });
+      // Matched against the full database by name alone, ignoring active
+      // filters — this is about whether the show exists at all, not
+      // whether it's visible under the current filter combination.
+      const hasMatch = SHOWS.some((s) => s.name.toLowerCase().includes(q.toLowerCase()));
+      if (!hasMatch) track("search_no_results", { query: q });
     }, 800);
     return () => clearTimeout(timeout);
-  }, [query]);
+  }, [query, SHOWS]);
 
   function toggleFavorite(name) {
     const alreadyFavorite = favorites.includes(name);
@@ -612,6 +618,17 @@ export default function StimulationDatabase() {
       })
       .sort((a, b) => (IS_FREE_MODE ? 0 : sortDesc ? scoreOf(b) - scoreOf(a) : scoreOf(a) - scoreOf(b)));
   }, [baseList, query, selectedPlatforms, ageBucket, tier, contentTag, educationalOnly, sortDesc]);
+
+  useEffect(() => {
+    // Fires once per distinct filter combination that yields zero shows —
+    // only when a real filter is responsible (an empty "My Shows" tab with
+    // no filters applied shouldn't count as a bad filter combination).
+    if (loadState !== "ready" || filtered.length !== 0) return;
+    const hasActiveFilter =
+      selectedPlatforms.length > 0 || tier !== "All" || contentTag !== "All" || educationalOnly || ageBucket !== "All";
+    if (!hasActiveFilter) return;
+    track("filters_no_results");
+  }, [loadState, filtered.length, selectedPlatforms, tier, contentTag, educationalOnly, ageBucket, activeTab]);
 
   return (
     <div
@@ -728,7 +745,10 @@ export default function StimulationDatabase() {
             </button>
             <select
               value={ageBucket}
-              onChange={(e) => setAgeBucket(e.target.value)}
+              onChange={(e) => {
+                track("age_filter_used", { age: e.target.value });
+                setAgeBucket(e.target.value);
+              }}
               className="rounded-xl border px-3 py-2.5 text-sm"
               style={{ borderColor: TOKENS.line, color: TOKENS.ink, backgroundColor: TOKENS.surface }}
             >
