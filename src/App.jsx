@@ -507,6 +507,16 @@ export default function StimulationDatabase() {
     saveLocalData({ favorites });
   }, [favorites, localDataLoaded]);
 
+  useEffect(() => {
+    // Debounced so a full search ("Bluey") logs as one event instead of one
+    // per keystroke — fires ~800ms after the user stops typing.
+    if (!query.trim()) return;
+    const timeout = setTimeout(() => {
+      track("search_used", { query: query.trim() });
+    }, 800);
+    return () => clearTimeout(timeout);
+  }, [query]);
+
   function toggleFavorite(name) {
     const alreadyFavorite = favorites.includes(name);
     track("favorite_toggled", { show: name, action: alreadyFavorite ? "removed" : "added" });
@@ -695,10 +705,7 @@ export default function StimulationDatabase() {
             <input
               type="text"
               value={query}
-              onChange={(e) => {
-                if (!query && e.target.value) track("search_used");
-                setQuery(e.target.value);
-              }}
+              onChange={(e) => setQuery(e.target.value)}
               placeholder="Search by show name…"
               className="flex-1 rounded-xl border px-4 py-2.5 text-sm bg-transparent"
               style={{ borderColor: TOKENS.line, color: TOKENS.ink }}
