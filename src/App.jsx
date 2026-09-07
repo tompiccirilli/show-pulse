@@ -308,7 +308,7 @@ function TopNav() {
             className="sm:hidden ml-auto text-xl leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded"
             style={{ color: TOKENS.ink }}
           >
-            ☰
+            {mobileOpen ? "✕" : "☰"}
           </button>
         </div>
         <div
