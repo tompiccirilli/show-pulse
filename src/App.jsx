@@ -23,7 +23,7 @@ const CTA_LINK = "https://www.thedadvibes.com/offers/zyys5nzo/checkout?coupon_co
 // link; once it expires, switches permanently to the regular link/label.
 const PLAYBOOK_LIMITED_LABEL = "📖 Exclusive Offer: Get the Playbook ($19.99)";
 const PLAYBOOK_LIMITED_LINK = "https://www.thedadvibes.com/playbook-offer-safe-screen-time-database";
-const PLAYBOOK_REGULAR_LABEL = "📖 Get the Playbook";
+const PLAYBOOK_REGULAR_LABEL = "Get the Safe Screen Time Playbook";
 const PLAYBOOK_REGULAR_LINK = "https://www.thedadvibes.com/database-offer-safe-screen-time-playbook";
 const PLAYBOOK_COUNTDOWN_MS = 24 * 60 * 60 * 1000;
 const PLAYBOOK_FIRST_SEEN_KEY = "stimscout:playbookFirstSeen";
