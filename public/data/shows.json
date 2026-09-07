@@ -12838,5 +12838,75 @@
     "notes": "Classic slice-of-life Nicktoon narrated from a baby's-eye view; slower, imagination-driven pacing typical of the original 1990s run, calmer than the louder 2021 reboot. General reputation, not independently verified.",
     "tags": [],
     "recommended": true
+  },
+  {
+    "name": "Pretzel and the Puppies",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Preschool / Comedy-Adventure",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Common Sense Media describes it as a bright, upbeat preschool series with musical numbers and gentle problem-of-the-day storylines about empathy and helping the community — livelier than the calmest benchmark shows but still low-stakes. Rated from review descriptions; scene-length data not independently verified.",
+    "tags": []
+  },
+  {
+    "name": "Jessica's Big Little World",
+    "platforms": [
+      "Max",
+      "Cartoon Network"
+    ],
+    "genre": "Slice-of-life / Comedy",
+    "ageMin": 3,
+    "ageMax": 7,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Craig of the Creek spin-off on Cartoonito rated TV-Y; reviews call it 'energetic and endearing' and compare it to Bluey, with only mild peril (age-appropriate fears) — grounded but moderately paced.",
+    "tags": []
+  },
+  {
+    "name": "Unicorn Academy",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Fantasy / Adventure",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Rated TV-Y7; Common Sense Media and multiple reviews describe fast-paced storytelling that 'pulls you along,' magical violence, peril and romance drama, and bright high-production animation — though the fantasy-school formula is fairly conventional.",
+    "tags": []
+  },
+  {
+    "name": "Rock, Paper, Scissors",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Buddy Comedy / Surreal",
+    "ageMin": 7,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 5,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Common Sense Media (ages 8+) explicitly calls out the 'frenetic pace and quirky adventures,' with cartoon violence, physical fights, scary creatures and constant competition — a loud, high-energy surreal comedy.",
+    "tags": []
   }
 ]
