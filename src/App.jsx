@@ -12,7 +12,7 @@ const FREE_MODE_BANNER =
   "Showing all shows — unlock full ratings and stimulation breakdowns in the Screen Time Hub.";
 
 // Page title, shown on both full and free versions.
-const PAGE_TITLE = "The Safe Screen Time Database";
+const PAGE_TITLE = "Safe Screen Time Database";
 
 // CTA fixed to the bottom of the viewport, free version only.
 const CTA_LABEL = "Unlock Access";
@@ -305,7 +305,7 @@ function TopNav() {
             onClick={() => setMobileOpen((v) => !v)}
             aria-label="Toggle navigation"
             aria-expanded={mobileOpen}
-            className="sm:hidden text-xl leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded"
+            className="sm:hidden ml-auto text-xl leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded"
             style={{ color: TOKENS.ink }}
           >
             ☰
