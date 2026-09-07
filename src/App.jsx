@@ -28,6 +28,9 @@ const PLAYBOOK_REGULAR_LINK = "https://www.thedadvibes.com/database-offer-safe-s
 const PLAYBOOK_COUNTDOWN_MS = 24 * 60 * 60 * 1000;
 const PLAYBOOK_FIRST_SEEN_KEY = "stimscout:playbookFirstSeen";
 
+// Top nav, both versions. Opens in a new tab like the playbook links.
+const COMMUNITY_LINK = "https://www.thedadvibes.com/products/communities/v2/safescreentimehub";
+
 function getPlaybookFirstSeen() {
   try {
     const stored = localStorage.getItem(PLAYBOOK_FIRST_SEEN_KEY);
@@ -51,7 +54,11 @@ function formatCountdown(ms) {
   return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
 }
 
-function PlaybookBar() {
+// Shared by the bottom bar (which shows the live countdown) and the top nav
+// link (which always reads "Get the Playbook" but must point at the right
+// URL) — both independently read the same localStorage timestamp, so they
+// never disagree about whether the offer has expired.
+function usePlaybookCountdown() {
   const [firstSeen] = useState(getPlaybookFirstSeen);
   const [now, setNow] = useState(Date.now());
 
@@ -62,6 +69,11 @@ function PlaybookBar() {
 
   const msRemaining = Math.max(0, firstSeen + PLAYBOOK_COUNTDOWN_MS - now);
   const expired = msRemaining <= 0;
+  return { msRemaining, expired };
+}
+
+function PlaybookBar() {
+  const { msRemaining, expired } = usePlaybookCountdown();
 
   return (
     <div className="w-full text-center px-4" style={{ backgroundColor: "#5DCDFF", paddingTop: "13px", paddingBottom: "13px" }}>
@@ -177,6 +189,140 @@ const FACTOR_INFO = {
     },
   },
 };
+
+function RatingInfoModal({ onClose }) {
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4 py-8"
+      onClick={onClose}
+    >
+      <div
+        className="w-full max-w-lg max-h-full overflow-y-auto rounded-2xl border p-6"
+        style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="flex items-start justify-between gap-4 mb-3">
+          <h2 className="text-xl" style={{ fontFamily: TOKENS.font, color: TOKENS.ink }}>
+            Understanding the Ratings
+          </h2>
+          <button
+            onClick={onClose}
+            aria-label="Close"
+            className="text-lg leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded"
+            style={{ color: TOKENS.inkMuted }}
+          >
+            ✕
+          </button>
+        </div>
+        <p className="text-sm mb-5" style={{ color: TOKENS.inkMuted }}>
+          Every show is scored 1–5 on five factors, summed to a total out of 25.
+          Low 5–11 · Moderate 12–18 · High 19–25.
+        </p>
+        <div className="flex flex-col gap-5">
+          {Object.values(FACTOR_INFO).map((info) => (
+            <div key={info.label}>
+              <h3
+                className="text-base font-bold mb-0.5"
+                style={{ fontFamily: TOKENS.font, color: TOKENS.ink }}
+              >
+                {info.label}
+              </h3>
+              <p className="text-sm mb-1.5" style={{ color: TOKENS.inkMuted }}>
+                {info.description}
+              </p>
+              <ul className="flex flex-col gap-0.5 text-xs" style={{ color: TOKENS.inkMuted }}>
+                {[1, 2, 3, 4, 5].map((level) => (
+                  <li key={level}>
+                    <span style={{ color: TOKENS.ink, fontWeight: 700 }}>{level}</span>
+                    {" — "}
+                    {info.levels[level]}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TopNav() {
+  const { expired } = usePlaybookCountdown();
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [ratingModalOpen, setRatingModalOpen] = useState(false);
+  const playbookHref = expired ? PLAYBOOK_REGULAR_LINK : PLAYBOOK_LIMITED_LINK;
+
+  const linkStyle = {
+    color: TOKENS.ink,
+    fontFamily: TOKENS.font,
+  };
+  const itemClass =
+    "text-sm font-medium text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded";
+
+  const navLinks = (
+    <>
+      <a
+        href={playbookHref}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => track("playbook_bar_clicked", { offer_expired: expired, source: "nav" })}
+        className={itemClass}
+        style={linkStyle}
+      >
+        Get the Playbook
+      </a>
+      <button
+        onClick={() => {
+          track("rating_info_opened");
+          setRatingModalOpen(true);
+          setMobileOpen(false);
+        }}
+        className={itemClass}
+        style={linkStyle}
+      >
+        Understand the Rating
+      </button>
+      <a
+        href={COMMUNITY_LINK}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => track("community_link_clicked")}
+        className={itemClass}
+        style={linkStyle}
+      >
+        The Community
+      </a>
+    </>
+  );
+
+  return (
+    <>
+      <nav className="w-full border-b" style={{ backgroundColor: TOKENS.surface, borderColor: TOKENS.line }}>
+        <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
+          <div className="hidden sm:flex items-center gap-6">{navLinks}</div>
+          <button
+            onClick={() => setMobileOpen((v) => !v)}
+            aria-label="Toggle navigation"
+            aria-expanded={mobileOpen}
+            className="sm:hidden text-xl leading-none focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 rounded"
+            style={{ color: TOKENS.ink }}
+          >
+            ☰
+          </button>
+        </div>
+        <div
+          className="sm:hidden overflow-hidden transition-all duration-300 ease-in-out"
+          style={{ maxHeight: mobileOpen ? "240px" : "0px" }}
+          aria-hidden={!mobileOpen}
+        >
+          <div className="flex flex-col gap-3 px-6 pt-1 pb-4">{navLinks}</div>
+        </div>
+      </nav>
+      {ratingModalOpen && <RatingInfoModal onClose={() => setRatingModalOpen(false)} />}
+    </>
+  );
+}
 
 function scoreOf(s) {
   return s.speed + s.emotional + s.pacing + s.novelty + s.sensory;
@@ -650,23 +796,18 @@ export default function StimulationDatabase() {
         .cta-button:hover { filter: brightness(0.92); }
       `}</style>
 
-      <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
-        <h1
-          className="hidden text-2xl sm:text-3xl"
-          style={{ fontFamily: TOKENS.font, color: TOKENS.ink }}
-        >
-          StimScout.com | ScreenSniff.com
-        </h1>
+      <TopNav />
 
-        <h2
+      <header className="max-w-6xl mx-auto p-8 sm:px-6 sm:pt-12 sm:pb-8">
+        <h1
           className="text-2xl sm:text-3xl"
           style={{ fontFamily: TOKENS.font, color: TOKENS.ink }}
         >
           {PAGE_TITLE}
-        </h2>
+        </h1>
 
         <p className="mt-3 max-w-2xl text-base sm:text-lg" style={{ color: TOKENS.inkMuted }}>
-          Discover shows based on their stimulation level so you can choose what shows are best for your child...
+          Discover the right shows for your child...
         </p>
 
         {IS_FREE_MODE && (
