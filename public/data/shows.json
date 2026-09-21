@@ -12978,5 +12978,76 @@
     "confidence": "High",
     "notes": "Common Sense Media notes it targets older grade-schoolers with 'slapstick cartoon violence,' fantastical creatures and peril, plus a new magical world each episode; a whimsical, energetic adventure-comedy spin-off of We Bare Bears.",
     "tags": []
+  },
+  {
+    "name": "Creative Galaxy",
+    "platforms": [
+      "Amazon Prime Video",
+      "Amazon Kids+"
+    ],
+    "genre": "Preschool / Art & Creativity",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 1,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Common Sense Media describes it as a visually appealing but gentle preschool show where Arty solves a problem with a different art form each episode; calm educational rhythm with soft colors and a repeating problem-solving format rather than big emotional spikes.",
+    "tags": []
+  },
+  {
+    "name": "The Last Kids on Earth",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Action-Adventure / Horror-Comedy",
+    "ageMin": 8,
+    "ageMax": 12,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Common Sense Media rates it 8+ for zombie/monster apocalypse action and suspenseful peril balanced by humor; reviewers cite 'fast paced jump cuts and manic montages' (Edgar Wright-style editing) with a constant stream of new monsters and threats.",
+    "tags": []
+  },
+  {
+    "name": "Eureka!",
+    "platforms": [
+      "Disney Junior",
+      "Disney+"
+    ],
+    "genre": "Preschool / STEM Adventure",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Common Sense Media (3+) describes bright animation and upbeat musical numbers as Stone Age inventor Eureka 'thinkers' a new problem each episode; a song-driven, moderate preschool tempo with mild stakes and a new invention/setting per story.",
+    "tags": []
+  },
+  {
+    "name": "Hamster & Gretel",
+    "platforms": [
+      "Disney Channel",
+      "Disney XD"
+    ],
+    "genre": "Superhero Action-Comedy",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "From the Phineas and Ferb creators and rated TV-Y7; Common Sense Media calls it a 'funny and action-packed' show with mild peril and slapstick violence (crashes, fires) played for laughs, delivered at the dense, fast comedic pace typical of that team.",
+    "tags": []
   }
 ]
