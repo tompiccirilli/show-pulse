@@ -13049,5 +13049,75 @@
     "confidence": "High",
     "notes": "From the Phineas and Ferb creators and rated TV-Y7; Common Sense Media calls it a 'funny and action-packed' show with mild peril and slapstick violence (crashes, fires) played for laughs, delivered at the dense, fast comedic pace typical of that team.",
     "tags": []
+  },
+  {
+    "name": "Wishenpoof",
+    "platforms": [
+      "Amazon Prime Video",
+      "Amazon Kids+"
+    ],
+    "genre": "Preschool / Fantasy",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "From Blue's Clues/Daniel Tiger creator Angela Santomero; Common Sense Media (4+) describes a gentle, imaginative preschool series about a girl granting wishes that stresses patience, kindness, and problem-solving, with soft visuals and an unhurried, socio-emotional pace.",
+    "tags": []
+  },
+  {
+    "name": "Peep and the Big Wide World",
+    "platforms": [
+      "PBS Kids",
+      "Amazon Prime Video"
+    ],
+    "genre": "Preschool / Science",
+    "ageMin": 3,
+    "ageMax": 5,
+    "speed": 1,
+    "emotional": 1,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 1,
+    "confidence": "High",
+    "notes": "Common Sense Media and Screenwise describe a minimalist, flatly-animated science series with two short (~11-minute) stories per episode and pacing 'blessedly calm compared to the chaos of modern kids' programming,' with quiet narration and muted visuals.",
+    "tags": []
+  },
+  {
+    "name": "Ghostwriter",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Mystery / Literary",
+    "ageMin": 7,
+    "ageMax": 11,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Common Sense Media (8+) calls this Apple TV+ literacy reboot a well-written, diverse mystery with no iffy or scary content; live-action, dialogue-driven scenes and a measured investigative rhythm keep it calm despite the book-mystery momentum.",
+    "tags": []
+  },
+  {
+    "name": "Dragons: Rescue Riders",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Action-Adventure / Fantasy",
+    "ageMin": 5,
+    "ageMax": 8,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Common Sense Media describes this younger-skewing How to Train Your Dragon spin-off as having mild action and a little peril that never becomes truly scary, with friendly dragons; bright CGI rescue missions give it an upbeat, moderately energetic feel.",
+    "tags": []
   }
 ]
