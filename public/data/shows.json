@@ -1070,25 +1070,6 @@
     ]
   },
   {
-    "name": "Ms Rachel",
-    "platforms": [
-      "YouTube"
-    ],
-    "genre": "Educational, Interactive, Live Action, Music",
-    "ageMin": 0,
-    "ageMax": 1,
-    "speed": 2,
-    "emotional": 2,
-    "pacing": 2,
-    "novelty": 2,
-    "sensory": 2,
-    "confidence": "Medium (user-supplied)",
-    "notes": "Excellent for toddler language development. Engaging, interactive content with clear speech. YouTube platform requires supervision.",
-    "tags": [
-      "educational"
-    ]
-  },
-  {
     "name": "Wild Kratts",
     "platforms": [
       "PBS Kids"
@@ -5669,23 +5650,6 @@
     ]
   },
   {
-    "name": "Earth to Ned",
-    "platforms": [
-      "Disney+"
-    ],
-    "genre": "Entertainment, Live Action",
-    "ageMin": 10,
-    "ageMax": 14,
-    "speed": 3,
-    "emotional": 3,
-    "pacing": 3,
-    "novelty": 3,
-    "sensory": 3,
-    "confidence": "Medium (user-supplied)",
-    "notes": "Talk-show style; better for older kids.",
-    "tags": []
-  },
-  {
     "name": "Secrets of the Zoo",
     "platforms": [
       "Disney+"
@@ -6504,25 +6468,6 @@
     "notes": "Use curated videos; avoid feed.",
     "tags": [
       "beforeBedtime",
-      "educational"
-    ]
-  },
-  {
-    "name": "Blue's Clues & You! (Selected)",
-    "platforms": [
-      "Nick Jr"
-    ],
-    "genre": "Interactive, Problem Solving",
-    "ageMin": 3,
-    "ageMax": 4,
-    "speed": 2,
-    "emotional": 2,
-    "pacing": 2,
-    "novelty": 2,
-    "sensory": 2,
-    "confidence": "Medium (user-supplied)",
-    "notes": "Structured engagement; paced.",
-    "tags": [
       "educational"
     ]
   },
