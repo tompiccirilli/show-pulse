@@ -13119,5 +13119,74 @@
     "confidence": "High",
     "notes": "Common Sense Media describes this younger-skewing How to Train Your Dragon spin-off as having mild action and a little peril that never becomes truly scary, with friendly dragons; bright CGI rescue missions give it an upbeat, moderately energetic feel.",
     "tags": []
+  },
+  {
+    "name": "Shape Island",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Comedy / Slice-of-life (stop-motion)",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 1,
+    "emotional": 2,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Reviews (Common Sense Media, Cult of Mac) specifically praise its deliberately slow pacing, no rapid cuts, and no loud sound effects — explicitly positioned as a calming alternative to high-energy kids' TV. Small recurring cast and gentle, 'Seinfeld for kids' friendship situations keep novelty low.",
+    "tags": []
+  },
+  {
+    "name": "Kiya & the Kimoja Heroes",
+    "platforms": [
+      "Disney Junior",
+      "Disney+"
+    ],
+    "genre": "Action-Adventure / Superhero (musical)",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Common Sense Media describes an action-packed preschool superhero show with transformation sequences, upbeat musical numbers, and vibrant animation, but cartoonish non-threatening peril. Rated from that description and general knowledge of Disney Junior action shows, not independently verified against pacing data.",
+    "tags": []
+  },
+  {
+    "name": "Weather Hunters",
+    "platforms": [
+      "PBS Kids"
+    ],
+    "genre": "Educational / STEM (Earth science)",
+    "ageMin": 5,
+    "ageMax": 8,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Al Roker-created PBS KIDS STEM series (premiered Sept 2025) using 22-minute family-centered stories to teach meteorology through adventure and comedy; a new topic/weather event each episode lifts novelty. Rated from premiere coverage and general PBS educational-show pacing, not independently verified.",
+    "tags": []
+  },
+  {
+    "name": "Dead End: Paranormal Park",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Supernatural / Horror-Comedy Adventure",
+    "ageMin": 10,
+    "ageMax": 14,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Common Sense Media rates it 10+ (vs Netflix's TV-Y7) for genuinely scary moments, demons, and comic violence alongside witty humor and heavy emotional/identity themes — big highs and lows with constant new creatures and twists. Rated from reviews and general knowledge, not frame-level pacing data.",
+    "tags": []
   }
 ]
