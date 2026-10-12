@@ -13188,5 +13188,73 @@
     "confidence": "Medium",
     "notes": "Common Sense Media rates it 10+ (vs Netflix's TV-Y7) for genuinely scary moments, demons, and comic violence alongside witty humor and heavy emotional/identity themes — big highs and lows with constant new creatures and twists. Rated from reviews and general knowledge, not frame-level pacing data.",
     "tags": []
+  },
+  {
+    "name": "Super Monsters",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Preschool Fantasy",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 2,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Common Sense Media (4+) describes vibrant, colorful CGI animation and upbeat but repetitive music, with the monster cast reintroduced roughly every five minutes and low-stakes kindness/teamwork lessons — lively and bright but predictable in format. Factor scores inferred from review descriptions, not frame-level pacing data.",
+    "tags": []
+  },
+  {
+    "name": "El Deafo",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Coming-of-age / Autobiographical Drama",
+    "ageMin": 6,
+    "ageMax": 10,
+    "speed": 1,
+    "emotional": 3,
+    "pacing": 1,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Reviewers describe this three-part adaptation of Cece Bell's graphic novel as having a slow, contemplative pace that feels 'like an animated diary,' with a gentle muted look but some emotionally intense moments (e.g. an early hospitalization and themes of isolation). Common Sense Media rates it 8+.",
+    "tags": []
+  },
+  {
+    "name": "RoboGobo",
+    "platforms": [
+      "Disney Junior"
+    ],
+    "genre": "Superhero / Action-Comedy",
+    "ageMin": 2,
+    "ageMax": 7,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Common Sense Media (3+) describes a bright, mission-driven pet-rescue format with robo-suit gadgets, teamwork, and mild confrontation (pushing/throwing, no one hurt) — energetic Disney Junior action with new rescues each episode but a familiar rescue-team structure. Rated from reviews and general knowledge, not frame-level pacing data.",
+    "tags": []
+  },
+  {
+    "name": "Face's Music Party",
+    "platforms": [
+      "Nick Jr."
+    ],
+    "genre": "Music / Variety",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Reviews describe a bouncy, upbeat live-action/animated music variety show built around pop music videos, remixed nursery rhymes, and a high-energy dance-along finale — low-stakes emotionally but relentlessly energetic and loud, with varied segments each episode. Common Sense Media rates it 4+. Factor scores inferred from review descriptions, not frame-level pacing data.",
+    "tags": []
   }
 ]
