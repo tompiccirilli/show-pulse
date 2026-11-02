@@ -13389,5 +13389,71 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Common Sense Media (rated 5+) describes a 'fun, lively' Bluey-style comedy for slightly older kids, with varied, culture-rich adventures (raising a chrysalis, meeting a K-pop group) and gentle lessons about patience and letting go that keep emotional stakes low. Factor scores inferred from review descriptions, not frame-level pacing data."
+  },
+  {
+    "name": "Go, Dog. Go!",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Preschool / Adventure-Comedy",
+    "ageMin": 3,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Common Sense Media and KIDS FIRST! describe an energetic preschool series built around Tag Barker, who 'talks fast, drives fast,' in a rainbow-colored town of dogs and vehicles, but with gentle, low-stakes, pro-social adventures. Scores inferred from review descriptions, not frame-level pacing data."
+  },
+  {
+    "name": "Jade Armor",
+    "platforms": [
+      "Amazon Prime Video",
+      "Plex"
+    ],
+    "genre": "Action-Adventure",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "TeamTO/APC Kids martial-arts action-adventure comedy (TV-Y7) in which teen Lan Jun battles with mystical Beasticons; Animation Magazine and IMDb describe action-packed, fight-driven episodes aimed at 7-12s. Rated from review descriptions of the action format, not verified against frame-level pacing data."
+  },
+  {
+    "name": "The Tiny Chef Show",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Preschool / Cooking-Educational",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "Common Sense Media calls this Annie- and Emmy-winning stop-motion series 'a calm, creative series' with an 'engaging flow' and 'gentle humor' that introduces plant-based cooking to preschoolers. Low speed/sensory scores reflect those calm-and-gentle descriptions rather than measured scene lengths."
+  },
+  {
+    "name": "Primos",
+    "platforms": [
+      "Disney Channel"
+    ],
+    "genre": "Family Comedy",
+    "ageMin": 7,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Common Sense Media (7+) and LaughingPlace describe a big, 20-plus-character ensemble comedy with slapstick humor and an 'electrifying,' energetic soundtrack, though one review notes it settles into a 'calmer' heart-focused rhythm after the chaotic opener. Factor scores inferred from these review descriptions, not frame-level data."
   }
 ]
