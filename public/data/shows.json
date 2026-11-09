@@ -13455,5 +13455,73 @@
     "sensory": 4,
     "confidence": "Medium",
     "notes": "Common Sense Media (7+) and LaughingPlace describe a big, 20-plus-character ensemble comedy with slapstick humor and an 'electrifying,' energetic soundtrack, though one review notes it settles into a 'calmer' heart-focused rhythm after the chaotic opener. Factor scores inferred from these review descriptions, not frame-level data."
+  },
+  {
+    "name": "Simon",
+    "platforms": [
+      "Netflix",
+      "YouTube"
+    ],
+    "genre": "Preschool / Comedy",
+    "ageMin": 3,
+    "ageMax": 6,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "Medium",
+    "notes": "French preschool series (Simon Super Rabbit) built on 5-minute, single-situation stories about everyday childhood moments; Wikipedia, the producer (GO-N) and TV Tropes describe gentle, tender slice-of-life comedy in a simple, brightly coloured storybook art style with a calm tone. Low scores reflect that unhurried, predictable, quiet format; cut-speed and sensory scores inferred from the art style and format rather than measured frame data."
+  },
+  {
+    "name": "Supa Strikas",
+    "platforms": [
+      "Amazon Prime Video",
+      "Disney XD",
+      "YouTube"
+    ],
+    "genre": "Sports / Action",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "High",
+    "notes": "Common Sense Media (7+) describes a soccer-action cartoon where 'the soccer games at the end are usually very fast and fluid' with 'strong rivalries' but 'nothing violent'; bright, saturated Flash animation, flashy signature trick shots and driving match soundtracks push speed, pacing, novelty and sensory high while real danger stays low. Grounded in that review plus the show's match-climax structure."
+  },
+  {
+    "name": "Rock Island Mysteries",
+    "platforms": [
+      "Nickelodeon",
+      "Paramount+"
+    ],
+    "genre": "Live-Action / Mystery-Adventure",
+    "ageMin": 8,
+    "ageMax": 13,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Australian live-action tween mystery-adventure (10 Shake / Nickelodeon / Paramount+); IMDb's Parents Guide rates frightening and intense scenes 'Mild' with no violence, while editorial reviews (TV Tonight, InReview) cite 'nail-biting adventures' and episodic twists and cliffhangers within its serialised search-for-the-uncle arc. Brisk but family-friendly; cut-speed and sensory scores inferred from the 30-minute adventure format and bright Queensland cinematography rather than measured data."
+  },
+  {
+    "name": "Brainchild",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Educational / Science",
+    "ageMin": 7,
+    "ageMax": 12,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Netflix STEM edutainment (TV-Y7, Common Sense Media 7+) exec-produced by Pharrell Williams; CSM describes 'zany graphics, interactive games, illusions, and skits' and an energetic host, with each ~24-minute episode packing a distinct science topic plus experiments, so novelty is high and pace moderate. Emotionally calm, humour-driven and not flagged as overstimulating; speed and sensory scores inferred from the graphics-heavy, vlog-style format rather than measured data."
   }
 ]
