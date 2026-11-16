@@ -13523,5 +13523,71 @@
     "sensory": 3,
     "confidence": "Medium",
     "notes": "Netflix STEM edutainment (TV-Y7, Common Sense Media 7+) exec-produced by Pharrell Williams; CSM describes 'zany graphics, interactive games, illusions, and skits' and an energetic host, with each ~24-minute episode packing a distinct science topic plus experiments, so novelty is high and pace moderate. Emotionally calm, humour-driven and not flagged as overstimulating; speed and sensory scores inferred from the graphics-heavy, vlog-style format rather than measured data."
+  },
+  {
+    "name": "Lellobee City Farm",
+    "platforms": [
+      "YouTube",
+      "Netflix"
+    ],
+    "genre": "Nursery Rhymes / Preschool Songs",
+    "ageMin": 1,
+    "ageMax": 4,
+    "speed": 4,
+    "emotional": 2,
+    "pacing": 4,
+    "novelty": 3,
+    "sensory": 5,
+    "confidence": "Medium",
+    "notes": "Moonbug nursery-rhyme show from the CoComelon team, using the same bright, saturated 3D style and dense, catchy songs, so sensory load is very high. Rated a notch below CoComelon's cut speed/pacing because reviews describe it as slightly gentler; scores inferred from the house style rather than measured scene lengths for this specific show, hence Medium confidence."
+  },
+  {
+    "name": "Helpsters",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Educational / Problem-Solving (Puppets)",
+    "ageMin": 3,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "Sesame Workshop puppet series (TV-Y) that Common Sense Media and reviewers describe as warm and gentle like Sesame Street, teaching step-by-step planning and problem-solving through lively original songs. The methodical, formulaic problem structure keeps speed and pacing low; novelty comes from a fresh problem and musical number each episode. Rated from general reputation and reviews, not measured pacing data."
+  },
+  {
+    "name": "Tig n' Seek",
+    "platforms": [
+      "Max",
+      "Cartoon Network"
+    ],
+    "genre": "Surreal Comedy / Adventure",
+    "ageMin": 7,
+    "ageMax": 10,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "HBO Max/Cartoon Network comedy (TV-PG, Common Sense Media 9+) about an 8-year-old at a Lost and Found. Reviews highlight its quirky, off-kilter charm and 'ridiculous situations that'll feel pretty new to kids', so novelty is high while the humour stays low-stakes emotionally with standard comedic cut speed. General-reputation rating from reviews, not measured pacing; premiered on HBO Max (removed from the service in 2022)."
+  },
+  {
+    "name": "Daniel Spellbound",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Action-Adventure / Fantasy",
+    "ageMin": 9,
+    "ageMax": 12,
+    "speed": 4,
+    "emotional": 4,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Netflix tween fantasy (TV-Y7, Common Sense Media 9+) described as a 'magical Indiana Jones'; reviews note fluid, frantic combat and pacing so fast you 'might blink and miss something', plus scary imagery and danger that push the emotional intensity up. High across the board for an action show; rated from reviews rather than measured scene data, hence Medium confidence."
   }
 ]
