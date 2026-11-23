@@ -13589,5 +13589,70 @@
     "sensory": 4,
     "confidence": "Medium",
     "notes": "Netflix tween fantasy (TV-Y7, Common Sense Media 9+) described as a 'magical Indiana Jones'; reviews note fluid, frantic combat and pacing so fast you 'might blink and miss something', plus scary imagery and danger that push the emotional intensity up. High across the board for an action show; rated from reviews rather than measured scene data, hence Medium confidence."
+  },
+  {
+    "name": "Slumberkins",
+    "platforms": [
+      "Apple TV+"
+    ],
+    "genre": "Social-Emotional / Preschool",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 2,
+    "emotional": 2,
+    "pacing": 2,
+    "novelty": 2,
+    "sensory": 2,
+    "confidence": "High",
+    "notes": "Common Sense Media (Common Sense Selection, age 2+) describes a gentle puppet-and-animation show reminiscent of Sesame Street that helps preschoolers name and regulate emotions. Calm scene holds, soft palette, and soothing songs keep every factor low, landing it firmly in the Low tier."
+  },
+  {
+    "name": "Mighty Little Bheem",
+    "platforms": [
+      "Netflix"
+    ],
+    "genre": "Slapstick Comedy / Preschool",
+    "ageMin": 2,
+    "ageMax": 5,
+    "speed": 3,
+    "emotional": 3,
+    "pacing": 3,
+    "novelty": 3,
+    "sensory": 3,
+    "confidence": "High",
+    "notes": "Common Sense Media describes a gentle, dialogue-free CGI toddler comedy that leans on vibrant visuals, expressive animation, and music/sound effects to carry short episodes of slapstick antics and mild chases. The wordless physical comedy keeps cuts, stimuli, and sensory load middling, for a mid-Moderate total."
+  },
+  {
+    "name": "Where's Waldo?",
+    "platforms": [
+      "Peacock",
+      "Prime Video"
+    ],
+    "genre": "Adventure / Mystery",
+    "ageMin": 5,
+    "ageMax": 9,
+    "speed": 3,
+    "emotional": 2,
+    "pacing": 3,
+    "novelty": 4,
+    "sensory": 3,
+    "confidence": "Medium",
+    "notes": "DreamWorks' TV-Y7 globetrotting adaptation (Common Sense Media notes it 'teaches culture, problem solving') sends Waldo and Wenda on low-stakes international missions. Friendly, low-conflict tone keeps emotional intensity down, but a brand-new country and culture each 22-minute episode pushes novelty high; rated from reviews rather than measured pacing, hence Medium confidence."
+  },
+  {
+    "name": "Pencilmation",
+    "platforms": [
+      "YouTube"
+    ],
+    "genre": "Slapstick Comedy / Shorts",
+    "ageMin": 6,
+    "ageMax": 11,
+    "speed": 4,
+    "emotional": 3,
+    "pacing": 4,
+    "novelty": 4,
+    "sensory": 4,
+    "confidence": "Medium",
+    "notes": "Parent guides rate this YouTube series TV-Y7-FV and describe rapid frame-by-frame slapstick built on energetic music, classic cartoon sound effects, and a constant stream of doodle-based sight gags and meta twists. The relentless, loud, surprise-driven short format scores high on speed, pacing, novelty, and sensory for a High total; rated from content descriptions rather than measured scene data, hence Medium confidence."
   }
 ]
